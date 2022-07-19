@@ -1,0 +1,45 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	make_concord
+	2	make_lens
+	1	plot_data
+	5
+Select jobs to execute...
+
+[Mon Jun 14 15:06:58 2021]
+rule make_concord:
+    input: ../../Data/trees_xen_ref
+    output: plot_data/trees_xen_ref.txt
+    jobid: 2
+    wildcards: sample=xen_ref
+
+[Mon Jun 14 15:07:10 2021]
+Finished job 2.
+1 of 5 steps (20%) done
+Select jobs to execute...
+
+[Mon Jun 14 15:07:10 2021]
+rule make_lens:
+    input: ../../Data/alignments_xen
+    output: plot_data/lens_xen.txt
+    jobid: 4
+    wildcards: sample=xen
+
+[Mon Jun 14 15:07:12 2021]
+Error in rule make_lens:
+    jobid: 4
+    output: plot_data/lens_xen.txt
+    shell:
+        ./make_lens.sh ../../Data/alignments_xen - > plot_data/lens_xen.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job make_lens since they might be corrupted:
+plot_data/lens_xen.txt
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/uricchio/projects/poison/sodiumChannelPaper/Figures/FigureS1_S2/.snakemake/log/2021-06-14T150656.868360.snakemake.log

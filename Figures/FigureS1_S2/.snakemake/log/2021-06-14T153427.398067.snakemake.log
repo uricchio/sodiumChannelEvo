@@ -1,0 +1,43 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	make_lens
+	1	plot_data
+	3
+Select jobs to execute...
+
+[Mon Jun 14 15:34:29 2021]
+rule make_lens:
+    input: ../../Data/alignments_xenPum
+    output: plot_data/lens_xenPum.txt
+    jobid: 3
+    wildcards: sample=xenPum
+
+[Mon Jun 14 15:34:31 2021]
+Finished job 3.
+1 of 3 steps (33%) done
+Select jobs to execute...
+
+[Mon Jun 14 15:34:31 2021]
+rule plot_data:
+    input: plot_data/trees_xenPum_ref.txt, plot_data/trees_xen_ref.txt, plot_data/lens_xenPum.txt, plot_data/lens_xen.txt
+    output: plot_data/summary_alignments_xenPum_ref.pdf, plot_data/summary_alignments_xen_ref.pdf
+    jobid: 5
+
+[Mon Jun 14 15:34:36 2021]
+Error in rule plot_data:
+    jobid: 5
+    output: plot_data/summary_alignments_xenPum_ref.pdf, plot_data/summary_alignments_xen_ref.pdf
+    shell:
+        Rscript ../../scripts/plot_HybPiper_perf.R
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job plot_data since they might be corrupted:
+plot_data/summary_alignments_xenPum_ref.pdf, plot_data/summary_alignments_xen_ref.pdf
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/uricchio/projects/poison/sodiumChannelPaper/Figures/FigureS1_S2/.snakemake/log/2021-06-14T153427.398067.snakemake.log

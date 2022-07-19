@@ -1,0 +1,1 @@
+for t in {76,80,84,86,88}; do for k in {35,45}; do for typ in {"pruned","orig"}; do python3 tree_concord.py ../../trees/t${t}d10k${k}.$typ.raxml.mlTrees $t $k $typ >> ../../plot_data/tree_perf.txt; done; done; done

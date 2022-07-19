@@ -1,0 +1,2 @@
+SyntaxError in line 28 of /Users/uricchio/projects/poison/sodiumChannelPaper/Figures/FigureS1_S2/Snakefile:
+Unexpected keyword Rscript in rule definition (Snakefile, line 28)

@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 17 of /Users/uricchio/projects/poison/sodiumChannelPaper/Figures/FigureS1/Snakefile:
+Missing input files for rule make_lens:
+../../Data/alignment_xenPum

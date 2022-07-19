@@ -1,0 +1,5 @@
+Building DAG of jobs...
+MissingInputException in line 3 of /Users/uricchio/projects/poison/sodiumChannelPaper/Figures/FigureS1_S2/Snakefile:
+Missing input files for rule all:
+plot_data/summary_alignments_xenPum_ref.pdf
+plot_data/summary_alignments_xen_ref.pdf

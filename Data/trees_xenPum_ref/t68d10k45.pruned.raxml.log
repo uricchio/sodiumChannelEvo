@@ -1,0 +1,150 @@
+
+RAxML-NG v. 1.0.0 released on 07.08.2020 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz, 20 cores, 62 GB RAM
+
+RAxML-NG was called at 06-Jan-2021 22:18:34 as follows:
+
+/global/home/users/uricchio/software/raxml-ng-master/raxml-ng --msa trees/t68d10k45.pruned.raxml.rba --model PROTGTR --prefix trees/t68d10k45.pruned --redo
+
+Analysis options:
+  run mode: ML tree search
+  start tree(s): random (10) + parsimony (10)
+  random seed: 1610000314
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  fast spr radius: AUTO
+  spr subtree cutoff: 1.000000
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX
+  parallelization: coarse-grained (auto), PTHREADS (auto)
+
+WARNING: Running in REDO mode: existing checkpoints are ignored, and all result files will be overwritten!
+
+WARNING: The model you specified on the command line (PROTGTR) will be ignored 
+         since the binary MSA file already contains a model definition.
+         If you want to change the model, please re-run RAxML-NG 
+         with the original PHYLIP/FASTA alignment and --redo option.
+
+[00:00:00] Loading binary alignment from file: trees/t68d10k45.pruned.raxml.rba
+[00:00:00] Alignment comprises 60 taxa, 1 partitions and 1892 patterns
+
+Partition 0: noname
+Model: PROTGTR+FO
+Alignment sites / patterns: 2654 / 1892
+Gaps: 38.33 %
+Invariant sites: 46.91 %
+
+
+Parallelization scheme autoconfig: 10 worker(s) x 2 thread(s)
+
+Parallel reduction/worker buffer size: 1 KB  / 0 KB
+
+[00:00:00] Generating 10 random starting tree(s) with 60 taxa
+[00:00:00] Generating 10 parsimony starting tree(s) with 60 taxa
+[00:00:00] Data distribution: max. partitions/sites/weight per thread: 1 / 946 / 18920
+[00:00:00] Data distribution: max. searches per worker: 2
+
+Starting ML tree search with 20 distinct starting trees
+
+[00:00:00 -96451.938363] Initial branch length optimization
+[00:00:00 -88988.344912] Model parameter optimization (eps = 10.000000)
+[00:11:43 -81237.226321] AUTODETECT spr round 1 (radius: 5)
+[00:11:45 -51492.215545] AUTODETECT spr round 2 (radius: 10)
+[00:11:49 -48437.589301] AUTODETECT spr round 3 (radius: 15)
+[00:11:51 -48437.587717] SPR radius for FAST iterations: 10 (autodetect)
+[00:11:51 -48437.587717] Model parameter optimization (eps = 3.000000)
+[00:23:52] [worker #5] ML tree search #6, logLikelihood: -47428.031617
+[00:25:59 -48165.783805] FAST spr round 1 (radius: 10)
+[00:26:03 -47462.545433] FAST spr round 2 (radius: 10)
+[00:26:06 -47438.138202] FAST spr round 3 (radius: 10)
+[00:26:09 -47431.497520] FAST spr round 4 (radius: 10)
+[00:26:12 -47419.249783] FAST spr round 5 (radius: 10)
+[00:26:14 -47415.848658] FAST spr round 6 (radius: 10)
+[00:26:17 -47404.317973] FAST spr round 7 (radius: 10)
+[00:26:20 -47403.317709] FAST spr round 8 (radius: 10)
+[00:26:23 -47403.317512] Model parameter optimization (eps = 1.000000)
+[00:26:31] [worker #1] ML tree search #2, logLikelihood: -47381.754643
+[00:28:19] [worker #9] ML tree search #10, logLikelihood: -47383.357540
+[00:28:46 -47392.407029] SLOW spr round 1 (radius: 5)
+[00:28:53 -47384.804413] SLOW spr round 2 (radius: 5)
+[00:28:59 -47384.804224] SLOW spr round 3 (radius: 10)
+[00:29:05 -47384.804222] SLOW spr round 4 (radius: 15)
+[00:29:14 -47384.804222] SLOW spr round 5 (radius: 20)
+[00:29:20 -47384.804222] SLOW spr round 6 (radius: 25)
+[00:29:23 -47384.804222] Model parameter optimization (eps = 0.100000)
+[00:29:23] [worker #6] ML tree search #7, logLikelihood: -47388.170126
+[00:31:08] [worker #2] ML tree search #3, logLikelihood: -47388.106002
+
+[00:31:16] [worker #0] ML tree search #1, logLikelihood: -47383.350682
+
+[00:31:16 -59573.707229] Initial branch length optimization
+[00:31:16 -51941.193186] Model parameter optimization (eps = 10.000000)
+[00:31:47] [worker #3] ML tree search #4, logLikelihood: -47382.819191
+[00:31:47] [worker #7] ML tree search #8, logLikelihood: -47389.195232
+[00:32:25] [worker #4] ML tree search #5, logLikelihood: -47386.690760
+[00:34:04] [worker #8] ML tree search #9, logLikelihood: -47386.708321
+[00:38:05 -48085.278248] AUTODETECT spr round 1 (radius: 5)
+[00:38:07 -47758.217725] AUTODETECT spr round 2 (radius: 10)
+[00:38:11 -47556.786895] AUTODETECT spr round 3 (radius: 15)
+[00:38:13 -47556.783878] SPR radius for FAST iterations: 10 (autodetect)
+[00:38:13 -47556.783878] Model parameter optimization (eps = 3.000000)
+[00:41:02] [worker #5] ML tree search #16, logLikelihood: -47380.246794
+[00:41:15 -47540.653427] FAST spr round 1 (radius: 10)
+[00:41:18 -47454.947816] FAST spr round 2 (radius: 10)
+[00:41:21 -47443.832816] FAST spr round 3 (radius: 10)
+[00:41:24 -47409.210910] FAST spr round 4 (radius: 10)
+[00:41:27 -47404.748867] FAST spr round 5 (radius: 10)
+[00:41:30 -47395.137158] FAST spr round 6 (radius: 10)
+[00:41:33 -47394.008010] FAST spr round 7 (radius: 10)
+[00:41:36 -47388.554166] FAST spr round 8 (radius: 10)
+[00:41:38 -47388.554166] Model parameter optimization (eps = 1.000000)
+[00:43:34] [worker #1] ML tree search #12, logLikelihood: -47378.846050
+[00:45:34 -47381.438805] SLOW spr round 1 (radius: 5)
+[00:45:41 -47381.438649] SLOW spr round 2 (radius: 10)
+[00:45:47 -47381.438648] SLOW spr round 3 (radius: 15)
+[00:45:56 -47381.438648] SLOW spr round 4 (radius: 20)
+[00:46:02 -47381.438648] SLOW spr round 5 (radius: 25)
+[00:46:05 -47381.438648] Model parameter optimization (eps = 0.100000)
+[00:46:23] [worker #2] ML tree search #13, logLikelihood: -47436.006355
+[00:46:26] [worker #9] ML tree search #20, logLikelihood: -47380.285982
+[00:46:38] [worker #6] ML tree search #17, logLikelihood: -47386.197452
+
+[00:46:59] [worker #0] ML tree search #11, logLikelihood: -47381.375724
+
+[00:47:12] [worker #4] ML tree search #15, logLikelihood: -47412.444369
+[00:48:54] [worker #8] ML tree search #19, logLikelihood: -47429.024797
+[00:50:19] [worker #7] ML tree search #18, logLikelihood: -47389.388083
+[00:54:00] [worker #3] ML tree search #14, logLikelihood: -47383.375467
+
+Optimized model parameters:
+
+   Partition 0: noname
+   Rate heterogeneity: NONE
+   Base frequencies (ML): 0.050883 0.041333 0.054671 0.047431 0.024613 0.023349 0.058958 0.050343 0.013908 0.080390 0.108185 0.054626 0.033887 0.078273 0.036562 0.068523 0.050128 0.013142 0.036277 0.074519 
+   Substitution rates (ML): 0.744177 1.744268 1.336577 1.483781 2.247605 1.584484 3.260251 2.640808 1.518369 1.158176 1.339793 1.559868 0.743269 4.750332 8.124964 6.880454 1.718692 0.767980 4.251170 0.983463 0.706041 0.604082 7.608350 0.582752 1.480058 7.809496 0.973411 1.031200 12.587023 0.389411 0.656640 0.965285 1.465543 1.350006 0.159914 1.649821 0.243070 5.359893 0.001000 1.447968 1.381103 1.238546 12.378624 0.659328 0.446479 2.530929 0.523628 0.299292 0.768843 5.620737 3.090537 0.398326 2.795088 0.581786 0.266141 2.680898 12.600537 2.154014 3.113418 0.282429 0.404671 1.023015 0.692956 0.241184 0.716987 1.298706 1.843713 0.213897 1.431243 0.519111 0.798945 0.667377 0.967513 1.106912 1.603826 1.455595 0.354464 2.106589 1.338762 0.001000 2.117818 1.626782 6.919521 2.015356 1.910829 9.358705 0.671310 21.408493 0.647351 2.014277 10.404629 2.472198 0.799439 4.153725 3.302855 2.457653 2.589899 1.093496 1.078439 2.101661 2.691503 0.403393 0.649424 2.963719 0.471486 0.028033 1.432563 1.808712 1.521968 0.001000 0.386124 1.339483 2.629078 0.073773 0.403690 1.068349 0.445818 0.515113 0.570433 4.304775 1.500475 0.424998 0.863205 0.676615 0.172799 3.721280 1.560862 1.647295 1.656643 1.871714 1.606054 1.212933 0.817607 14.361267 0.174608 4.101198 1.202930 5.095493 1.921089 0.438512 0.916910 3.465822 1.033817 1.876832 11.237733 0.922171 6.844672 3.055775 1.335474 0.937007 0.878807 0.343910 0.968260 2.489667 0.910139 0.412299 1.539596 0.682702 1.939062 1.682630 0.830130 1.132012 1.457784 0.379630 0.495373 2.603553 1.421504 0.624788 4.049443 0.298076 1.333970 0.771371 1.379184 12.389193 1.131849 3.268563 1.375890 0.001000 0.609551 0.175272 9.686965 0.702670 1.751192 0.655650 0.252885 1.156165 3.819523 3.119395 0.082681 1.000000 
+
+
+Final LogLikelihood: -47378.846050
+
+AIC score: 95407.692100 / AICc score: 95498.714436 / BIC score: 97319.934644
+Free parameters (model + branch lengths): 325
+
+Best ML tree saved to: /global/home/users/uricchio/software/HybPiper-master/HPwrap/trees/t68d10k45.pruned.raxml.bestTree
+All ML trees saved to: /global/home/users/uricchio/software/HybPiper-master/HPwrap/trees/t68d10k45.pruned.raxml.mlTrees
+Optimized model saved to: /global/home/users/uricchio/software/HybPiper-master/HPwrap/trees/t68d10k45.pruned.raxml.bestModel
+
+Execution log saved to: /global/home/users/uricchio/software/HybPiper-master/HPwrap/trees/t68d10k45.pruned.raxml.log
+
+Analysis started: 06-Jan-2021 22:18:34 / finished: 06-Jan-2021 23:12:35
+
+Elapsed time: 3240.818 seconds
+
+Consumed energy: 188.475 Wh
+

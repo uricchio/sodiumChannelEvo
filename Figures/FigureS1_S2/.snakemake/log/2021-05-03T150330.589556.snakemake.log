@@ -1,0 +1,44 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	2	make_concord
+	3
+Select jobs to execute...
+
+[Mon May  3 15:03:31 2021]
+rule make_concord:
+    input: ../../Data/trees_xenPum_ref
+    output: plot_data/trees_xenPum_ref.txt
+    jobid: 1
+    wildcards: sample=xenPum_ref
+
+[Mon May  3 15:03:42 2021]
+Finished job 1.
+1 of 3 steps (33%) done
+Select jobs to execute...
+
+[Mon May  3 15:03:42 2021]
+rule make_concord:
+    input: ../../Data/trees_xen_ref
+    output: plot_data/trees_xen_ref.txt
+    jobid: 2
+    wildcards: sample=xen_ref
+
+[Mon May  3 15:04:02 2021]
+Finished job 2.
+2 of 3 steps (67%) done
+Select jobs to execute...
+
+[Mon May  3 15:04:02 2021]
+localrule all:
+    input: plot_data/trees_xenPum_ref.txt, plot_data/trees_xen_ref.txt
+    jobid: 0
+
+[Mon May  3 15:04:02 2021]
+Finished job 0.
+3 of 3 steps (100%) done
+Complete log: /Users/uricchio/projects/poison/sodiumChannelPaper/Figures/FigureS1/.snakemake/log/2021-05-03T150330.589556.snakemake.log

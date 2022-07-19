@@ -1,0 +1,69 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	2	make_concord
+	2	make_lens
+	5
+Select jobs to execute...
+
+[Tue May  4 11:15:42 2021]
+rule make_lens:
+    input: ../../Data/alignments_xenPum
+    output: plot_data/lens_xenPum.txt
+    jobid: 3
+    wildcards: sample=xenPum
+
+[Tue May  4 11:15:45 2021]
+Finished job 3.
+1 of 5 steps (20%) done
+Select jobs to execute...
+
+[Tue May  4 11:15:45 2021]
+rule make_concord:
+    input: ../../Data/trees_xen_ref
+    output: plot_data/trees_xen_ref.txt
+    jobid: 2
+    wildcards: sample=xen_ref
+
+[Tue May  4 11:15:59 2021]
+Finished job 2.
+2 of 5 steps (40%) done
+Select jobs to execute...
+
+[Tue May  4 11:15:59 2021]
+rule make_lens:
+    input: ../../Data/alignments_xen
+    output: plot_data/lens_xen.txt
+    jobid: 4
+    wildcards: sample=xen
+
+[Tue May  4 11:16:05 2021]
+Finished job 4.
+3 of 5 steps (60%) done
+Select jobs to execute...
+
+[Tue May  4 11:16:05 2021]
+rule make_concord:
+    input: ../../Data/trees_xenPum_ref
+    output: plot_data/trees_xenPum_ref.txt
+    jobid: 1
+    wildcards: sample=xenPum_ref
+
+[Tue May  4 11:16:18 2021]
+Finished job 1.
+4 of 5 steps (80%) done
+Select jobs to execute...
+
+[Tue May  4 11:16:18 2021]
+localrule all:
+    input: plot_data/trees_xenPum_ref.txt, plot_data/trees_xen_ref.txt, plot_data/lens_xenPum.txt, plot_data/lens_xen.txt, ../../scripts/plot_HybPiper_perf.R
+    jobid: 0
+
+[Tue May  4 11:16:18 2021]
+Finished job 0.
+5 of 5 steps (100%) done
+Complete log: /Users/uricchio/projects/poison/sodiumChannelPaper/Figures/FigureS1_S2/.snakemake/log/2021-05-04T111541.870038.snakemake.log

@@ -1,0 +1,51 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job             count    min threads    max threads
+------------  -------  -------------  -------------
+all                 1              1              1
+make_concord        2              1              1
+make_lens           2              1              1
+plot_data           1              1              1
+total               6              1              1
+
+Select jobs to execute...
+
+[Mon Jul 18 16:30:02 2022]
+rule make_lens:
+    input: ../../alignments/assembs_xenPum_ref_orig
+    output: plot_data/lens_xenPum_ref_orig.txt
+    jobid: 3
+    reason: Code has changed since last execution
+    wildcards: sample=xenPum_ref_orig
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Mon Jul 18 16:30:03 2022]
+Finished job 3.
+1 of 6 steps (17%) done
+Select jobs to execute...
+
+[Mon Jul 18 16:30:03 2022]
+rule make_concord:
+    input: ../../sodiumChannelPaperAnalyses/trees_xen_ref_orig_DNA
+    output: plot_data/trees_xen_ref_orig_DNA.txt
+    jobid: 2
+    reason: Code has changed since last execution
+    wildcards: sample=xen_ref_orig_DNA
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Mon Jul 18 16:30:03 2022]
+Error in rule make_concord:
+    jobid: 2
+    output: plot_data/trees_xen_ref_orig_DNA.txt
+    shell:
+        ./make_trees.sh ../../sodiumChannelPaperAnalyses/trees_xen_ref_orig_DNA - > plot_data/trees_xen_ref_orig_DNA.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job make_concord since they might be corrupted:
+plot_data/trees_xen_ref_orig_DNA.txt
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2022-07-18T162949.251025.snakemake.log

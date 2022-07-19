@@ -1,0 +1,81 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	2	make_concord
+	2	make_lens
+	1	plot_data
+	6
+Select jobs to execute...
+
+[Fri Jun 25 10:13:30 2021]
+rule make_lens:
+    input: ../../alignments/assembs_xenPum_ref_HPfixed
+    output: plot_data/lens_xenPum_ref_HPfixed.txt
+    jobid: 3
+    wildcards: sample=xenPum_ref_HPfixed
+
+[Fri Jun 25 10:13:31 2021]
+Finished job 3.
+1 of 6 steps (17%) done
+Select jobs to execute...
+
+[Fri Jun 25 10:13:31 2021]
+rule make_concord:
+    input: ../../sodiumChannelPaperAnalyses/trees_xen_ref_HPfixed_DNA
+    output: plot_data/trees_xen_ref_HPfixed_DNA.txt
+    jobid: 2
+    wildcards: sample=xen_ref_HPfixed_DNA
+
+[Fri Jun 25 10:13:34 2021]
+Finished job 2.
+2 of 6 steps (33%) done
+Select jobs to execute...
+
+[Fri Jun 25 10:13:34 2021]
+rule make_lens:
+    input: ../../alignments/assembs_xen_ref_HPfixed
+    output: plot_data/lens_xen_ref_HPfixed.txt
+    jobid: 4
+    wildcards: sample=xen_ref_HPfixed
+
+[Fri Jun 25 10:13:35 2021]
+Finished job 4.
+3 of 6 steps (50%) done
+Select jobs to execute...
+
+[Fri Jun 25 10:13:35 2021]
+rule make_concord:
+    input: ../../sodiumChannelPaperAnalyses/trees_xenPum_ref_HPfixed_DNA
+    output: plot_data/trees_xenPum_ref_HPfixed_DNA.txt
+    jobid: 1
+    wildcards: sample=xenPum_ref_HPfixed_DNA
+
+[Fri Jun 25 10:13:38 2021]
+Finished job 1.
+4 of 6 steps (67%) done
+Select jobs to execute...
+
+[Fri Jun 25 10:13:38 2021]
+rule plot_data:
+    input: plot_data/trees_xenPum_ref_HPfixed_DNA.txt, plot_data/trees_xen_ref_HPfixed_DNA.txt, plot_data/lens_xenPum_ref_HPfixed.txt, plot_data/lens_xen_ref_HPfixed.txt
+    output: plot_data/summary_alignments_xenPum_ref_HPfixed.pdf, plot_data/summary_alignments_xen_ref_HPfixed.pdf
+    jobid: 5
+
+[Fri Jun 25 10:13:41 2021]
+Finished job 5.
+5 of 6 steps (83%) done
+Select jobs to execute...
+
+[Fri Jun 25 10:13:41 2021]
+localrule all:
+    input: plot_data/trees_xenPum_ref_HPfixed_DNA.txt, plot_data/trees_xen_ref_HPfixed_DNA.txt, plot_data/lens_xenPum_ref_HPfixed.txt, plot_data/lens_xen_ref_HPfixed.txt, plot_data/summary_alignments_xenPum_ref_HPfixed.pdf, plot_data/summary_alignments_xen_ref_HPfixed.pdf
+    jobid: 0
+
+[Fri Jun 25 10:13:41 2021]
+Finished job 0.
+6 of 6 steps (100%) done
+Complete log: /Users/uricchio/projects/poison/sodiumChannelPaper/Figures/FigureS3_S4/.snakemake/log/2021-06-25T101329.354168.snakemake.log

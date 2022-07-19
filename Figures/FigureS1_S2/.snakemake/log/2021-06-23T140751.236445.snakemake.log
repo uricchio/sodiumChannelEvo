@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 12 of /Users/uricchio/projects/poison/sodiumChannelPaper/Figures/FigureS1_S2/Snakefile:
+Missing input files for rule make_concord:
+../../sodiumPaperChannelAnalyses/trees_xenPum_ref_orig

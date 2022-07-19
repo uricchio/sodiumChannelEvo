@@ -1,0 +1,57 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	make_concord
+	1	make_lens
+	1	plot_data
+	4
+Select jobs to execute...
+
+[Tue May  4 13:58:49 2021]
+rule make_concord:
+    input: ../../Data/trees_full_assemb
+    output: plot_data/trees_full_assemb.txt
+    jobid: 1
+    wildcards: sample=full_assemb
+
+[Tue May  4 13:59:13 2021]
+Finished job 1.
+1 of 4 steps (25%) done
+Select jobs to execute...
+
+[Tue May  4 13:59:13 2021]
+rule make_lens:
+    input: ../../Data/alignments_full_assemb
+    output: plot_data/lens_full_assemb.txt
+    jobid: 2
+    wildcards: sample=full_assemb
+
+[Tue May  4 13:59:17 2021]
+Finished job 2.
+2 of 4 steps (50%) done
+Select jobs to execute...
+
+[Tue May  4 13:59:17 2021]
+rule plot_data:
+    input: plot_data/trees_full_assemb.txt, plot_data/lens_full_assemb.txt
+    output: plot_data/summary_alignments.pdf
+    jobid: 3
+
+[Tue May  4 13:59:20 2021]
+Finished job 3.
+3 of 4 steps (75%) done
+Select jobs to execute...
+
+[Tue May  4 13:59:20 2021]
+localrule all:
+    input: plot_data/trees_full_assemb.txt, plot_data/lens_full_assemb.txt, plot_data/summary_alignments.pdf
+    jobid: 0
+
+[Tue May  4 13:59:20 2021]
+Finished job 0.
+4 of 4 steps (100%) done
+Complete log: /Users/uricchio/projects/poison/sodiumChannelPaper/Figures/FigureS3/.snakemake/log/2021-05-04T135847.850941.snakemake.log

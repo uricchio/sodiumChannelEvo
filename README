@@ -1,0 +1,14 @@
+Notes to self:
+
+1) We currently have decent comparison between old HybPiper and new HybPiper (i.e., just changing the way it distributes reads, using only the best blast hit rather than all the pass a threshold)
+
+2) We can show new way is better in most senses, alignments look better, trees look better
+
+3) Do we need to do an exon-by-exon build in hybpiper, similar to the McGlothlin lab paper? I would suggest probably not
+
+4) Do we need to do DNA trees? We had not done them before because they were really ugly. With "fixed" sequences they may work better, and we should probably try it. 
+even though we don't really need the trees for our core results, we may need better trees for selection analyses, and we are relying on the trees for the argument that the new
+alignments are better. Nodes in the old alignments are not very well resolved in the bootstraps.
+
+
+

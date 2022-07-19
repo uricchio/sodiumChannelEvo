@@ -1,0 +1,29 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	make_concord
+	1
+Select jobs to execute...
+
+[Mon May  3 14:36:26 2021]
+rule make_concord:
+    input: ../../Data/alignments_xenPum
+    output: plot_data/alignments_xenPum.txt
+    jobid: 0
+    wildcards: sample=alignments_xenPum
+
+Terminating processes on user request, this might take some time.
+[Mon May  3 14:36:29 2021]
+Error in rule make_concord:
+    jobid: 0
+    output: plot_data/alignments_xenPum.txt
+    shell:
+        ./make_trees.sh ../../Data/alignments_xenPum - > plot_data/alignments_xenPum.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job make_concord since they might be corrupted:
+plot_data/alignments_xenPum.txt
+Complete log: /Users/uricchio/projects/poison/sodiumChannelPaper/Figures/FigureS1/.snakemake/log/2021-05-03T143625.144677.snakemake.log

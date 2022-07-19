@@ -1,0 +1,34 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	2	make_concord
+	2	make_lens
+	1	plot_data
+	6
+Select jobs to execute...
+
+[Wed Jun 23 14:15:51 2021]
+rule make_lens:
+    input: ../../alignments/assembs_xenPum_ref_orig
+    output: plot_data/lens_xenPum_ref_orig.txt
+    jobid: 3
+    wildcards: sample=xenPum_ref_orig
+
+[Wed Jun 23 14:15:53 2021]
+Finished job 3.
+1 of 6 steps (17%) done
+Select jobs to execute...
+
+[Wed Jun 23 14:15:53 2021]
+rule make_concord:
+    input: ../../sodiumChannelPaperAnalyses/trees_xen_ref_orig_DNA
+    output: plot_data/trees_xen_ref_orig_DNA.txt
+    jobid: 2
+    wildcards: sample=xen_ref_orig_DNA
+
+Terminating processes on user request, this might take some time.
+Cancelling snakemake on user request.

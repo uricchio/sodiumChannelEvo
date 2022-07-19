@@ -1,0 +1,30 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	plot_data
+	2
+Select jobs to execute...
+
+[Wed Jun 23 14:24:32 2021]
+rule plot_data:
+    input: plot_data/trees_xenPum_ref_orig_DNA.txt, plot_data/trees_xen_ref_orig_DNA.txt, plot_data/lens_xenPum_ref_orig.txt, plot_data/lens_xen_ref_orig.txt
+    output: plot_data/summary_alignments_xenPum_ref_orig.pdf, plot_data/summary_alignments_xen_ref_orig.pdf
+    jobid: 5
+
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 28 of /Users/uricchio/projects/poison/sodiumChannelPaper/Figures/FigureS1_S2/Snakefile:
+Job Missing files after 5 seconds:
+plot_data/summary_alignments_xen_ref_orig.pdf
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Job id: 5 completed successfully, but some output files are missing. 5
+  File "/opt/miniconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 583, in handle_job_success
+  File "/opt/miniconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 252, in handle_job_success
+Removing output files of failed job plot_data since they might be corrupted:
+plot_data/summary_alignments_xenPum_ref_orig.pdf
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/uricchio/projects/poison/sodiumChannelPaper/Figures/FigureS1_S2/.snakemake/log/2021-06-23T142431.191749.snakemake.log

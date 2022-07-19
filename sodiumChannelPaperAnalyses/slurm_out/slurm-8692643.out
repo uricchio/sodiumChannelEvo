@@ -1,0 +1,10 @@
+
+
+Building a new DB, current time: 05/10/2021 14:29:00
+New DB name:   /global/scratch/uricchio/t60d10k45/AmazonAte-1/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00678682 seconds.
+slurmstepd: error: *** JOB 8692643 ON n0079.savio1 CANCELLED AT 2021-05-10T14:35:32 ***

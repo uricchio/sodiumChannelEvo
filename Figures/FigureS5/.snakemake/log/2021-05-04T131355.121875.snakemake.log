@@ -1,0 +1,33 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	make_concord
+	1	make_lens
+	1	plot_data
+	4
+Select jobs to execute...
+
+[Tue May  4 13:13:55 2021]
+rule make_concord:
+    input: ../../Data/trees_full_assemb
+    output: plot_data/trees_full_assemb.txt
+    jobid: 1
+    wildcards: sample=full_assemb
+
+[Tue May  4 13:13:56 2021]
+Error in rule make_concord:
+    jobid: 1
+    output: plot_data/trees_full_assemb.txt
+    shell:
+        ./make_trees_all.sh ../../Data/trees_full_assemb - > plot_data/trees_full_assemb.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job make_concord since they might be corrupted:
+plot_data/trees_full_assemb.txt
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/uricchio/projects/poison/sodiumChannelPaper/Figures/FigureS3/.snakemake/log/2021-05-04T131355.121875.snakemake.log

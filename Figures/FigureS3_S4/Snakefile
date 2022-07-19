@@ -1,0 +1,38 @@
+SAMPLES = ["trees_xenPum_ref_HPfixed_DNA", "trees_xen_ref_HPfixed_DNA","assembs_xenPum_ref_HPfixed","assembs_xenPum_ref_HPfixed"]
+
+rule all:
+    input:
+        "plot_data/trees_xenPum_ref_HPfixed_DNA.txt",
+        "plot_data/trees_xen_ref_HPfixed_DNA.txt",
+        "plot_data/lens_xenPum_ref_HPfixed.txt",
+        "plot_data/lens_xen_ref_HPfixed.txt",
+        "plot_data/summary_alignments_xenPum_ref_HPfixed.pdf",
+        "plot_data/summary_alignments_xen_ref_HPfixed.pdf"
+
+rule make_concord:
+    input:
+        "../../sodiumChannelPaperAnalyses/trees_{sample}"
+    output:
+        "plot_data/trees_{sample}.txt"
+    shell:
+        "./make_trees.sh {input} - > {output}"
+
+rule make_lens:
+    input:
+        "../../alignments/assembs_{sample}"
+    output:
+        "plot_data/lens_{sample}.txt"
+    shell:
+        "./make_lens.sh {input} - > {output}"
+
+rule plot_data:
+    input:
+        "plot_data/trees_xenPum_ref_HPfixed_DNA.txt",
+        "plot_data/trees_xen_ref_HPfixed_DNA.txt",
+        "plot_data/lens_xenPum_ref_HPfixed.txt",
+        "plot_data/lens_xen_ref_HPfixed.txt"
+    output: 
+        "plot_data/summary_alignments_xenPum_ref_HPfixed.pdf",
+        "plot_data/summary_alignments_xen_ref_HPfixed.pdf"   
+    shell:
+        "Rscript ../../scripts/plot_HybPiper_perf_HPfixed.R"

@@ -1,0 +1,32 @@
+SAMPLES = ["trees_full_assemb", "alignments_full_assemb"]
+
+rule all:
+    input:
+        "plot_data/trees_full_assemb.txt",
+        "plot_data/lens_full_assemb.txt",
+        "plot_data/summary_alignments.pdf",
+
+rule make_concord:
+    input:
+        "../../Data/trees_{sample}"
+    output:
+        "plot_data/trees_{sample}.txt"
+    shell:
+        "./make_trees_all.sh {input} - > {output}"
+
+rule make_lens:
+    input:
+        "../../Data/alignments_{sample}"
+    output:
+        "plot_data/lens_{sample}.txt"
+    shell:
+        "./make_lens_all.sh {input} - > {output}"
+
+rule plot_data:
+    input:
+        "plot_data/trees_full_assemb.txt",
+        "plot_data/lens_full_assemb.txt",
+    output:
+        "plot_data/summary_alignments.pdf",
+    shell:
+        "Rscript ../../scripts/plot_HybPiper_perf_full.R"

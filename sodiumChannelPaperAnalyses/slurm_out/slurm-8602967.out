@@ -1,0 +1,1387 @@
+nthread = 0
+nthreadpair = 0
+nthreadtb = 0
+ppenalty_ex = 0
+stacksize: -1 kb
+rescale = 1
+Gap Penalty = -1.53, +0.00, +0.00
+
+
+
+Making a distance matrix ..
+    1 / 2
+done.
+
+Constructing a UPGMA tree (efffree=1) ... 
+    0 / 2
+done.
+
+Progressive alignment 1/1... 
+STEP     1 / 1  f
+done.
+
+disttbfast (aa) Version 7.471
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+rescale = 1
+   1/   2dndpre (aa) Version 7.471
+alg=X, model=BLOSUM62, 1.53, +0.12, -0.00, noshift, amax=0.0
+0 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 2
+sueff_global = 0.100000
+nadd = 2
+rescale = 1
+
+    0 / 2
+Segment   1/ 11    1- 798
+STEP 001-001-1  identical.   Segment   2/ 11  798- 949
+STEP 001-001-1  identical.   Segment   3/ 11  949-1079
+STEP 001-001-1  identical.   Segment   4/ 11 1079-1225
+STEP 001-001-1  identical.   Segment   5/ 11 1225-1349
+STEP 001-001-1  identical.   Segment   6/ 11 1349-1476
+STEP 001-001-1  identical.   Segment   7/ 11 1476-1627
+STEP 001-001-1  identical.   Segment   8/ 11 1627-1778
+STEP 001-001-1  identical.   Segment   9/ 11 1778-1929
+STEP 001-001-1  identical.   Segment  10/ 11 1929-2008
+STEP 001-001-1  identical.   Segment  11/ 11 2008-2022
+STEP 001-001-1  identical.   done
+dvtditr (aa) Version 7.471
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ FFT-NS-i (Standard)
+ Iterative refinement method (max. 2 iterations)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+nthread = 0
+nthreadpair = 0
+nthreadtb = 0
+ppenalty_ex = 0
+stacksize: -1 kb
+rescale = 1
+Gap Penalty = -1.53, +0.00, +0.00
+
+
+
+Making a distance matrix ..
+    1 / 2
+done.
+
+Constructing a UPGMA tree (efffree=1) ... 
+    0 / 2
+done.
+
+Progressive alignment 1/1... 
+STEP     1 / 1  f
+done.
+
+disttbfast (aa) Version 7.471
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+rescale = 1
+   1/   2dndpre (aa) Version 7.471
+alg=X, model=BLOSUM62, 1.53, +0.12, -0.00, noshift, amax=0.0
+0 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 2
+sueff_global = 0.100000
+nadd = 2
+rescale = 1
+
+    0 / 2
+Segment   1/ 28    1-  22
+STEP 001-001-1  identical.   Segment   2/ 28   22- 130
+STEP 001-001-1  identical.   Segment   3/ 28  130- 243
+STEP 001-001-1  identical.   Segment   4/ 28  243- 383
+STEP 001-001-1  identical.   Segment   5/ 28  383- 605
+STEP 001-001-1  identical.   Segment   6/ 28  605- 660
+STEP 001-001-1  identical.   Segment   7/ 28  660- 670
+STEP 001-001-1  identical.   Segment   8/ 28  670- 723
+STEP 001-001-1  identical.   Segment   9/ 28  723- 780
+STEP 001-001-1  identical.   Segment  10/ 28  780- 820
+STEP 001-001-1  identical.   Segment  11/ 28  820- 924
+STEP 001-001-1  identical.   Segment  12/ 28  924-1005
+STEP 001-001-1  identical.   Segment  13/ 28 1005-1014
+STEP 001-001-1  identical.   Segment  14/ 28 1014-1154
+STEP 001-001-1  identical.   Segment  15/ 28 1154-1162
+STEP 001-001-1  identical.   Segment  16/ 28 1162-1175
+STEP 001-001-1  identical.   Segment  17/ 28 1175-1253
+STEP 001-001-1  identical.   Segment  18/ 28 1253-1357
+STEP 001-001-1  identical.   Segment  19/ 28 1357-1475
+STEP 001-001-1  identical.   Segment  20/ 28 1475-1535
+STEP 001-001-1  identical.   Segment  21/ 28 1535-1565
+STEP 001-001-1  identical.   Segment  22/ 28 1565-1668
+STEP 001-001-1  identical.   Segment  23/ 28 1668-1747
+STEP 001-001-1  identical.   Segment  24/ 28 1747-1753
+STEP 001-001-1  identical.   Segment  25/ 28 1753-1761
+STEP 001-001-1  identical.   Segment  26/ 28 1761-1829
+STEP 001-001-1  identical.   Segment  27/ 28 1829-1922
+STEP 001-001-1  identical.   Segment  28/ 28 1922-2021
+STEP 001-001-1  accepted.done
+dvtditr (aa) Version 7.471
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ FFT-NS-i (Standard)
+ Iterative refinement method (max. 2 iterations)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+nthread = 0
+nthreadpair = 0
+nthreadtb = 0
+ppenalty_ex = 0
+stacksize: -1 kb
+rescale = 1
+Gap Penalty = -1.53, +0.00, +0.00
+
+
+
+Making a distance matrix ..
+    1 / 2
+done.
+
+Constructing a UPGMA tree (efffree=1) ... 
+    0 / 2
+done.
+
+Progressive alignment 1/1... 
+STEP     1 / 1  f
+done.
+
+disttbfast (aa) Version 7.471
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+rescale = 1
+   1/   2dndpre (aa) Version 7.471
+alg=X, model=BLOSUM62, 1.53, +0.12, -0.00, noshift, amax=0.0
+0 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 2
+sueff_global = 0.100000
+nadd = 2
+rescale = 1
+
+    0 / 2
+Segment   1/ 15    1-  87
+STEP 001-001-1  identical.   Segment   2/ 15   87- 238
+STEP 001-001-1  identical.   Segment   3/ 15  238- 315
+STEP 001-001-1  identical.   Segment   4/ 15  315- 400
+STEP 001-001-1  identical.   Segment   5/ 15  400- 817
+STEP 001-001-1  identical.   Segment   6/ 15  817- 968
+STEP 001-001-1  identical.   Segment   7/ 15  968-1099
+STEP 001-001-1  identical.   Segment   8/ 15 1099-1253
+STEP 001-001-1  identical.   Segment   9/ 15 1253-1368
+STEP 001-001-1  identical.   Segment  10/ 15 1368-1502
+STEP 001-001-1  identical.   Segment  11/ 15 1502-1653
+STEP 001-001-1  identical.   Segment  12/ 15 1653-1804
+STEP 001-001-1  identical.   Segment  13/ 15 1804-1916
+STEP 001-001-1  identical.   Segment  14/ 15 1916-1996
+STEP 001-001-1  identical.   Segment  15/ 15 1996-2044
+STEP 001-001-1  identical.   done
+dvtditr (aa) Version 7.471
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ FFT-NS-i (Standard)
+ Iterative refinement method (max. 2 iterations)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+nthread = 0
+nthreadpair = 0
+nthreadtb = 0
+ppenalty_ex = 0
+stacksize: -1 kb
+rescale = 1
+Gap Penalty = -1.53, +0.00, +0.00
+
+
+
+Making a distance matrix ..
+    1 / 2
+done.
+
+Constructing a UPGMA tree (efffree=1) ... 
+    0 / 2
+done.
+
+Progressive alignment 1/1... 
+STEP     1 / 1  f
+done.
+
+disttbfast (aa) Version 7.471
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+rescale = 1
+   1/   2dndpre (aa) Version 7.471
+alg=X, model=BLOSUM62, 1.53, +0.12, -0.00, noshift, amax=0.0
+0 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 2
+sueff_global = 0.100000
+nadd = 2
+rescale = 1
+
+    0 / 2
+Segment   1/ 27    1-  17
+STEP 001-001-1  identical.   Segment   2/ 27   17-  29
+STEP 001-001-1  identical.   Segment   3/ 27   29-  35
+STEP 001-001-1  identical.   Segment   4/ 27   35-  40
+STEP 001-001-1  identical.   Segment   5/ 27   40- 118
+STEP 001-001-1  identical.   Segment   6/ 27  118- 240
+STEP 001-001-1  identical.   Segment   7/ 27  240- 392
+STEP 001-001-1  identical.   Segment   8/ 27  392- 470
+STEP 001-001-1  identical.   Segment   9/ 27  470- 498
+STEP 001-001-1  identical.   Segment  10/ 27  498- 504
+STEP 001-001-1  identical.   Segment  11/ 27  504- 509
+STEP 001-001-1  identical.   Segment  12/ 27  509- 538
+STEP 001-001-1  identical.   Segment  13/ 27  538- 635
+STEP 001-001-1  identical.   Segment  14/ 27  635- 786
+STEP 001-001-1  identical.   Segment  15/ 27  786- 863
+STEP 001-001-1  identical.   Segment  16/ 27  863- 921
+STEP 001-001-1  identical.   Segment  17/ 27  921- 923
+STEP 001-001-1  identical.   Segment  18/ 27  923- 952
+STEP 001-001-1  identical.   Segment  19/ 27  952- 974
+STEP 001-001-1  identical.   Segment  20/ 27  974- 977
+STEP 001-001-1  identical.   Segment  21/ 27  977-1057
+STEP 001-001-1  identical.   Segment  22/ 27 1057-1208
+STEP 001-001-1  identical.   Segment  23/ 27 1208-1359
+STEP 001-001-1  identical.   Segment  24/ 27 1359-1510
+STEP 001-001-1  identical.   Segment  25/ 27 1510-1661
+STEP 001-001-1  identical.   Segment  26/ 27 1661-1781
+STEP 001-001-1  identical.   Segment  27/ 27 1781-1858
+STEP 001-001-1  accepted.done
+dvtditr (aa) Version 7.471
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ FFT-NS-i (Standard)
+ Iterative refinement method (max. 2 iterations)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+nthread = 0
+nthreadpair = 0
+nthreadtb = 0
+ppenalty_ex = 0
+stacksize: -1 kb
+rescale = 1
+Gap Penalty = -1.53, +0.00, +0.00
+
+
+
+Making a distance matrix ..
+    1 / 2
+done.
+
+Constructing a UPGMA tree (efffree=1) ... 
+    0 / 2
+done.
+
+Progressive alignment 1/1... 
+STEP     1 / 1  f
+done.
+
+disttbfast (aa) Version 7.471
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+rescale = 1
+   1/   2dndpre (aa) Version 7.471
+alg=X, model=BLOSUM62, 1.53, +0.12, -0.00, noshift, amax=0.0
+0 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 2
+sueff_global = 0.100000
+nadd = 2
+rescale = 1
+
+    0 / 2
+Segment   1/ 15    1- 761
+STEP 001-001-1  identical.   Segment   2/ 15  761- 911
+STEP 001-001-1  identical.   Segment   3/ 15  911-1024
+STEP 001-001-1  identical.   Segment   4/ 15 1024-1036
+STEP 001-001-1  identical.   Segment   5/ 15 1036-1040
+STEP 001-001-1  identical.   Segment   6/ 15 1040-1070
+STEP 001-001-1  identical.   Segment   7/ 15 1070-1124
+STEP 001-001-1  identical.   Segment   8/ 15 1124-1212
+STEP 001-001-1  identical.   Segment   9/ 15 1212-1317
+STEP 001-001-1  identical.   Segment  10/ 15 1317-1441
+STEP 001-001-1  identical.   Segment  11/ 15 1441-1592
+STEP 001-001-1  identical.   Segment  12/ 15 1592-1743
+STEP 001-001-1  identical.   Segment  13/ 15 1743-1890
+STEP 001-001-1  identical.   Segment  14/ 15 1890-1982
+STEP 001-001-1  identical.   Segment  15/ 15 1982-1995
+STEP 001-001-1  identical.   done
+dvtditr (aa) Version 7.471
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ FFT-NS-i (Standard)
+ Iterative refinement method (max. 2 iterations)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+nthread = 0
+nthreadpair = 0
+nthreadtb = 0
+ppenalty_ex = 0
+stacksize: -1 kb
+rescale = 1
+Gap Penalty = -1.53, +0.00, +0.00
+
+
+
+Making a distance matrix ..
+    1 / 2
+done.
+
+Constructing a UPGMA tree (efffree=1) ... 
+    0 / 2
+done.
+
+Progressive alignment 1/1... 
+STEP     1 / 1  f
+done.
+
+disttbfast (aa) Version 7.471
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+rescale = 1
+   1/   2dndpre (aa) Version 7.471
+alg=X, model=BLOSUM62, 1.53, +0.12, -0.00, noshift, amax=0.0
+0 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 2
+sueff_global = 0.100000
+nadd = 2
+rescale = 1
+
+    0 / 2
+Segment   1/ 13    1- 172
+STEP 001-001-1  identical.   Segment   2/ 13  172- 323
+STEP 001-001-1  identical.   Segment   3/ 13  323- 420
+STEP 001-001-1  identical.   Segment   4/ 13  420- 787
+STEP 001-001-1  identical.   Segment   5/ 13  787- 938
+STEP 001-001-1  identical.   Segment   6/ 13  938-1062
+STEP 001-001-1  identical.   Segment   7/ 13 1062-1203
+STEP 001-001-1  identical.   Segment   8/ 13 1203-1322
+STEP 001-001-1  identical.   Segment   9/ 13 1322-1453
+STEP 001-001-1  identical.   Segment  10/ 13 1453-1604
+STEP 001-001-1  identical.   Segment  11/ 13 1604-1755
+STEP 001-001-1  identical.   Segment  12/ 13 1755-1900
+STEP 001-001-1  identical.   Segment  13/ 13 1900-1979
+STEP 001-001-1  identical.   done
+dvtditr (aa) Version 7.471
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ FFT-NS-i (Standard)
+ Iterative refinement method (max. 2 iterations)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+
+
+Building a new DB, current time: 05/05/2021 13:38:45
+New DB name:   /global/scratch/uricchio/t56d10k35/AmazonAte-1/xenTro.new.fa
+New DB title:  xenTro.new.fa
+Sequence type: Protein
+Deleted existing Protein BLAST database named /global/scratch/uricchio/t56d10k35/AmazonAte-1/xenTro.new.fa
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00272989 seconds.
+
+real	7m29.619s
+user	143m57.832s
+sys	2m30.036s
+
+real	7m26.649s
+user	143m34.143s
+sys	2m29.962s
+Unique reads with hits IN MODIFIED VERSION: 57440
+
+real	1m7.687s
+user	0m29.088s
+sys	0m13.713s
+[DISTRIBUTE]: 0 proteins had no good matches.
+
+real	0m2.861s
+user	0m1.528s
+sys	0m0.105s
+
+Computers / CPU cores / Max jobs to run
+1:local / 20 / 6
+
+Computer:jobs running/jobs completed/%of started jobs/Average seconds to complete
+ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/14.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/14.0s ETA: 5s Left: 5 AVG: 1.00s  local:5/1/100%/15.0s ETA: 5s Left: 5 AVG: 1.00s  local:5/1/100%/15.0s ETA: 3s Left: 4 AVG: 0.50s  local:4/2/100%/7.5s ETA: 2s Left: 4 AVG: 0.50s  local:4/2/100%/7.5s ETA: 2s Left: 4 AVG: 0.50s  local:4/2/100%/7.5s ETA: 3s Left: 4 AVG: 1.00s  local:4/2/100%/8.0s ETA: 3s Left: 4 AVG: 1.00s  local:4/2/100%/8.0s ETA: 2s Left: 3 AVG: 0.67s  local:3/3/100%/5.3s ETA: 2s Left: 3 AVG: 0.67s  local:3/3/100%/5.3s ETA: 2s Left: 3 AVG: 0.67s  local:3/3/100%/5.3s ETA: 2s Left: 3 AVG: 1.00s  local:3/3/100%/5.7s ETA: 2s Left: 3 AVG: 1.00s  local:3/3/100%/5.7s ETA: 2s Left: 3 AVG: 1.00s  local:3/3/100%/5.7s ETA: 2s Left: 3 AVG: 1.00s  local:3/3/100%/5.7s ETA: 3s Left: 3 AVG: 1.33s  local:3/3/100%/6.0s ETA: 3s Left: 3 AVG: 1.33s  local:3/3/100%/6.0s ETA: 3s Left: 3 AVG: 1.33s  local:3/3/100%/6.0s ETA: 2s Left: 2 AVG: 1.00s  local:2/4/100%/4.5s ETA: 2s Left: 2 AVG: 1.00s  local:2/4/100%/4.5s ETA: 2s Left: 2 AVG: 1.00s  local:2/4/100%/4.5s ETA: 2s Left: 2 AVG: 1.25s  local:2/4/100%/4.8s ETA: 1s Left: 1 AVG: 1.00s  local:1/5/100%/3.8s ETA: 1s Left: 1 AVG: 1.00s  local:1/5/100%/3.8s ETA: 1s Left: 1 AVG: 1.00s  local:1/5/100%/3.8s ETA: 0s Left: 0 AVG: 0.83s  local:0/6/100%/3.2s ETA: 0s Left: 0 AVG: 0.83s  local:0/6/100%/3.2s 
+
+real	0m18.489s
+user	1m1.287s
+sys	0m7.318s
+Running SPAdes on 6 genes
+time parallel --eta spades.py --only-assembler --threads 1 --cov-cutoff 8 -k 35,75,95 --12 {}/{}_interleaved.fasta -o {}/{}_spades :::: spades_genelist.txt > spades.log
+
+Computers / CPU cores / Max jobs to run
+1:local / 20 / 6
+
+Computer:jobs running/jobs completed/%of started jobs/Average seconds to complete
+ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s There were 30 exonerate hits for SCN2A/SCN2A_baits.fasta.
+xenTro-SCN2AWriting amino acid sequence, length: 924
+ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/5.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/5.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/5.0s There were 33 exonerate hits for SCN4A/SCN4A_baits.fasta.
+xenTro-SCN4AWriting amino acid sequence, length: 1597
+ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/2.5s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/2.5s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/2.5s There were 39 exonerate hits for SCN5A/SCN5A_baits.fasta.
+xenTro-SCN5AWriting amino acid sequence, length: 1505
+ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/1.7s ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/1.7s ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/1.7s ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/1.7s ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/1.7s There were 38 exonerate hits for SCN8A/SCN8A_baits.fasta.
+xenTro-SCN8AWriting amino acid sequence, length: 1957
+ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.2s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.2s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.2s There were 45 exonerate hits for SCN1A/SCN1A_baits.fasta.
+xenTro-SCN1AWriting amino acid sequence, length: 1809
+ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/1.0s There were 64 exonerate hits for SCN3A/SCN3A_baits.fasta.
+xenTro-SCN3AWriting amino acid sequence, length: 1879
+ETA: 0s Left: 0 AVG: 0.00s  local:0/6/100%/0.8s ETA: 0s Left: 0 AVG: 0.00s  local:0/6/100%/0.8s 
+
+real	0m5.483s
+user	0m8.344s
+sys	0m0.871s
+Generated sequences from 6 genes!
+WARNING: Potential paralogs detected for 0 genes!HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/uricchio/AmazonAte-1_S33_L001_R1_001_val_1.fq /global/scratch/uricchio/AmazonAte-1_S33_L001_R2_001_val_2.fq -b data/xenTro.new.fa --prefix /global/scratch/uricchio/t56d10k35/AmazonAte-1 --thresh 56 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in xenTro.new.fa
+time cat /global/scratch/uricchio/AmazonAte-1_S33_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db xenTro.new.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> AmazonAte-1.blastx 
+time cat /global/scratch/uricchio/AmazonAte-1_S33_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db xenTro.new.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> AmazonAte-1.blastx 
+READFILES:
+
+['/global/scratch/uricchio/AmazonAte-1_S33_L001_R1_001_val_1.fq', '/global/scratch/uricchio/AmazonAte-1_S33_L001_R2_001_val_2.fq']
+['SCN2A', 'SCN8A', 'SCN5A', 'SCN4A', 'SCN3A', 'SCN1A']
+['genes_with_paralog_warnings.txt', 'SCN2A', 'xenTro.new.fa', 'AmazonAte-1.blastx', 'SCN8A', 'spades_genelist.txt', 'SCN5A', 'xenTro.new.fa.psq', 'xenTro.new.fa.phr', 'SCN4A', 'bait_tallies.txt', 'genes_with_seqs.txt', 'xenTro.new.fa.pin', 'SCN3A', 'SCN1A', 'spades.log', 'exonerate_genelist.txt']
+Running Exonerate to generate sequences for 6 genes
+time parallel --eta python /global/home/users/uricchio/software/HybPiper-master/exonerate_hits.py {}/{}_baits.fasta {}/{}_contigs.fasta --prefix {}/AmazonAte-1 -t 56 --depth_multiplier 10 --length_pct 90 :::: exonerate_genelist.txt > genes_with_seqs.txt
+
+
+Building a new DB, current time: 05/05/2021 13:55:17
+New DB name:   /global/scratch/uricchio/t56d10k35/Ame-6/xenTro.new.fa
+New DB title:  xenTro.new.fa
+Sequence type: Protein
+Deleted existing Protein BLAST database named /global/scratch/uricchio/t56d10k35/Ame-6/xenTro.new.fa
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.003865 seconds.
+
+real	6m57.530s
+user	134m54.645s
+sys	1m40.611s
+
+real	6m56.135s
+user	134m29.004s
+sys	1m38.961s
+Unique reads with hits IN MODIFIED VERSION: 24236
+
+real	0m47.971s
+user	0m28.099s
+sys	0m8.017s
+[DISTRIBUTE]: 0 proteins had no good matches.
+
+real	0m2.578s
+user	0m1.075s
+sys	0m0.082s
+
+Computers / CPU cores / Max jobs to run
+1:local / 20 / 6
+
+Computer:jobs running/jobs completed/%of started jobs/Average seconds to complete
+ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/14.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/14.0s ETA: 5s Left: 5 AVG: 1.00s  local:5/1/100%/15.0s ETA: 3s Left: 4 AVG: 0.50s  local:4/2/100%/7.5s ETA: 2s Left: 4 AVG: 0.50s  local:4/2/100%/7.5s ETA: 2s Left: 4 AVG: 0.50s  local:4/2/100%/7.5s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/5.0s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/5.0s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/5.0s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/5.0s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/3.8s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/3.8s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/3.8s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/3.8s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/3.8s ETA: 0s Left: 2 AVG: 0.50s  local:2/4/100%/4.0s ETA: 0s Left: 2 AVG: 0.50s  local:2/4/100%/4.0s ETA: 0s Left: 2 AVG: 0.50s  local:2/4/100%/4.0s ETA: 0s Left: 2 AVG: 0.50s  local:2/4/100%/4.0s ETA: 0s Left: 2 AVG: 0.50s  local:2/4/100%/4.0s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/3.2s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/3.2s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/3.2s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/3.2s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/3.2s ETA: 0s Left: 1 AVG: 0.60s  local:1/5/100%/3.4s ETA: 0s Left: 1 AVG: 0.60s  local:1/5/100%/3.4s ETA: 0s Left: 1 AVG: 0.60s  local:1/5/100%/3.4s ETA: 0s Left: 1 AVG: 0.60s  local:1/5/100%/3.4s ETA: 0s Left: 1 AVG: 0.60s  local:1/5/100%/3.4s ETA: 0s Left: 1 AVG: 0.60s  local:1/5/100%/3.4s ETA: 0s Left: 0 AVG: 0.50s  local:0/6/100%/2.8s ETA: 0s Left: 0 AVG: 0.50s  local:0/6/100%/2.8s 
+
+real	0m17.233s
+user	0m54.290s
+sys	0m6.678s
+Running SPAdes on 6 genes
+time parallel --eta spades.py --only-assembler --threads 1 --cov-cutoff 8 -k 35,75,95 --12 {}/{}_interleaved.fasta -o {}/{}_spades :::: spades_genelist.txt > spades.log
+
+Computers / CPU cores / Max jobs to run
+1:local / 20 / 6
+
+Computer:jobs running/jobs completed/%of started jobs/Average seconds to complete
+ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s There were 28 exonerate hits for SCN2A/SCN2A_baits.fasta.
+xenTro-SCN2AWriting amino acid sequence, length: 1053
+ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/4.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/4.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/4.0s There were 26 exonerate hits for SCN5A/SCN5A_baits.fasta.
+xenTro-SCN5AWriting amino acid sequence, length: 1367
+ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/2.0s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/2.0s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/2.0s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/2.0s There were 31 exonerate hits for SCN8A/SCN8A_baits.fasta.
+xenTro-SCN8AWriting amino acid sequence, length: 1903
+ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/1.3s ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/1.3s ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/1.3s There were 27 exonerate hits for SCN4A/SCN4A_baits.fasta.
+xenTro-SCN4AWriting amino acid sequence, length: 1645
+ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.0s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.0s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.0s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.0s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.0s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.0s There were 47 exonerate hits for SCN1A/SCN1A_baits.fasta.
+xenTro-SCN1AWriting amino acid sequence, length: 1876
+ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/0.8s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/0.8s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/0.8s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/0.8s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/0.8s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.0s There were 63 exonerate hits for SCN3A/SCN3A_baits.fasta.
+xenTro-SCN3AWriting amino acid sequence, length: 1796
+ETA: 0s Left: 0 AVG: 0.17s  local:0/6/100%/0.8s ETA: 0s Left: 0 AVG: 0.17s  local:0/6/100%/0.8s 
+
+real	0m5.065s
+user	0m7.781s
+sys	0m0.837s
+Generated sequences from 6 genes!
+WARNING: Potential paralogs detected for 0 genes!HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/uricchio/Ame-6_S46_L001_R1_001_val_1.fq /global/scratch/uricchio/Ame-6_S46_L001_R2_001_val_2.fq -b data/xenTro.new.fa --prefix /global/scratch/uricchio/t56d10k35/Ame-6 --thresh 56 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in xenTro.new.fa
+time cat /global/scratch/uricchio/Ame-6_S46_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db xenTro.new.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Ame-6.blastx 
+time cat /global/scratch/uricchio/Ame-6_S46_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db xenTro.new.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Ame-6.blastx 
+READFILES:
+
+['/global/scratch/uricchio/Ame-6_S46_L001_R1_001_val_1.fq', '/global/scratch/uricchio/Ame-6_S46_L001_R2_001_val_2.fq']
+['SCN2A', 'SCN8A', 'SCN5A', 'SCN4A', 'SCN3A', 'SCN1A']
+['genes_with_paralog_warnings.txt', 'SCN2A', 'xenTro.new.fa', 'SCN8A', 'spades_genelist.txt', 'SCN5A', 'xenTro.new.fa.psq', 'xenTro.new.fa.phr', 'SCN4A', 'bait_tallies.txt', 'genes_with_seqs.txt', 'Ame-6.blastx', 'xenTro.new.fa.pin', 'SCN3A', 'SCN1A', 'spades.log', 'exonerate_genelist.txt']
+Running Exonerate to generate sequences for 6 genes
+time parallel --eta python /global/home/users/uricchio/software/HybPiper-master/exonerate_hits.py {}/{}_baits.fasta {}/{}_contigs.fasta --prefix {}/Ame-6 -t 56 --depth_multiplier 10 --length_pct 90 :::: exonerate_genelist.txt > genes_with_seqs.txt
+
+
+Building a new DB, current time: 05/05/2021 14:10:25
+New DB name:   /global/scratch/uricchio/t56d10k35/AndesAte-6/xenTro.new.fa
+New DB title:  xenTro.new.fa
+Sequence type: Protein
+Deleted existing Protein BLAST database named /global/scratch/uricchio/t56d10k35/AndesAte-6/xenTro.new.fa
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00370908 seconds.
+
+real	10m45.965s
+user	208m5.636s
+sys	3m12.156s
+
+real	10m45.605s
+user	207m51.270s
+sys	3m11.296s
+Unique reads with hits IN MODIFIED VERSION: 94115
+
+real	1m44.637s
+user	0m43.397s
+sys	0m21.747s
+[DISTRIBUTE]: 0 proteins had no good matches.
+
+real	0m3.005s
+user	0m1.981s
+sys	0m0.105s
+
+Computers / CPU cores / Max jobs to run
+1:local / 20 / 6
+
+Computer:jobs running/jobs completed/%of started jobs/Average seconds to complete
+ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/19.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/19.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/19.0s ETA: 5s Left: 5 AVG: 1.00s  local:5/1/100%/20.0s ETA: 5s Left: 5 AVG: 1.00s  local:5/1/100%/20.0s ETA: 3s Left: 4 AVG: 0.50s  local:4/2/100%/10.0s ETA: 2s Left: 4 AVG: 0.50s  local:4/2/100%/10.0s ETA: 2s Left: 4 AVG: 0.50s  local:4/2/100%/10.0s ETA: 2s Left: 4 AVG: 0.50s  local:4/2/100%/10.0s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/6.7s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/6.7s ETA: 1s Left: 3 AVG: 0.67s  local:3/3/100%/7.0s ETA: 1s Left: 3 AVG: 0.67s  local:3/3/100%/7.0s ETA: 1s Left: 3 AVG: 0.67s  local:3/3/100%/7.0s ETA: 1s Left: 3 AVG: 0.67s  local:3/3/100%/7.0s ETA: 1s Left: 2 AVG: 0.50s  local:2/4/100%/5.2s ETA: 1s Left: 2 AVG: 0.50s  local:2/4/100%/5.2s ETA: 1s Left: 2 AVG: 0.75s  local:2/4/100%/5.5s ETA: 1s Left: 2 AVG: 0.75s  local:2/4/100%/5.5s ETA: 1s Left: 2 AVG: 0.75s  local:2/4/100%/5.5s ETA: 1s Left: 2 AVG: 0.75s  local:2/4/100%/5.5s ETA: 1s Left: 2 AVG: 0.75s  local:2/4/100%/5.5s ETA: 1s Left: 2 AVG: 1.00s  local:2/4/100%/5.8s ETA: 1s Left: 2 AVG: 1.00s  local:2/4/100%/5.8s ETA: 1s Left: 2 AVG: 1.00s  local:2/4/100%/5.8s ETA: 1s Left: 2 AVG: 1.00s  local:2/4/100%/5.8s ETA: 2s Left: 2 AVG: 1.25s  local:2/4/100%/6.0s ETA: 1s Left: 1 AVG: 1.00s  local:1/5/100%/4.8s ETA: 1s Left: 1 AVG: 1.00s  local:1/5/100%/4.8s ETA: 1s Left: 1 AVG: 1.00s  local:1/5/100%/4.8s ETA: 1s Left: 1 AVG: 1.00s  local:1/5/100%/4.8s ETA: 1s Left: 1 AVG: 1.00s  local:1/5/100%/4.8s ETA: 0s Left: 0 AVG: 0.83s  local:0/6/100%/4.0s ETA: 0s Left: 0 AVG: 0.83s  local:0/6/100%/4.0s 
+
+real	0m23.883s
+user	1m19.218s
+sys	0m8.199s
+Running SPAdes on 6 genes
+time parallel --eta spades.py --only-assembler --threads 1 --cov-cutoff 8 -k 35,75,95 --12 {}/{}_interleaved.fasta -o {}/{}_spades :::: spades_genelist.txt > spades.log
+
+Computers / CPU cores / Max jobs to run
+1:local / 20 / 6
+
+Computer:jobs running/jobs completed/%of started jobs/Average seconds to complete
+ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s There were 33 exonerate hits for SCN2A/SCN2A_baits.fasta.
+xenTro-SCN2AWriting amino acid sequence, length: 1124
+ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/5.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/5.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/5.0s There were 41 exonerate hits for SCN8A/SCN8A_baits.fasta.
+xenTro-SCN8AWriting amino acid sequence, length: 1973
+ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/2.5s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/2.5s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/2.5s There were 46 exonerate hits for SCN5A/SCN5A_baits.fasta.
+xenTro-SCN5AWriting amino acid sequence, length: 1580
+ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/1.7s ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/1.7s ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/1.7s There were 37 exonerate hits for SCN4A/SCN4A_baits.fasta.
+xenTro-SCN4AWriting amino acid sequence, length: 1510
+ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.2s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.2s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.2s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.2s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.2s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.2s There were 56 exonerate hits for SCN1A/SCN1A_baits.fasta.
+xenTro-SCN1AWriting amino acid sequence, length: 1755
+ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/1.0s There were 68 exonerate hits for SCN3A/SCN3A_baits.fasta.
+xenTro-SCN3AWriting amino acid sequence, length: 1702
+ETA: 0s Left: 0 AVG: 0.00s  local:0/6/100%/0.8s ETA: 0s Left: 0 AVG: 0.00s  local:0/6/100%/0.8s 
+
+real	0m5.095s
+user	0m8.135s
+sys	0m0.830s
+Generated sequences from 6 genes!
+WARNING: Potential paralogs detected for 0 genes!HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/uricchio/AndesAte-6_S82_L002_R1_001_val_1.fq /global/scratch/uricchio/AndesAte-6_S82_L002_R2_001_val_2.fq -b data/xenTro.new.fa --prefix /global/scratch/uricchio/t56d10k35/AndesAte-6 --thresh 56 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in xenTro.new.fa
+time cat /global/scratch/uricchio/AndesAte-6_S82_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db xenTro.new.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> AndesAte-6.blastx 
+time cat /global/scratch/uricchio/AndesAte-6_S82_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db xenTro.new.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> AndesAte-6.blastx 
+READFILES:
+
+['/global/scratch/uricchio/AndesAte-6_S82_L002_R1_001_val_1.fq', '/global/scratch/uricchio/AndesAte-6_S82_L002_R2_001_val_2.fq']
+['SCN2A', 'SCN8A', 'SCN5A', 'SCN4A', 'SCN3A', 'SCN1A']
+['genes_with_paralog_warnings.txt', 'SCN2A', 'xenTro.new.fa', 'SCN8A', 'spades_genelist.txt', 'SCN5A', 'xenTro.new.fa.psq', 'xenTro.new.fa.phr', 'SCN4A', 'bait_tallies.txt', 'genes_with_seqs.txt', 'AndesAte-6.blastx', 'xenTro.new.fa.pin', 'SCN3A', 'SCN1A', 'spades.log', 'exonerate_genelist.txt']
+Running Exonerate to generate sequences for 6 genes
+time parallel --eta python /global/home/users/uricchio/software/HybPiper-master/exonerate_hits.py {}/{}_baits.fasta {}/{}_contigs.fasta --prefix {}/AndesAte-6 -t 56 --depth_multiplier 10 --length_pct 90 :::: exonerate_genelist.txt > genes_with_seqs.txt
+
+
+Building a new DB, current time: 05/05/2021 14:34:15
+New DB name:   /global/scratch/uricchio/t56d10k35/Aromo-7/xenTro.new.fa
+New DB title:  xenTro.new.fa
+Sequence type: Protein
+Deleted existing Protein BLAST database named /global/scratch/uricchio/t56d10k35/Aromo-7/xenTro.new.fa
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00441384 seconds.
+
+real	4m58.582s
+user	96m19.256s
+sys	1m13.108s
+
+real	4m57.945s
+user	96m11.467s
+sys	1m12.094s
+Unique reads with hits IN MODIFIED VERSION: 26376
+
+real	0m40.400s
+user	0m20.196s
+sys	0m7.884s
+[DISTRIBUTE]: 0 proteins had no good matches.
+
+real	0m1.899s
+user	0m0.940s
+sys	0m0.088s
+
+Computers / CPU cores / Max jobs to run
+1:local / 20 / 6
+
+Computer:jobs running/jobs completed/%of started jobs/Average seconds to complete
+ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/12.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/12.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/12.0s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/6.0s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/6.0s ETA: 2s Left: 4 AVG: 0.50s  local:4/2/100%/6.5s ETA: 2s Left: 4 AVG: 0.50s  local:4/2/100%/6.5s ETA: 2s Left: 4 AVG: 0.50s  local:4/2/100%/6.5s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/4.3s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/4.3s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/4.3s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/4.3s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/3.2s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/3.2s ETA: 0s Left: 2 AVG: 0.50s  local:2/4/100%/3.5s ETA: 0s Left: 2 AVG: 0.50s  local:2/4/100%/3.5s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/2.8s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/2.8s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/2.8s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/2.8s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/2.8s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/2.8s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/2.8s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/2.8s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/2.8s ETA: 0s Left: 0 AVG: 0.33s  local:0/6/100%/2.3s ETA: 0s Left: 0 AVG: 0.33s  local:0/6/100%/2.3s 
+
+real	0m14.754s
+user	0m48.812s
+sys	0m6.723s
+Running SPAdes on 6 genes
+time parallel --eta spades.py --only-assembler --threads 1 --cov-cutoff 8 -k 35,75,95 --12 {}/{}_interleaved.fasta -o {}/{}_spades :::: spades_genelist.txt > spades.log
+
+Computers / CPU cores / Max jobs to run
+1:local / 20 / 6
+
+Computer:jobs running/jobs completed/%of started jobs/Average seconds to complete
+ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s There were 31 exonerate hits for SCN5A/SCN5A_baits.fasta.
+xenTro-SCN5AWriting amino acid sequence, length: 1290
+ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/5.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/5.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/5.0s There were 20 exonerate hits for SCN2A/SCN2A_baits.fasta.
+xenTro-SCN2AWriting amino acid sequence, length: 935
+ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/2.5s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/2.5s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/2.5s There were 32 exonerate hits for SCN8A/SCN8A_baits.fasta.
+xenTro-SCN8AWriting amino acid sequence, length: 1875
+ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/1.7s ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/1.7s ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/1.7s ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/1.7s ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/1.7s There were 26 exonerate hits for SCN4A/SCN4A_baits.fasta.
+xenTro-SCN4AWriting amino acid sequence, length: 1674
+ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.2s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.2s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.2s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.2s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.2s There were 43 exonerate hits for SCN1A/SCN1A_baits.fasta.
+xenTro-SCN1AWriting amino acid sequence, length: 1905
+ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.2s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.2s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.2s There were 65 exonerate hits for SCN3A/SCN3A_baits.fasta.
+xenTro-SCN3AWriting amino acid sequence, length: 1913
+ETA: 0s Left: 0 AVG: 0.17s  local:0/6/100%/1.0s ETA: 0s Left: 0 AVG: 0.17s  local:0/6/100%/1.0s 
+
+real	0m5.253s
+user	0m7.923s
+sys	0m0.826s
+Generated sequences from 6 genes!
+WARNING: Potential paralogs detected for 0 genes!HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/uricchio/Aromo-7_S30_L001_R1_001_val_1.fq /global/scratch/uricchio/Aromo-7_S30_L001_R2_001_val_2.fq -b data/xenTro.new.fa --prefix /global/scratch/uricchio/t56d10k35/Aromo-7 --thresh 56 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in xenTro.new.fa
+time cat /global/scratch/uricchio/Aromo-7_S30_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db xenTro.new.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Aromo-7.blastx 
+time cat /global/scratch/uricchio/Aromo-7_S30_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db xenTro.new.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Aromo-7.blastx 
+READFILES:
+
+['/global/scratch/uricchio/Aromo-7_S30_L001_R1_001_val_1.fq', '/global/scratch/uricchio/Aromo-7_S30_L001_R2_001_val_2.fq']
+['SCN2A', 'SCN8A', 'SCN5A', 'SCN4A', 'SCN3A', 'SCN1A']
+['genes_with_paralog_warnings.txt', 'SCN2A', 'xenTro.new.fa', 'SCN8A', 'spades_genelist.txt', 'SCN5A', 'xenTro.new.fa.psq', 'xenTro.new.fa.phr', 'Aromo-7.blastx', 'SCN4A', 'bait_tallies.txt', 'genes_with_seqs.txt', 'xenTro.new.fa.pin', 'SCN3A', 'SCN1A', 'spades.log', 'exonerate_genelist.txt']
+Running Exonerate to generate sequences for 6 genes
+time parallel --eta python /global/home/users/uricchio/software/HybPiper-master/exonerate_hits.py {}/{}_baits.fasta {}/{}_contigs.fasta --prefix {}/Aromo-7 -t 56 --depth_multiplier 10 --length_pct 90 :::: exonerate_genelist.txt > genes_with_seqs.txt
+
+
+Building a new DB, current time: 05/05/2021 14:45:15
+New DB name:   /global/scratch/uricchio/t56d10k35/Brachy-7/xenTro.new.fa
+New DB title:  xenTro.new.fa
+Sequence type: Protein
+Deleted existing Protein BLAST database named /global/scratch/uricchio/t56d10k35/Brachy-7/xenTro.new.fa
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00303507 seconds.
+
+real	7m0.124s
+user	134m20.594s
+sys	2m1.406s
+
+real	6m54.453s
+user	132m26.651s
+sys	2m0.690s
+Unique reads with hits IN MODIFIED VERSION: 23027
+
+real	0m49.141s
+user	0m31.961s
+sys	0m6.393s
+[DISTRIBUTE]: 0 proteins had no good matches.
+
+real	0m5.648s
+user	0m1.166s
+sys	0m0.102s
+
+Computers / CPU cores / Max jobs to run
+1:local / 20 / 6
+
+Computer:jobs running/jobs completed/%of started jobs/Average seconds to complete
+ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/14.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/14.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/14.0s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/7.0s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/7.0s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/7.0s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/7.0s ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/4.7s ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/4.7s ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/4.7s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/5.0s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/5.0s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/5.0s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/5.0s ETA: 1s Left: 3 AVG: 0.67s  local:3/3/100%/5.3s ETA: 1s Left: 3 AVG: 0.67s  local:3/3/100%/5.3s ETA: 1s Left: 3 AVG: 0.67s  local:3/3/100%/5.3s ETA: 1s Left: 2 AVG: 0.50s  local:2/4/100%/4.0s ETA: 1s Left: 2 AVG: 0.50s  local:2/4/100%/4.0s ETA: 1s Left: 2 AVG: 0.50s  local:2/4/100%/4.0s ETA: 1s Left: 2 AVG: 0.75s  local:2/4/100%/4.2s ETA: 1s Left: 2 AVG: 0.75s  local:2/4/100%/4.2s ETA: 1s Left: 2 AVG: 0.75s  local:2/4/100%/4.2s ETA: 1s Left: 2 AVG: 0.75s  local:2/4/100%/4.2s ETA: 0s Left: 1 AVG: 0.60s  local:1/5/100%/3.4s ETA: 0s Left: 1 AVG: 0.60s  local:1/5/100%/3.4s ETA: 0s Left: 1 AVG: 0.60s  local:1/5/100%/3.4s ETA: 0s Left: 0 AVG: 0.50s  local:0/6/100%/2.8s ETA: 0s Left: 0 AVG: 0.50s  local:0/6/100%/2.8s 
+
+real	0m17.478s
+user	0m54.657s
+sys	0m6.783s
+Running SPAdes on 6 genes
+time parallel --eta spades.py --only-assembler --threads 1 --cov-cutoff 8 -k 35,75,95 --12 {}/{}_interleaved.fasta -o {}/{}_spades :::: spades_genelist.txt > spades.log
+
+Computers / CPU cores / Max jobs to run
+1:local / 20 / 6
+
+Computer:jobs running/jobs completed/%of started jobs/Average seconds to complete
+ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s There were 30 exonerate hits for SCN5A/SCN5A_baits.fasta.
+xenTro-SCN5AWriting amino acid sequence, length: 1217
+ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/5.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/5.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/5.0s There were 21 exonerate hits for SCN2A/SCN2A_baits.fasta.
+xenTro-SCN2AWriting amino acid sequence, length: 1151
+ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/2.5s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/2.5s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/2.5s There were 32 exonerate hits for SCN8A/SCN8A_baits.fasta.
+xenTro-SCN8AWriting amino acid sequence, length: 1878
+ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/1.7s ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/1.7s ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/1.7s There were 32 exonerate hits for SCN4A/SCN4A_baits.fasta.
+xenTro-SCN4AWriting amino acid sequence, length: 1613
+ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.2s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.2s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.2s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.2s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.2s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.2s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.2s There were 48 exonerate hits for SCN1A/SCN1A_baits.fasta.
+xenTro-SCN1AWriting amino acid sequence, length: 1943
+ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.2s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.2s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.2s There were 57 exonerate hits for SCN3A/SCN3A_baits.fasta.
+xenTro-SCN3AWriting amino acid sequence, length: 1853
+ETA: 0s Left: 0 AVG: 0.17s  local:0/6/100%/1.0s ETA: 0s Left: 0 AVG: 0.17s  local:0/6/100%/1.0s 
+
+real	0m5.274s
+user	0m7.908s
+sys	0m0.867s
+Generated sequences from 6 genes!
+WARNING: Potential paralogs detected for 0 genes!HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/uricchio/Brachy-7_S7_L001_R1_001_val_1.fq /global/scratch/uricchio/Brachy-7_S7_L001_R2_001_val_2.fq -b data/xenTro.new.fa --prefix /global/scratch/uricchio/t56d10k35/Brachy-7 --thresh 56 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in xenTro.new.fa
+time cat /global/scratch/uricchio/Brachy-7_S7_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db xenTro.new.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Brachy-7.blastx 
+time cat /global/scratch/uricchio/Brachy-7_S7_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db xenTro.new.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Brachy-7.blastx 
+READFILES:
+
+['/global/scratch/uricchio/Brachy-7_S7_L001_R1_001_val_1.fq', '/global/scratch/uricchio/Brachy-7_S7_L001_R2_001_val_2.fq']
+['SCN2A', 'SCN8A', 'SCN5A', 'SCN4A', 'SCN3A', 'SCN1A']
+['Brachy-7.blastx', 'genes_with_paralog_warnings.txt', 'SCN2A', 'xenTro.new.fa', 'SCN8A', 'spades_genelist.txt', 'SCN5A', 'xenTro.new.fa.psq', 'xenTro.new.fa.phr', 'SCN4A', 'bait_tallies.txt', 'genes_with_seqs.txt', 'xenTro.new.fa.pin', 'SCN3A', 'SCN1A', 'spades.log', 'exonerate_genelist.txt']
+Running Exonerate to generate sequences for 6 genes
+time parallel --eta python /global/home/users/uricchio/software/HybPiper-master/exonerate_hits.py {}/{}_baits.fasta {}/{}_contigs.fasta --prefix {}/Brachy-7 -t 56 --depth_multiplier 10 --length_pct 90 :::: exonerate_genelist.txt > genes_with_seqs.txt
+
+
+Building a new DB, current time: 05/05/2021 15:00:29
+New DB name:   /global/scratch/uricchio/t56d10k35/CentroLepto-4/xenTro.new.fa
+New DB title:  xenTro.new.fa
+Sequence type: Protein
+Deleted existing Protein BLAST database named /global/scratch/uricchio/t56d10k35/CentroLepto-4/xenTro.new.fa
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00413799 seconds.
+
+real	3m51.961s
+user	74m4.618s
+sys	1m21.006s
+
+real	3m51.193s
+user	73m42.758s
+sys	1m18.128s
+Unique reads with hits IN MODIFIED VERSION: 9388
+
+real	0m20.648s
+user	0m12.789s
+sys	0m2.633s
+[DISTRIBUTE]: 0 proteins had no good matches.
+
+real	0m2.024s
+user	0m0.719s
+sys	0m0.069s
+
+Computers / CPU cores / Max jobs to run
+1:local / 20 / 6
+
+Computer:jobs running/jobs completed/%of started jobs/Average seconds to complete
+ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/11.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/11.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/11.0s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/5.5s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/5.5s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/5.5s ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/3.7s ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/3.7s ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/3.7s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/2.8s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/2.8s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/2.8s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/2.2s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/2.2s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/2.4s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/2.4s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/2.4s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/2.4s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/2.4s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/2.4s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/2.4s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/2.4s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/2.4s ETA: 0s Left: 0 AVG: 0.17s  local:0/6/100%/2.0s ETA: 0s Left: 0 AVG: 0.17s  local:0/6/100%/2.0s 
+
+real	0m12.298s
+user	0m35.394s
+sys	0m6.400s
+Running SPAdes on 6 genes
+time parallel --eta spades.py --only-assembler --threads 1 --cov-cutoff 8 -k 35,75,95 --12 {}/{}_interleaved.fasta -o {}/{}_spades :::: spades_genelist.txt > spades.log
+
+Computers / CPU cores / Max jobs to run
+1:local / 20 / 6
+
+Computer:jobs running/jobs completed/%of started jobs/Average seconds to complete
+ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s There were 13 exonerate hits for SCN2A/SCN2A_baits.fasta.
+xenTro-SCN2AWriting amino acid sequence, length: 840
+ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/4.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/4.0s ETA: 5s Left: 5 AVG: 1.00s  local:5/1/100%/5.0s ETA: 5s Left: 5 AVG: 1.00s  local:5/1/100%/5.0s There were 19 exonerate hits for SCN5A/SCN5A_baits.fasta.
+xenTro-SCN5AWriting amino acid sequence, length: 1259
+ETA: 3s Left: 4 AVG: 0.50s  local:4/2/100%/2.5s ETA: 2s Left: 4 AVG: 0.50s  local:4/2/100%/2.5s ETA: 2s Left: 4 AVG: 0.50s  local:4/2/100%/2.5s There were 25 exonerate hits for SCN8A/SCN8A_baits.fasta.
+xenTro-SCN8AWriting amino acid sequence, length: 1844
+ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/1.7s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/1.7s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/1.7s There were 28 exonerate hits for SCN4A/SCN4A_baits.fasta.
+xenTro-SCN4AWriting amino acid sequence, length: 1525
+ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/1.2s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/1.2s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/1.2s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/1.2s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/1.2s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/1.2s There were 35 exonerate hits for SCN1A/SCN1A_baits.fasta.
+xenTro-SCN1AWriting amino acid sequence, length: 1720
+ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.0s There were 47 exonerate hits for SCN3A/SCN3A_baits.fasta.
+xenTro-SCN3AWriting amino acid sequence, length: 1893
+ETA: 0s Left: 0 AVG: 0.17s  local:0/6/100%/0.8s ETA: 0s Left: 0 AVG: 0.17s  local:0/6/100%/0.8s 
+
+real	0m4.873s
+user	0m7.346s
+sys	0m0.874s
+Generated sequences from 6 genes!
+WARNING: Potential paralogs detected for 0 genes!HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/uricchio/CentroLepto-4_S40_L001_R1_001_val_1.fq /global/scratch/uricchio/CentroLepto-4_S40_L001_R2_001_val_2.fq -b data/xenTro.new.fa --prefix /global/scratch/uricchio/t56d10k35/CentroLepto-4 --thresh 56 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in xenTro.new.fa
+time cat /global/scratch/uricchio/CentroLepto-4_S40_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db xenTro.new.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> CentroLepto-4.blastx 
+time cat /global/scratch/uricchio/CentroLepto-4_S40_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db xenTro.new.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> CentroLepto-4.blastx 
+READFILES:
+
+['/global/scratch/uricchio/CentroLepto-4_S40_L001_R1_001_val_1.fq', '/global/scratch/uricchio/CentroLepto-4_S40_L001_R2_001_val_2.fq']
+['SCN2A', 'SCN8A', 'SCN5A', 'SCN4A', 'SCN3A', 'SCN1A']
+['genes_with_paralog_warnings.txt', 'SCN2A', 'xenTro.new.fa', 'SCN8A', 'spades_genelist.txt', 'SCN5A', 'CentroLepto-4.blastx', 'xenTro.new.fa.psq', 'xenTro.new.fa.phr', 'SCN4A', 'bait_tallies.txt', 'genes_with_seqs.txt', 'xenTro.new.fa.pin', 'SCN3A', 'SCN1A', 'spades.log', 'exonerate_genelist.txt']
+Running Exonerate to generate sequences for 6 genes
+time parallel --eta python /global/home/users/uricchio/software/HybPiper-master/exonerate_hits.py {}/{}_baits.fasta {}/{}_contigs.fasta --prefix {}/CentroLepto-4 -t 56 --depth_multiplier 10 --length_pct 90 :::: exonerate_genelist.txt > genes_with_seqs.txt
+
+
+Building a new DB, current time: 05/05/2021 15:08:54
+New DB name:   /global/scratch/uricchio/t56d10k35/Dendro1-4/xenTro.new.fa
+New DB title:  xenTro.new.fa
+Sequence type: Protein
+Deleted existing Protein BLAST database named /global/scratch/uricchio/t56d10k35/Dendro1-4/xenTro.new.fa
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00362897 seconds.
+
+real	9m43.406s
+user	187m31.808s
+sys	3m2.411s
+
+real	9m45.544s
+user	188m4.881s
+sys	3m5.773s
+Unique reads with hits IN MODIFIED VERSION: 13046
+
+real	0m44.403s
+user	0m31.888s
+sys	0m5.193s
+[DISTRIBUTE]: 0 proteins had no good matches.
+
+real	0m1.655s
+user	0m0.730s
+sys	0m0.079s
+
+Computers / CPU cores / Max jobs to run
+1:local / 20 / 6
+
+Computer:jobs running/jobs completed/%of started jobs/Average seconds to complete
+ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/10.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/10.0s ETA: 5s Left: 5 AVG: 1.00s  local:5/1/100%/11.0s ETA: 5s Left: 5 AVG: 1.00s  local:5/1/100%/11.0s ETA: 3s Left: 4 AVG: 0.50s  local:4/2/100%/5.5s ETA: 2s Left: 4 AVG: 0.50s  local:4/2/100%/5.5s ETA: 2s Left: 4 AVG: 0.50s  local:4/2/100%/5.5s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/3.7s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/3.7s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/3.7s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/3.7s ETA: 1s Left: 3 AVG: 0.67s  local:3/3/100%/4.0s ETA: 1s Left: 3 AVG: 0.67s  local:3/3/100%/4.0s ETA: 1s Left: 3 AVG: 0.67s  local:3/3/100%/4.0s ETA: 1s Left: 3 AVG: 0.67s  local:3/3/100%/4.0s ETA: 1s Left: 2 AVG: 0.50s  local:2/4/100%/3.0s ETA: 1s Left: 2 AVG: 0.50s  local:2/4/100%/3.0s ETA: 1s Left: 2 AVG: 0.50s  local:2/4/100%/3.0s ETA: 1s Left: 2 AVG: 0.75s  local:2/4/100%/3.2s ETA: 1s Left: 2 AVG: 0.75s  local:2/4/100%/3.2s ETA: 1s Left: 2 AVG: 0.75s  local:2/4/100%/3.2s ETA: 1s Left: 2 AVG: 0.75s  local:2/4/100%/3.2s ETA: 1s Left: 2 AVG: 0.75s  local:2/4/100%/3.2s ETA: 0s Left: 1 AVG: 0.60s  local:1/5/100%/2.6s ETA: 0s Left: 1 AVG: 0.60s  local:1/5/100%/2.6s ETA: 0s Left: 1 AVG: 0.60s  local:1/5/100%/2.6s ETA: 0s Left: 1 AVG: 0.80s  local:1/5/100%/2.8s ETA: 0s Left: 1 AVG: 0.80s  local:1/5/100%/2.8s ETA: 0s Left: 1 AVG: 0.80s  local:1/5/100%/2.8s ETA: 0s Left: 1 AVG: 0.80s  local:1/5/100%/2.8s ETA: 0s Left: 1 AVG: 0.80s  local:1/5/100%/2.8s ETA: 0s Left: 1 AVG: 0.80s  local:1/5/100%/2.8s ETA: 0s Left: 0 AVG: 0.67s  local:0/6/100%/2.3s ETA: 0s Left: 0 AVG: 0.67s  local:0/6/100%/2.3s 
+
+real	0m14.064s
+user	0m36.089s
+sys	0m6.663s
+Running SPAdes on 6 genes
+time parallel --eta spades.py --only-assembler --threads 1 --cov-cutoff 8 -k 35,75,95 --12 {}/{}_interleaved.fasta -o {}/{}_spades :::: spades_genelist.txt > spades.log
+
+Computers / CPU cores / Max jobs to run
+1:local / 20 / 6
+
+Computer:jobs running/jobs completed/%of started jobs/Average seconds to complete
+ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s There were 15 exonerate hits for SCN2A/SCN2A_baits.fasta.
+xenTro-SCN2AWriting amino acid sequence, length: 835
+ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/4.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/4.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/4.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/4.0s There were 25 exonerate hits for SCN8A/SCN8A_baits.fasta.
+xenTro-SCN8AWriting amino acid sequence, length: 1826
+ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/2.0s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/2.0s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/2.0s There were 26 exonerate hits for SCN4A/SCN4A_baits.fasta.
+xenTro-SCN4AWriting amino acid sequence, length: 1590
+ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/1.3s ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/1.3s ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/1.3s There were 25 exonerate hits for SCN5A/SCN5A_baits.fasta.
+xenTro-SCN5AWriting amino acid sequence, length: 1390
+ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.0s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.0s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.0s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.0s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.0s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.0s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.0s ETA: 0s Left: 2 AVG: 0.00s  local:2/4/100%/1.0s There were 46 exonerate hits for SCN1A/SCN1A_baits.fasta.
+xenTro-SCN1AWriting amino acid sequence, length: 1881
+ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/0.8s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/0.8s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/0.8s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/0.8s ETA: 0s Left: 1 AVG: 0.00s  local:1/5/100%/0.8s There were 47 exonerate hits for SCN3A/SCN3A_baits.fasta.
+xenTro-SCN3AWriting amino acid sequence, length: 1720
+ETA: 0s Left: 0 AVG: 0.00s  local:0/6/100%/0.7s ETA: 0s Left: 0 AVG: 0.00s  local:0/6/100%/0.7s 
+
+real	0m4.913s
+user	0m7.402s
+sys	0m0.852s
+Generated sequences from 6 genes!
+WARNING: Potential paralogs detected for 0 genes!HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/uricchio/Dendro1-4_S63_L002_R1_001_val_1.fq /global/scratch/uricchio/Dendro1-4_S63_L002_R2_001_val_2.fq -b data/xenTro.new.fa --prefix /global/scratch/uricchio/t56d10k35/Dendro1-4 --thresh 56 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in xenTro.new.fa
+time cat /global/scratch/uricchio/Dendro1-4_S63_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db xenTro.new.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro1-4.blastx 
+time cat /global/scratch/uricchio/Dendro1-4_S63_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db xenTro.new.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro1-4.blastx 
+READFILES:
+
+['/global/scratch/uricchio/Dendro1-4_S63_L002_R1_001_val_1.fq', '/global/scratch/uricchio/Dendro1-4_S63_L002_R2_001_val_2.fq']
+['SCN2A', 'SCN8A', 'SCN5A', 'SCN4A', 'SCN3A', 'SCN1A']
+['genes_with_paralog_warnings.txt', 'SCN2A', 'xenTro.new.fa', 'SCN8A', 'spades_genelist.txt', 'SCN5A', 'xenTro.new.fa.psq', 'xenTro.new.fa.phr', 'SCN4A', 'bait_tallies.txt', 'genes_with_seqs.txt', 'xenTro.new.fa.pin', 'SCN3A', 'SCN1A', 'Dendro1-4.blastx', 'spades.log', 'exonerate_genelist.txt']
+Running Exonerate to generate sequences for 6 genes
+time parallel --eta python /global/home/users/uricchio/software/HybPiper-master/exonerate_hits.py {}/{}_baits.fasta {}/{}_contigs.fasta --prefix {}/Dendro1-4 -t 56 --depth_multiplier 10 --length_pct 90 :::: exonerate_genelist.txt > genes_with_seqs.txt
+
+
+Building a new DB, current time: 05/05/2021 15:29:29
+New DB name:   /global/scratch/uricchio/t56d10k35/Dendro2-8/xenTro.new.fa
+New DB title:  xenTro.new.fa
+Sequence type: Protein
+Deleted existing Protein BLAST database named /global/scratch/uricchio/t56d10k35/Dendro2-8/xenTro.new.fa
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00359106 seconds.
+
+real	6m23.067s
+user	122m55.361s
+sys	1m51.870s
+
+real	6m23.985s
+user	123m7.125s
+sys	1m52.923s
+Unique reads with hits IN MODIFIED VERSION: 12080
+
+real	0m33.167s
+user	0m22.264s
+sys	0m4.024s
+[DISTRIBUTE]: 0 proteins had no good matches.
+
+real	0m1.565s
+user	0m0.713s
+sys	0m0.073s
+
+Computers / CPU cores / Max jobs to run
+1:local / 20 / 6
+
+Computer:jobs running/jobs completed/%of started jobs/Average seconds to complete
+ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/10.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/10.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/10.0s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/5.0s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/5.0s ETA: 2s Left: 4 AVG: 0.50s  local:4/2/100%/5.5s ETA: 2s Left: 4 AVG: 0.50s  local:4/2/100%/5.5s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/3.7s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/3.7s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/3.7s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/3.7s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/2.8s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/2.8s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/2.8s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/2.2s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/2.2s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/2.2s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/2.2s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/2.2s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/2.2s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/2.2s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/2.4s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/2.4s ETA: 0s Left: 0 AVG: 0.33s  local:0/6/100%/2.0s ETA: 0s Left: 0 AVG: 0.33s  local:0/6/100%/2.0s 
+
+real	0m11.952s
+user	0m36.410s
+sys	0m6.349s
+Running SPAdes on 6 genes
+time parallel --eta spades.py --only-assembler --threads 1 --cov-cutoff 8 -k 35,75,95 --12 {}/{}_interleaved.fasta -o {}/{}_spades :::: spades_genelist.txt > spades.log
+
+Computers / CPU cores / Max jobs to run
+1:local / 20 / 6
+
+Computer:jobs running/jobs completed/%of started jobs/Average seconds to complete
+ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s There were 18 exonerate hits for SCN2A/SCN2A_baits.fasta.
+xenTro-SCN2AWriting amino acid sequence, length: 854
+ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/5.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/5.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/5.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/5.0s ETA: 5s Left: 5 AVG: 1.00s  local:5/1/100%/6.0s There were 26 exonerate hits for SCN4A/SCN4A_baits.fasta.
+xenTro-SCN4AWriting amino acid sequence, length: 1533
+ETA: 3s Left: 4 AVG: 0.50s  local:4/2/100%/3.0s ETA: 2s Left: 4 AVG: 0.50s  local:4/2/100%/3.0s ETA: 2s Left: 4 AVG: 0.50s  local:4/2/100%/3.0s There were 23 exonerate hits for SCN5A/SCN5A_baits.fasta.
+xenTro-SCN5AWriting amino acid sequence, length: 1359
+ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/2.0s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/2.0s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/2.0s There were 25 exonerate hits for SCN8A/SCN8A_baits.fasta.
+xenTro-SCN8AWriting amino acid sequence, length: 1840
+ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/1.5s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/1.5s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/1.5s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/1.5s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/1.5s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/1.5s There were 42 exonerate hits for SCN1A/SCN1A_baits.fasta.
+xenTro-SCN1AWriting amino acid sequence, length: 1746
+ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.2s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.2s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.2s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.2s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.2s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.2s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.2s There were 47 exonerate hits for SCN3A/SCN3A_baits.fasta.
+xenTro-SCN3AWriting amino acid sequence, length: 1856
+ETA: 0s Left: 0 AVG: 0.17s  local:0/6/100%/1.0s ETA: 0s Left: 0 AVG: 0.17s  local:0/6/100%/1.0s 
+
+real	0m6.366s
+user	0m7.773s
+sys	0m0.887s
+Generated sequences from 6 genes!
+WARNING: Potential paralogs detected for 0 genes!HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/uricchio/Dendro2-8_S72_L002_R1_001_val_1.fq /global/scratch/uricchio/Dendro2-8_S72_L002_R2_001_val_2.fq -b data/xenTro.new.fa --prefix /global/scratch/uricchio/t56d10k35/Dendro2-8 --thresh 56 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in xenTro.new.fa
+time cat /global/scratch/uricchio/Dendro2-8_S72_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db xenTro.new.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro2-8.blastx 
+time cat /global/scratch/uricchio/Dendro2-8_S72_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db xenTro.new.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro2-8.blastx 
+READFILES:
+
+['/global/scratch/uricchio/Dendro2-8_S72_L002_R1_001_val_1.fq', '/global/scratch/uricchio/Dendro2-8_S72_L002_R2_001_val_2.fq']
+['SCN2A', 'SCN8A', 'SCN5A', 'SCN4A', 'SCN3A', 'SCN1A']
+['genes_with_paralog_warnings.txt', 'SCN2A', 'xenTro.new.fa', 'SCN8A', 'spades_genelist.txt', 'SCN5A', 'xenTro.new.fa.psq', 'xenTro.new.fa.phr', 'SCN4A', 'bait_tallies.txt', 'genes_with_seqs.txt', 'xenTro.new.fa.pin', 'SCN3A', 'Dendro2-8.blastx', 'SCN1A', 'spades.log', 'exonerate_genelist.txt']
+Running Exonerate to generate sequences for 6 genes
+time parallel --eta python /global/home/users/uricchio/software/HybPiper-master/exonerate_hits.py {}/{}_baits.fasta {}/{}_contigs.fasta --prefix {}/Dendro2-8 -t 56 --depth_multiplier 10 --length_pct 90 :::: exonerate_genelist.txt > genes_with_seqs.txt
+
+
+Building a new DB, current time: 05/05/2021 15:43:11
+New DB name:   /global/scratch/uricchio/t56d10k35/Epi-8/xenTro.new.fa
+New DB title:  xenTro.new.fa
+Sequence type: Protein
+Deleted existing Protein BLAST database named /global/scratch/uricchio/t56d10k35/Epi-8/xenTro.new.fa
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00416517 seconds.
+
+real	7m10.255s
+user	138m12.355s
+sys	1m59.769s
+
+real	7m11.391s
+user	138m41.238s
+sys	2m4.112s
+Unique reads with hits IN MODIFIED VERSION: 33639
+
+real	0m57.485s
+user	0m28.019s
+sys	0m10.358s
+[DISTRIBUTE]: 0 proteins had no good matches.
+
+real	0m1.959s
+user	0m1.078s
+sys	0m0.081s
+
+Computers / CPU cores / Max jobs to run
+1:local / 20 / 6
+
+Computer:jobs running/jobs completed/%of started jobs/Average seconds to complete
+ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/12.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/12.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/12.0s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/6.0s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/6.0s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/6.0s ETA: 2s Left: 4 AVG: 0.50s  local:4/2/100%/6.5s ETA: 2s Left: 4 AVG: 0.50s  local:4/2/100%/6.5s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/4.3s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/4.3s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/4.3s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/4.3s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/4.3s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/3.2s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/3.2s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/3.2s ETA: 0s Left: 2 AVG: 0.50s  local:2/4/100%/3.5s ETA: 0s Left: 2 AVG: 0.50s  local:2/4/100%/3.5s ETA: 0s Left: 2 AVG: 0.50s  local:2/4/100%/3.5s ETA: 0s Left: 2 AVG: 0.50s  local:2/4/100%/3.5s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/2.8s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/2.8s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/2.8s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/2.8s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/2.8s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/2.8s ETA: 0s Left: 1 AVG: 0.60s  local:1/5/100%/3.0s ETA: 0s Left: 1 AVG: 0.60s  local:1/5/100%/3.0s ETA: 0s Left: 1 AVG: 0.60s  local:1/5/100%/3.0s ETA: 0s Left: 1 AVG: 0.60s  local:1/5/100%/3.0s ETA: 0s Left: 1 AVG: 0.60s  local:1/5/100%/3.0s ETA: 0s Left: 1 AVG: 0.80s  local:1/5/100%/3.2s ETA: 0s Left: 1 AVG: 0.80s  local:1/5/100%/3.2s ETA: 0s Left: 1 AVG: 0.80s  local:1/5/100%/3.2s ETA: 0s Left: 0 AVG: 0.67s  local:0/6/100%/2.7s ETA: 0s Left: 0 AVG: 0.67s  local:0/6/100%/2.7s 
+
+real	0m16.400s
+user	0m52.906s
+sys	0m6.962s
+Running SPAdes on 6 genes
+time parallel --eta spades.py --only-assembler --threads 1 --cov-cutoff 8 -k 35,75,95 --12 {}/{}_interleaved.fasta -o {}/{}_spades :::: spades_genelist.txt > spades.log
+
+Computers / CPU cores / Max jobs to run
+1:local / 20 / 6
+
+Computer:jobs running/jobs completed/%of started jobs/Average seconds to complete
+ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s There were 29 exonerate hits for SCN2A/SCN2A_baits.fasta.
+xenTro-SCN2AWriting amino acid sequence, length: 1137
+ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/5.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/5.0s ETA: 5s Left: 5 AVG: 1.00s  local:5/1/100%/6.0s ETA: 5s Left: 5 AVG: 1.00s  local:5/1/100%/6.0s There were 30 exonerate hits for SCN4A/SCN4A_baits.fasta.
+xenTro-SCN4AWriting amino acid sequence, length: 1680
+ETA: 3s Left: 4 AVG: 0.50s  local:4/2/100%/3.0s ETA: 2s Left: 4 AVG: 0.50s  local:4/2/100%/3.0s ETA: 2s Left: 4 AVG: 0.50s  local:4/2/100%/3.0s There were 35 exonerate hits for SCN5A/SCN5A_baits.fasta.
+xenTro-SCN5AWriting amino acid sequence, length: 1421
+ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/2.0s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/2.0s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/2.0s There were 34 exonerate hits for SCN8A/SCN8A_baits.fasta.
+xenTro-SCN8AWriting amino acid sequence, length: 1928
+ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/1.5s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/1.5s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/1.5s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/1.5s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/1.5s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/1.5s There were 49 exonerate hits for SCN1A/SCN1A_baits.fasta.
+xenTro-SCN1AWriting amino acid sequence, length: 1850
+ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.2s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.2s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.2s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.2s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.2s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.2s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.2s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.2s There were 68 exonerate hits for SCN3A/SCN3A_baits.fasta.
+xenTro-SCN3AWriting amino acid sequence, length: 1934
+ETA: 0s Left: 0 AVG: 0.17s  local:0/6/100%/1.0s ETA: 0s Left: 0 AVG: 0.17s  local:0/6/100%/1.0s 
+
+real	0m6.235s
+user	0m8.267s
+sys	0m0.892s
+Generated sequences from 6 genes!
+WARNING: Potential paralogs detected for 0 genes!HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/uricchio/Epi-8_S57_L002_R1_001_val_1.fq /global/scratch/uricchio/Epi-8_S57_L002_R2_001_val_2.fq -b data/xenTro.new.fa --prefix /global/scratch/uricchio/t56d10k35/Epi-8 --thresh 56 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in xenTro.new.fa
+time cat /global/scratch/uricchio/Epi-8_S57_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db xenTro.new.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Epi-8.blastx 
+time cat /global/scratch/uricchio/Epi-8_S57_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db xenTro.new.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Epi-8.blastx 
+READFILES:
+
+['/global/scratch/uricchio/Epi-8_S57_L002_R1_001_val_1.fq', '/global/scratch/uricchio/Epi-8_S57_L002_R2_001_val_2.fq']
+['SCN2A', 'SCN8A', 'SCN5A', 'SCN4A', 'SCN3A', 'SCN1A']
+['genes_with_paralog_warnings.txt', 'SCN2A', 'xenTro.new.fa', 'SCN8A', 'Epi-8.blastx', 'spades_genelist.txt', 'SCN5A', 'xenTro.new.fa.psq', 'xenTro.new.fa.phr', 'SCN4A', 'bait_tallies.txt', 'genes_with_seqs.txt', 'xenTro.new.fa.pin', 'SCN3A', 'SCN1A', 'spades.log', 'exonerate_genelist.txt']
+Running Exonerate to generate sequences for 6 genes
+time parallel --eta python /global/home/users/uricchio/software/HybPiper-master/exonerate_hits.py {}/{}_baits.fasta {}/{}_contigs.fasta --prefix {}/Epi-8 -t 56 --depth_multiplier 10 --length_pct 90 :::: exonerate_genelist.txt > genes_with_seqs.txt
+
+
+Building a new DB, current time: 05/05/2021 15:58:56
+New DB name:   /global/scratch/uricchio/t56d10k35/Hylox2-2/xenTro.new.fa
+New DB title:  xenTro.new.fa
+Sequence type: Protein
+Deleted existing Protein BLAST database named /global/scratch/uricchio/t56d10k35/Hylox2-2/xenTro.new.fa
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00411296 seconds.
+
+real	4m44.175s
+user	90m35.392s
+sys	1m23.756s
+
+real	4m43.459s
+user	90m39.050s
+sys	1m24.920s
+Unique reads with hits IN MODIFIED VERSION: 16395
+
+real	0m28.623s
+user	0m16.578s
+sys	0m4.403s
+[DISTRIBUTE]: 0 proteins had no good matches.
+
+real	0m1.939s
+user	0m0.809s
+sys	0m0.063s
+
+Computers / CPU cores / Max jobs to run
+1:local / 20 / 6
+
+Computer:jobs running/jobs completed/%of started jobs/Average seconds to complete
+ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/12.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/12.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/12.0s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/6.0s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/6.0s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/6.0s ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/4.0s ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/4.0s ETA: 0s Left: 3 AVG: 0.00s  local:3/3/100%/4.0s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/4.3s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/4.3s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/3.2s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/3.2s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/3.2s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/3.2s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/3.2s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/3.2s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/3.2s ETA: 0s Left: 2 AVG: 0.50s  local:2/4/100%/3.5s ETA: 0s Left: 2 AVG: 0.50s  local:2/4/100%/3.5s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/2.8s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/2.8s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/2.8s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/2.8s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/2.8s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/2.8s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/2.8s ETA: 0s Left: 1 AVG: 0.40s  local:1/5/100%/2.8s ETA: 0s Left: 1 AVG: 0.60s  local:1/5/100%/3.0s ETA: 0s Left: 1 AVG: 0.60s  local:1/5/100%/3.0s ETA: 0s Left: 1 AVG: 0.60s  local:1/5/100%/3.0s ETA: 0s Left: 1 AVG: 0.60s  local:1/5/100%/3.0s ETA: 0s Left: 1 AVG: 0.80s  local:1/5/100%/3.2s ETA: 0s Left: 1 AVG: 0.80s  local:1/5/100%/3.2s ETA: 0s Left: 1 AVG: 0.80s  local:1/5/100%/3.2s ETA: 0s Left: 1 AVG: 1.00s  local:1/5/100%/3.4s ETA: 0s Left: 0 AVG: 0.83s  local:0/6/100%/2.8s ETA: 0s Left: 0 AVG: 0.83s  local:0/6/100%/2.8s 
+
+real	0m16.364s
+user	0m43.942s
+sys	0m6.579s
+Running SPAdes on 6 genes
+time parallel --eta spades.py --only-assembler --threads 1 --cov-cutoff 8 -k 35,75,95 --12 {}/{}_interleaved.fasta -o {}/{}_spades :::: spades_genelist.txt > spades.log
+
+Computers / CPU cores / Max jobs to run
+1:local / 20 / 6
+
+Computer:jobs running/jobs completed/%of started jobs/Average seconds to complete
+ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s ETA: 0s Left: 6 AVG: 0.00s  local:6/0/100%/0.0s There were 24 exonerate hits for SCN5A/SCN5A_baits.fasta.
+xenTro-SCN5AWriting amino acid sequence, length: 1307
+ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/4.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/4.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/4.0s ETA: 0s Left: 5 AVG: 0.00s  local:5/1/100%/4.0s There were 20 exonerate hits for SCN2A/SCN2A_baits.fasta.
+xenTro-SCN2AWriting amino acid sequence, length: 984
+ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/2.0s ETA: 0s Left: 4 AVG: 0.00s  local:4/2/100%/2.0s ETA: 2s Left: 4 AVG: 0.50s  local:4/2/100%/2.5s There were 29 exonerate hits for SCN4A/SCN4A_baits.fasta.
+xenTro-SCN4AWriting amino acid sequence, length: 1625
+ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/1.7s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/1.7s ETA: 1s Left: 3 AVG: 0.33s  local:3/3/100%/1.7s There were 31 exonerate hits for SCN8A/SCN8A_baits.fasta.
+xenTro-SCN8AWriting amino acid sequence, length: 1911
+ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/1.2s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/1.2s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/1.2s ETA: 0s Left: 2 AVG: 0.25s  local:2/4/100%/1.2s There were 40 exonerate hits for SCN1A/SCN1A_baits.fasta.
+xenTro-SCN1AWriting amino acid sequence, length: 1833
+ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.0s ETA: 0s Left: 1 AVG: 0.20s  local:1/5/100%/1.0s There were 52 exonerate hits for SCN3A/SCN3A_baits.fasta.
+xenTro-SCN3AWriting amino acid sequence, length: 1830
+ETA: 0s Left: 0 AVG: 0.17s  local:0/6/100%/0.8s ETA: 0s Left: 0 AVG: 0.17s  local:0/6/100%/0.8s 
+
+real	0m5.035s
+user	0m7.592s
+sys	0m0.860s
+Generated sequences from 6 genes!
+WARNING: Potential paralogs detected for 0 genes!HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/uricchio/Hylox2-2_S16_L001_R1_001_val_1.fq /global/scratch/uricchio/Hylox2-2_S16_L001_R2_001_val_2.fq -b data/xenTro.new.fa --prefix /global/scratch/uricchio/t56d10k35/Hylox2-2 --thresh 56 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in xenTro.new.fa
+time cat /global/scratch/uricchio/Hylox2-2_S16_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db xenTro.new.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Hylox2-2.blastx 
+time cat /global/scratch/uricchio/Hylox2-2_S16_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db xenTro.new.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Hylox2-2.blastx 
+READFILES:
+
+['/global/scratch/uricchio/Hylox2-2_S16_L001_R1_001_val_1.fq', '/global/scratch/uricchio/Hylox2-2_S16_L001_R2_001_val_2.fq']
+['SCN2A', 'SCN8A', 'SCN5A', 'SCN4A', 'SCN3A', 'SCN1A']
+['Hylox2-2.blastx', 'genes_with_paralog_warnings.txt', 'SCN2A', 'xenTro.new.fa', 'SCN8A', 'spades_genelist.txt', 'SCN5A', 'xenTro.new.fa.psq', 'xenTro.new.fa.phr', 'SCN4A', 'bait_tallies.txt', 'genes_with_seqs.txt', 'xenTro.new.fa.pin', 'SCN3A', 'SCN1A', 'spades.log', 'exonerate_genelist.txt']
+Running Exonerate to generate sequences for 6 genes
+time parallel --eta python /global/home/users/uricchio/software/HybPiper-master/exonerate_hits.py {}/{}_baits.fasta {}/{}_contigs.fasta --prefix {}/Hylox2-2 -t 56 --depth_multiplier 10 --length_pct 90 :::: exonerate_genelist.txt > genes_with_seqs.txt
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN4A.FAA -t sequences/intron/SCN4A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+20 introns found for SCN4A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN8A.FAA -t sequences/intron/SCN8A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+22 introns found for SCN8A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN1A.FAA -t sequences/intron/SCN1A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+20 introns found for SCN1A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN5A.FAA -t sequences/intron/SCN5A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+16 introns found for SCN5A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN2A.FAA -t sequences/intron/SCN2A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+16 introns found for SCN2A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN3A.FAA -t sequences/intron/SCN3A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+22 introns found for SCN3A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN5A.FAA -t sequences/intron/SCN5A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+19 introns found for SCN5A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN4A.FAA -t sequences/intron/SCN4A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+19 introns found for SCN4A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN2A.FAA -t sequences/intron/SCN2A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+17 introns found for SCN2A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN8A.FAA -t sequences/intron/SCN8A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+21 introns found for SCN8A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN3A.FAA -t sequences/intron/SCN3A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+21 introns found for SCN3A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN1A.FAA -t sequences/intron/SCN1A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+20 introns found for SCN1A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN5A.FAA -t sequences/intron/SCN5A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+18 introns found for SCN5A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN2A.FAA -t sequences/intron/SCN2A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+19 introns found for SCN2A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN3A.FAA -t sequences/intron/SCN3A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+23 introns found for SCN3A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN8A.FAA -t sequences/intron/SCN8A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+19 introns found for SCN8A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN4A.FAA -t sequences/intron/SCN4A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+17 introns found for SCN4A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN1A.FAA -t sequences/intron/SCN1A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+21 introns found for SCN1A.
+Searching for hit with score 2 times better
+
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN5A.FAA -t sequences/intron/SCN5A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+16 introns found for SCN5A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN2A.FAA -t sequences/intron/SCN2A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+16 introns found for SCN2A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN4A.FAA -t sequences/intron/SCN4A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+22 introns found for SCN4A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN3A.FAA -t sequences/intron/SCN3A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+23 introns found for SCN3A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN8A.FAA -t sequences/intron/SCN8A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+22 introns found for SCN8A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN1A.FAA -t sequences/intron/SCN1A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+21 introns found for SCN1A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN5A.FAA -t sequences/intron/SCN5A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+18 introns found for SCN5A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN3A.FAA -t sequences/intron/SCN3A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+23 introns found for SCN3A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN1A.FAA -t sequences/intron/SCN1A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+19 introns found for SCN1A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN4A.FAA -t sequences/intron/SCN4A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+19 introns found for SCN4A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN2A.FAA -t sequences/intron/SCN2A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+16 introns found for SCN2A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN8A.FAA -t sequences/intron/SCN8A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+21 introns found for SCN8A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN2A.FAA -t sequences/intron/SCN2A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+14 introns found for SCN2A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN8A.FAA -t sequences/intron/SCN8A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+20 introns found for SCN8A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN4A.FAA -t sequences/intron/SCN4A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+19 introns found for SCN4A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN5A.FAA -t sequences/intron/SCN5A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+18 introns found for SCN5A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN1A.FAA -t sequences/intron/SCN1A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+20 introns found for SCN1A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN3A.FAA -t sequences/intron/SCN3A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+21 introns found for SCN3A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN8A.FAA -t sequences/intron/SCN8A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+19 introns found for SCN8A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN5A.FAA -t sequences/intron/SCN5A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+18 introns found for SCN5A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN4A.FAA -t sequences/intron/SCN4A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+20 introns found for SCN4A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN2A.FAA -t sequences/intron/SCN2A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+17 introns found for SCN2A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN1A.FAA -t sequences/intron/SCN1A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+21 introns found for SCN1A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN3A.FAA -t sequences/intron/SCN3A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+19 introns found for SCN3A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN4A.FAA -t sequences/intron/SCN4A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+19 introns found for SCN4A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN8A.FAA -t sequences/intron/SCN8A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+9 introns found for SCN8A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN2A.FAA -t sequences/intron/SCN2A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+16 introns found for SCN2A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN5A.FAA -t sequences/intron/SCN5A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+11 introns found for SCN5A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN1A.FAA -t sequences/intron/SCN1A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+18 introns found for SCN1A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN3A.FAA -t sequences/intron/SCN3A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+22 introns found for SCN3A.
+Searching for hit with score 2 times better
+
+No top score found
+Using longest hit for Dendro2-8-SCN8A
+
+Searching for hit with score 2 times better
+
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN5A.FAA -t sequences/intron/SCN5A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+18 introns found for SCN5A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN3A.FAA -t sequences/intron/SCN3A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+11 introns found for SCN3A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN2A.FAA -t sequences/intron/SCN2A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+18 introns found for SCN2A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN4A.FAA -t sequences/intron/SCN4A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+21 introns found for SCN4A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN8A.FAA -t sequences/intron/SCN8A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+21 introns found for SCN8A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN1A.FAA -t sequences/intron/SCN1A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+8 introns found for SCN1A.
+Searching for hit with score 2 times better
+
+No top score found
+Using longest hit for Epi-8-SCN3A
+
+Searching for hit with score 2 times better
+
+No top score found
+Using longest hit for Epi-8-SCN1A
+
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN5A.FAA -t sequences/intron/SCN5A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+21 introns found for SCN5A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN3A.FAA -t sequences/intron/SCN3A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+22 introns found for SCN3A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN4A.FAA -t sequences/intron/SCN4A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+21 introns found for SCN4A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN2A.FAA -t sequences/intron/SCN2A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+17 introns found for SCN2A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN1A.FAA -t sequences/intron/SCN1A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+21 introns found for SCN1A.
+[CMD] exonerate -m protein2genome -q sequences/FAA/SCN8A.FAA -t sequences/intron/SCN8A_supercontig.fasta --verbose 0 --showalignment no --showvulgar no --showtargetgff yes > intronerate_raw.gff
+20 introns found for SCN8A.
+sh: scripts/make_SCN_fastas.sh: No such file or directory
+sh: scripts/make_SCN_fastas_DNA.sh: No such file or directory
+~/software/HybPiper-master/HPwrap/run_tests.sh 56 35 /global/scratch/uricchio 75 95 data/xenTro.new.fa data/namelistUnique.subset.txt data/namelistScratch.subset.txt ~/software/HybPiper-master/ 1e-10 0
+Traceback (most recent call last):
+  File "scripts/assemb.py", line 17, in <module>
+    obj3.makeGeneFastas()
+  File "/global/home/users/uricchio/.local/lib/python3.7/site-packages/HPwrap/HPtools.py", line 191, in makeGeneFastas
+    fh = open(os.path.join(self.scratchLoc,'t'+self.t+'d'+self.d+'k'+self.k,gene+'.'+'t'+self.t+'d'+self.d+'k'+self.k+'.DNA.fa'),'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/global/scratch/uricchio/t56d10k35/SCN1A.t56d10k35.DNA.fa'

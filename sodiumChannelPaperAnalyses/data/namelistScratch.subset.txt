@@ -1,0 +1,10 @@
+/global/scratch/uricchio/AmazonAte-1
+/global/scratch/uricchio/Ame-6
+/global/scratch/uricchio/AndesAte-6
+/global/scratch/uricchio/Aromo-7
+/global/scratch/uricchio/Brachy-7
+/global/scratch/uricchio/CentroLepto-4
+/global/scratch/uricchio/Dendro1-4
+/global/scratch/uricchio/Dendro2-8
+/global/scratch/uricchio/Epi-8
+/global/scratch/uricchio/Hylox2-2
