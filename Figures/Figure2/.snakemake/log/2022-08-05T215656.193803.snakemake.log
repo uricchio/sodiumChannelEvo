@@ -1,0 +1,7 @@
+Building DAG of jobs...
+MissingInputException in line 91 of /Users/uricchio/projects/poison/sodiumChannelPaper/Figures/Figure2/Snakefile:
+Missing input files for rule run_mafft:
+    output: ../../Data/alignments_full_assemb/align_SCN1A.DNA.trimmed.manual.spec/SCN1A.DNA.trimmed.manual.spec.t68d10k45.all.renamed.fa.mafft
+    wildcards: sample=SCN1A.DNA.trimmed.manual.spec
+    affected files:
+        ../../Data/alignments_full_assemb/align_SCN1A.DNA.trimmed.manual.spec/SCN1A.DNA.trimmed.manual.spec.spec.fa

@@ -1,0 +1,18 @@
+Building DAG of jobs...
+WorkflowError:
+WorkflowError:
+    MissingInputException: Missing input files for rule trim_bad_seqs:
+        output: plot_data/SCN8A.DNA.faplot_data/SCN1A.trimmedCol.faplot_data/SCN2A.trimmedCol.faplot_data/SCN3A.trimmedCol.faplot_data/SCN4A.trimmedCol.faplot_data/SCN5A.trimmedCol.faplot_data/SCN8A.fa
+        wildcards: sample=SCN8A.DNA.faplot_data/SCN1A.trimmedCol.faplot_data/SCN2A.trimmedCol.faplot_data/SCN3A.trimmedCol.faplot_data/SCN4A.trimmedCol.faplot_data/SCN5A.trimmedCol.faplot_data/SCN8A
+        affected files:
+            ../../Data/alignments_full_assemb/align_SCN8A.DNA.faplot_data/SCN1A.trimmedCol.faplot_data/SCN2A.trimmedCol.faplot_data/SCN3A.trimmedCol.faplot_data/SCN4A.trimmedCol.faplot_data/SCN5A.trimmedCol.faplot_data/SCN8A
+    MissingInputException: Missing input files for rule trim_bad_seqs:
+        output: plot_data/SCN8A.DNA.faplot_data/SCN1A.trimmedCol.faplot_data/SCN2A.trimmedCol.faplot_data/SCN3A.trimmedCol.faplot_data/SCN4A.trimmedCol.faplot_data/SCN5A.trimmedCol.faplot_data/SCN8A.DNA.fa
+        wildcards: sample=SCN8A.DNA.faplot_data/SCN1A.trimmedCol.faplot_data/SCN2A.trimmedCol.faplot_data/SCN3A.trimmedCol.faplot_data/SCN4A.trimmedCol.faplot_data/SCN5A.trimmedCol.faplot_data/SCN8A.DNA
+        affected files:
+            ../../Data/alignments_full_assemb/align_SCN8A.DNA.faplot_data/SCN1A.trimmedCol.faplot_data/SCN2A.trimmedCol.faplot_data/SCN3A.trimmedCol.faplot_data/SCN4A.trimmedCol.faplot_data/SCN5A.trimmedCol.faplot_data/SCN8A.DNA
+MissingInputException: Missing input files for rule trim_bad_seqs:
+    output: plot_data/SCN8A.DNA.faplot_data/SCN1A.trimmedCol.faplot_data/SCN2A.trimmedCol.faplot_data/SCN3A.trimmedCol.faplot_data/SCN4A.trimmedCol.faplot_data/SCN5A.trimmedCol.faplot_data/SCN8A.trimmedCol.fa
+    wildcards: sample=SCN8A.DNA.faplot_data/SCN1A.trimmedCol.faplot_data/SCN2A.trimmedCol.faplot_data/SCN3A.trimmedCol.faplot_data/SCN4A.trimmedCol.faplot_data/SCN5A.trimmedCol.faplot_data/SCN8A.trimmedCol
+    affected files:
+        ../../Data/alignments_full_assemb/align_SCN8A.DNA.faplot_data/SCN1A.trimmedCol.faplot_data/SCN2A.trimmedCol.faplot_data/SCN3A.trimmedCol.faplot_data/SCN4A.trimmedCol.faplot_data/SCN5A.trimmedCol.faplot_data/SCN8A.trimmedCol

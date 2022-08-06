@@ -1,0 +1,38 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                       count    min threads    max threads
+----------------------  -------  -------------  -------------
+all                           1              1              1
+get_remaining_DNA_seqs        6              1              1
+run_mafft                     6              1              1
+trim_bad_columns              5              1              1
+trim_bad_seqs                 6              1              1
+total                        24              1              1
+
+Select jobs to execute...
+
+[Tue Jul 26 13:54:30 2022]
+rule run_mafft:
+    input: ../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.fa
+    output: ../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.mafft.fa
+    jobid: 3
+    reason: Missing output files: ../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.mafft.fa
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Tue Jul 26 13:54:34 2022]
+Error in rule run_mafft:
+    jobid: 3
+    output: ../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.mafft.fa
+    shell:
+        ../../scripts/run_mafft.sh ../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.fa -> ../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.mafft.fa
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job run_mafft since they might be corrupted:
+../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.mafft.fa
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2022-07-26T135430.590715.snakemake.log

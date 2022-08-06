@@ -1,0 +1,36 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                       count    min threads    max threads
+----------------------  -------  -------------  -------------
+all                           1              1              1
+get_remaining_DNA_seqs        6              1              1
+run_mafft                     6              1              1
+trim_bad_columns              5              1              1
+trim_bad_seqs                 6              1              1
+total                        24              1              1
+
+Select jobs to execute...
+
+[Tue Jul 26 13:44:07 2022]
+rule trim_bad_seqs:
+    input: ../../Data/alignments_full_assemb/align_SCN8A
+    output: plot_data/SCN8A.fa
+    jobid: 12
+    reason: Missing output files: plot_data/SCN8A.fa
+    wildcards: sample=SCN8A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Tue Jul 26 13:44:07 2022]
+Error in rule trim_bad_seqs:
+    jobid: 12
+    output: plot_data/SCN8A.fa
+    shell:
+        ./trimAl.sh ../../Data/alignments_full_assemb/align_SCN8A SCN8A
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2022-07-26T134407.104974.snakemake.log

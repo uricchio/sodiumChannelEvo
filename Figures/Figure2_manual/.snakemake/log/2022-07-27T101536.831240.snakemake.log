@@ -1,0 +1,94 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job               count    min threads    max threads
+--------------  -------  -------------  -------------
+all                   1              1              1
+makeHyphyInput        5              1              1
+total                 6              1              1
+
+Select jobs to execute...
+
+[Wed Jul 27 10:15:37 2022]
+rule makeHyphyInput:
+    input: plot_data/SCN3A.DNA.trimmed.fa.raxml.bestTree, plot_data/SCN3A.DNA.trimmed.fa
+    output: plot_data/SCN3A.DNA.trimmed.wTree.fa
+    jobid: 41
+    reason: Missing output files: plot_data/SCN3A.DNA.trimmed.wTree.fa
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Wed Jul 27 10:15:37 2022]
+Finished job 41.
+1 of 6 steps (17%) done
+Select jobs to execute...
+
+[Wed Jul 27 10:15:37 2022]
+rule makeHyphyInput:
+    input: plot_data/SCN8A.DNA.trimmed.fa.raxml.bestTree, plot_data/SCN8A.DNA.trimmed.fa
+    output: plot_data/SCN8A.DNA.trimmed.wTree.fa
+    jobid: 44
+    reason: Missing output files: plot_data/SCN8A.DNA.trimmed.wTree.fa
+    wildcards: sample=SCN8A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Wed Jul 27 10:15:37 2022]
+Finished job 44.
+2 of 6 steps (33%) done
+Select jobs to execute...
+
+[Wed Jul 27 10:15:37 2022]
+rule makeHyphyInput:
+    input: plot_data/SCN5A.DNA.trimmed.fa.raxml.bestTree, plot_data/SCN5A.DNA.trimmed.fa
+    output: plot_data/SCN5A.DNA.trimmed.wTree.fa
+    jobid: 43
+    reason: Missing output files: plot_data/SCN5A.DNA.trimmed.wTree.fa
+    wildcards: sample=SCN5A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Wed Jul 27 10:15:37 2022]
+Finished job 43.
+3 of 6 steps (50%) done
+Select jobs to execute...
+
+[Wed Jul 27 10:15:37 2022]
+rule makeHyphyInput:
+    input: plot_data/SCN4A.DNA.trimmed.fa.raxml.bestTree, plot_data/SCN4A.DNA.trimmed.fa
+    output: plot_data/SCN4A.DNA.trimmed.wTree.fa
+    jobid: 42
+    reason: Missing output files: plot_data/SCN4A.DNA.trimmed.wTree.fa
+    wildcards: sample=SCN4A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Wed Jul 27 10:15:37 2022]
+Finished job 42.
+4 of 6 steps (67%) done
+Select jobs to execute...
+
+[Wed Jul 27 10:15:37 2022]
+rule makeHyphyInput:
+    input: plot_data/SCN1A.DNA.trimmed.fa.raxml.bestTree, plot_data/SCN1A.DNA.trimmed.fa
+    output: plot_data/SCN1A.DNA.trimmed.wTree.fa
+    jobid: 40
+    reason: Missing output files: plot_data/SCN1A.DNA.trimmed.wTree.fa
+    wildcards: sample=SCN1A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Wed Jul 27 10:15:37 2022]
+Finished job 40.
+5 of 6 steps (83%) done
+Select jobs to execute...
+
+[Wed Jul 27 10:15:37 2022]
+localrule all:
+    input: ../../Data/alignments_full_assemb/align_SCN1A/SCN1A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN2A/SCN2A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN4A/SCN4A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN5A/SCN5A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN8A/SCN8A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN1A/SCN1A.t68d10k45.all.renamed.fa.mafft.noStars, ../../Data/alignments_full_assemb/align_SCN2A/SCN2A.t68d10k45.all.renamed.fa.mafft.noStars, ../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.fa.mafft.noStars, ../../Data/alignments_full_assemb/align_SCN4A/SCN4A.t68d10k45.all.renamed.fa.mafft.noStars, ../../Data/alignments_full_assemb/align_SCN5A/SCN5A.t68d10k45.all.renamed.fa.mafft.noStars, ../../Data/alignments_full_assemb/align_SCN8A/SCN8A.t68d10k45.all.renamed.fa.mafft.noStars, plot_data/SCN1A.fa, plot_data/SCN2A.fa, plot_data/SCN3A.fa, plot_data/SCN4A.fa, plot_data/SCN5A.fa, plot_data/SCN8A.fa, plot_data/SCN1A.DNA.fa, plot_data/SCN2A.DNA.fa, plot_data/SCN3A.DNA.fa, plot_data/SCN4A.DNA.fa, plot_data/SCN5A.DNA.fa, plot_data/SCN8A.DNA.fa, plot_data/SCN1A.columns, plot_data/SCN3A.columns, plot_data/SCN4A.columns, plot_data/SCN5A.columns, plot_data/SCN8A.columns, plot_data/SCN1A.DNA.trimmed.fa, plot_data/SCN3A.DNA.trimmed.fa, plot_data/SCN4A.DNA.trimmed.fa, plot_data/SCN5A.DNA.trimmed.fa, plot_data/SCN8A.DNA.trimmed.fa, plot_data/SCN1A.DNA.trimmed.fa.raxml.bestTree, plot_data/SCN3A.DNA.trimmed.fa.raxml.bestTree, plot_data/SCN4A.DNA.trimmed.fa.raxml.bestTree, plot_data/SCN5A.DNA.trimmed.fa.raxml.bestTree, plot_data/SCN8A.DNA.trimmed.fa.raxml.bestTree, plot_data/SCN1A.DNA.trimmed.wTree.fa, plot_data/SCN3A.DNA.trimmed.wTree.fa, plot_data/SCN4A.DNA.trimmed.wTree.fa, plot_data/SCN5A.DNA.trimmed.wTree.fa, plot_data/SCN8A.DNA.trimmed.wTree.fa
+    jobid: 0
+    reason: Input files updated by another job: plot_data/SCN8A.DNA.trimmed.wTree.fa, plot_data/SCN4A.DNA.trimmed.wTree.fa, plot_data/SCN5A.DNA.trimmed.wTree.fa, plot_data/SCN1A.DNA.trimmed.wTree.fa, plot_data/SCN3A.DNA.trimmed.wTree.fa
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Wed Jul 27 10:15:37 2022]
+Finished job 0.
+6 of 6 steps (100%) done
+Complete log: .snakemake/log/2022-07-27T101536.831240.snakemake.log

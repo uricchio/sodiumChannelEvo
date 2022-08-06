@@ -1,0 +1,12 @@
+Building DAG of jobs...
+AmbiguousRuleException:
+Rules trim_bad_columns and trim_bad_seqs are ambiguous for the file plot_data/SCN1A.columns.
+Consider starting rule output with a unique prefix, constrain your wildcards, or use the ruleorder directive.
+Wildcards:
+	trim_bad_columns: sample=SCN1A
+	trim_bad_seqs: sample=SCN1A
+Expected input files:
+	trim_bad_columns: ../../Data/alignments_full_assemb/align_SCN1A/SCN1A.t68d10k45.all.renamed.fa.mafft.noStars
+	trim_bad_seqs: ../../Data/alignments_full_assemb/align_SCN1A/SCN1A.t68d10k45.all.renamed.fa.mafft.noStarsExpected output files:
+	trim_bad_columns: plot_data/SCN1A.columns
+	trim_bad_seqs: plot_data/SCN1A.fa plot_data/SCN1A.columns

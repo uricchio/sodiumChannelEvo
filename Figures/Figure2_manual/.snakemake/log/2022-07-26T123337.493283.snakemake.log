@@ -1,0 +1,24 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count    min threads    max threads
+----------------  -------  -------------  -------------
+all                     1              1              1
+trim_bad_columns        6              1              1
+total                   7              1              1
+
+Select jobs to execute...
+
+[Tue Jul 26 12:33:37 2022]
+rule trim_bad_columns:
+    input: plot_data/SCN4A.DNA.fa
+    output: plot_data/SCN4A.trimmedCol.fa
+    jobid: 16
+    reason: Missing output files: plot_data/SCN4A.trimmedCol.fa
+    wildcards: sample=SCN4A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+RuleException in line 41 of /Users/uricchio/projects/poison/sodiumChannelPaper/Figures/Figure2/Snakefile:
+NameError: The name 'wlidcards' is unknown in this context. Please make sure that you defined that variable. Also note that braces not used for variable access have to be escaped by repeating them, i.e. {{print $1}}

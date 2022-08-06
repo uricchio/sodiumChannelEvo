@@ -1,0 +1,24 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job               count    min threads    max threads
+--------------  -------  -------------  -------------
+all                   1              1              1
+makeHyphyInput        5              1              1
+total                 6              1              1
+
+Select jobs to execute...
+
+[Wed Jul 27 10:10:08 2022]
+rule makeHyphyInput:
+    input: plot_data/SCN3A.DNA.trimmed.fa.raxml.bestTree, plot_data/SCN3A.DNA.trimmed.fa
+    output: plot_data/SCN3A.DNA.trimmed.wTree.fa
+    jobid: 41
+    reason: Missing output files: plot_data/SCN3A.DNA.trimmed.wTree.fa
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+RuleException in line 110 of /Users/uricchio/projects/poison/sodiumChannelPaper/Figures/Figure2/Snakefile:
+NameError: The name 'sample' is unknown in this context. Did you mean 'wildcards.sample'?

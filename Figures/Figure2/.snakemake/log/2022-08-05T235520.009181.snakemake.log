@@ -1,0 +1,140 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job                            count    min threads    max threads
+---------------------------  -------  -------------  -------------
+all                                1              1              1
+makeDNAManualfromPROTManual        5              1              1
+makeHyphyInput                     4              1              1
+makeHyphyInputMan                  5              1              1
+makeTree                           4              1              1
+makeTreeMan                        5              1              1
+runMeme                            5              1              1
+runMemeMan                         5              1              1
+total                             34              1              1
+
+Select jobs to execute...
+
+[Fri Aug  5 23:55:20 2022]
+rule makeTree:
+    input: plot_data/SCN4A.DNA.trimmed.fa
+    output: plot_data/SCN4A.DNA.trimmed.fa.raxml.bestTree
+    jobid: 37
+    reason: Missing output files: plot_data/SCN4A.DNA.trimmed.fa.raxml.bestTree
+    wildcards: sample=SCN4A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Fri Aug  5 23:55:20 2022]
+rule makeTree:
+    input: plot_data/SCN8A.DNA.trimmed.fa
+    output: plot_data/SCN8A.DNA.trimmed.fa.raxml.bestTree
+    jobid: 39
+    reason: Missing output files: plot_data/SCN8A.DNA.trimmed.fa.raxml.bestTree
+    wildcards: sample=SCN8A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Fri Aug  5 23:55:20 2022]
+rule makeDNAManualfromPROTManual:
+    input: plot_data/SCN3A.PROT.trimmed.manual.fa, plot_data/SCN3A.DNA.trimmed.fa
+    output: plot_data/SCN3A.DNA.trimmed.manual.fa
+    jobid: 56
+    reason: Missing output files: plot_data/SCN3A.DNA.trimmed.manual.fa
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Fri Aug  5 23:55:20 2022]
+rule runMeme:
+    input: plot_data/SCN1A.DNA.trimmed.wTree.fa
+    output: plot_data/SCN1A.DNA.trimmed.wTree.fa.MEME.json
+    jobid: 45
+    reason: Missing output files: plot_data/SCN1A.DNA.trimmed.wTree.fa.MEME.json
+    wildcards: sample=SCN1A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Fri Aug  5 23:55:20 2022]
+rule makeDNAManualfromPROTManual:
+    input: plot_data/SCN5A.PROT.trimmed.manual.fa, plot_data/SCN5A.DNA.trimmed.fa
+    output: plot_data/SCN5A.DNA.trimmed.manual.fa
+    jobid: 58
+    reason: Missing output files: plot_data/SCN5A.DNA.trimmed.manual.fa
+    wildcards: sample=SCN5A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Fri Aug  5 23:55:20 2022]
+rule makeTree:
+    input: plot_data/SCN3A.DNA.trimmed.fa
+    output: plot_data/SCN3A.DNA.trimmed.fa.raxml.bestTree
+    jobid: 36
+    reason: Missing output files: plot_data/SCN3A.DNA.trimmed.fa.raxml.bestTree
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Fri Aug  5 23:55:20 2022]
+rule makeTree:
+    input: plot_data/SCN5A.DNA.trimmed.fa
+    output: plot_data/SCN5A.DNA.trimmed.fa.raxml.bestTree
+    jobid: 38
+    reason: Missing output files: plot_data/SCN5A.DNA.trimmed.fa.raxml.bestTree
+    wildcards: sample=SCN5A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Fri Aug  5 23:55:20 2022]
+rule makeDNAManualfromPROTManual:
+    input: plot_data/SCN1A.PROT.trimmed.manual.fa, plot_data/SCN1A.DNA.trimmed.fa
+    output: plot_data/SCN1A.DNA.trimmed.manual.fa
+    jobid: 55
+    reason: Missing output files: plot_data/SCN1A.DNA.trimmed.manual.fa
+    wildcards: sample=SCN1A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Fri Aug  5 23:55:20 2022]
+Finished job 56.
+1 of 34 steps (3%) done
+Select jobs to execute...
+
+[Fri Aug  5 23:55:20 2022]
+rule makeTreeMan:
+    input: plot_data/SCN3A.DNA.trimmed.manual.fa
+    output: plot_data/SCN3A.DNA.trimmed.manual.fa.raxml.bestTree
+    jobid: 61
+    reason: Missing output files: plot_data/SCN3A.DNA.trimmed.manual.fa.raxml.bestTree; Input files updated by another job: plot_data/SCN3A.DNA.trimmed.manual.fa
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Fri Aug  5 23:55:20 2022]
+Finished job 58.
+2 of 34 steps (6%) done
+Select jobs to execute...
+
+[Fri Aug  5 23:55:20 2022]
+rule makeTreeMan:
+    input: plot_data/SCN5A.DNA.trimmed.manual.fa
+    output: plot_data/SCN5A.DNA.trimmed.manual.fa.raxml.bestTree
+    jobid: 63
+    reason: Missing output files: plot_data/SCN5A.DNA.trimmed.manual.fa.raxml.bestTree; Input files updated by another job: plot_data/SCN5A.DNA.trimmed.manual.fa
+    wildcards: sample=SCN5A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Fri Aug  5 23:55:20 2022]
+Finished job 55.
+3 of 34 steps (9%) done
+Select jobs to execute...
+
+[Fri Aug  5 23:55:21 2022]
+rule makeTreeMan:
+    input: plot_data/SCN1A.DNA.trimmed.manual.fa
+    output: plot_data/SCN1A.DNA.trimmed.manual.fa.raxml.bestTree
+    jobid: 60
+    reason: Missing output files: plot_data/SCN1A.DNA.trimmed.manual.fa.raxml.bestTree; Input files updated by another job: plot_data/SCN1A.DNA.trimmed.manual.fa
+    wildcards: sample=SCN1A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+

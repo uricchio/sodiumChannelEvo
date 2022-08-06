@@ -1,0 +1,108 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                       count    min threads    max threads
+----------------------  -------  -------------  -------------
+all                           1              1              1
+get_remaining_DNA_seqs        6              1              1
+total                         7              1              1
+
+Select jobs to execute...
+
+[Tue Jul 26 12:18:26 2022]
+rule get_remaining_DNA_seqs:
+    input: plot_data/SCN8A.fa, ../../Data/alignments_full_assemb/align_SCN8A/SCN8A.t68d10k45.DNA.renamed.fa
+    output: plot_data/SCN8A.DNA.fa
+    jobid: 12
+    reason: Missing output files: plot_data/SCN8A.DNA.fa
+    wildcards: sample=SCN8A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Tue Jul 26 12:18:26 2022]
+Finished job 12.
+1 of 7 steps (14%) done
+Select jobs to execute...
+
+[Tue Jul 26 12:18:26 2022]
+rule get_remaining_DNA_seqs:
+    input: plot_data/SCN5A.fa, ../../Data/alignments_full_assemb/align_SCN5A/SCN5A.t68d10k45.DNA.renamed.fa
+    output: plot_data/SCN5A.DNA.fa
+    jobid: 11
+    reason: Missing output files: plot_data/SCN5A.DNA.fa
+    wildcards: sample=SCN5A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Tue Jul 26 12:18:26 2022]
+Finished job 11.
+2 of 7 steps (29%) done
+Select jobs to execute...
+
+[Tue Jul 26 12:18:26 2022]
+rule get_remaining_DNA_seqs:
+    input: plot_data/SCN3A.fa, ../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.DNA.renamed.fa
+    output: plot_data/SCN3A.DNA.fa
+    jobid: 9
+    reason: Missing output files: plot_data/SCN3A.DNA.fa
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Tue Jul 26 12:18:26 2022]
+Finished job 9.
+3 of 7 steps (43%) done
+Select jobs to execute...
+
+[Tue Jul 26 12:18:26 2022]
+rule get_remaining_DNA_seqs:
+    input: plot_data/SCN2A.fa, ../../Data/alignments_full_assemb/align_SCN2A/SCN2A.t68d10k45.DNA.renamed.fa
+    output: plot_data/SCN2A.DNA.fa
+    jobid: 8
+    reason: Missing output files: plot_data/SCN2A.DNA.fa
+    wildcards: sample=SCN2A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Tue Jul 26 12:18:26 2022]
+Finished job 8.
+4 of 7 steps (57%) done
+Select jobs to execute...
+
+[Tue Jul 26 12:18:26 2022]
+rule get_remaining_DNA_seqs:
+    input: plot_data/SCN4A.fa, ../../Data/alignments_full_assemb/align_SCN4A/SCN4A.t68d10k45.DNA.renamed.fa
+    output: plot_data/SCN4A.DNA.fa
+    jobid: 10
+    reason: Missing output files: plot_data/SCN4A.DNA.fa
+    wildcards: sample=SCN4A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Tue Jul 26 12:18:26 2022]
+Finished job 10.
+5 of 7 steps (71%) done
+Select jobs to execute...
+
+[Tue Jul 26 12:18:26 2022]
+rule get_remaining_DNA_seqs:
+    input: plot_data/SCN1A.fa, ../../Data/alignments_full_assemb/align_SCN1A/SCN1A.t68d10k45.DNA.renamed.fa
+    output: plot_data/SCN1A.DNA.fa
+    jobid: 7
+    reason: Missing output files: plot_data/SCN1A.DNA.fa
+    wildcards: sample=SCN1A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Tue Jul 26 12:18:26 2022]
+Finished job 7.
+6 of 7 steps (86%) done
+Select jobs to execute...
+
+[Tue Jul 26 12:18:26 2022]
+localrule all:
+    input: plot_data/SCN1A.fa, plot_data/SCN2A.fa, plot_data/SCN3A.fa, plot_data/SCN4A.fa, plot_data/SCN5A.fa, plot_data/SCN8A.fa, plot_data/SCN1A.DNA.fa, plot_data/SCN2A.DNA.fa, plot_data/SCN3A.DNA.fa, plot_data/SCN4A.DNA.fa, plot_data/SCN5A.DNA.fa, plot_data/SCN8A.DNA.fa
+    jobid: 0
+    reason: Input files updated by another job: plot_data/SCN3A.DNA.fa, plot_data/SCN5A.DNA.fa, plot_data/SCN1A.DNA.fa, plot_data/SCN4A.DNA.fa, plot_data/SCN8A.DNA.fa, plot_data/SCN2A.DNA.fa
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Tue Jul 26 12:18:26 2022]
+Finished job 0.
+7 of 7 steps (100%) done
+Complete log: .snakemake/log/2022-07-26T121826.198215.snakemake.log

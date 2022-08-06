@@ -1,0 +1,32 @@
+SAMPLES = ["SCN1A",  "SCN3A", "SCN4A", "SCN5A", "SCN8A"]
+
+rule all:
+    input:
+        "plot_data/SCN1A.PROT.sub",     
+        "plot_data/SCN3A.PROT.sub",     
+        "plot_data/SCN4A.PROT.sub",     
+        "plot_data/SCN5A.PROT.sub",     
+        "plot_data/SCN8A.PROT.sub",
+        "plot_data/SCN1A.PROT.aligned.wRef.fa",     
+        "plot_data/SCN3A.PROT.aligned.wRef.fa",     
+        "plot_data/SCN4A.PROT.aligned.wRef.fa",     
+        "plot_data/SCN5A.PROT.aligned.wRef.fa",     
+        "plot_data/SCN8A.PROT.aligned.wRef.fa"     
+
+rule makeSubAlignFile:
+    input:
+        "../../Data/alignmentREF.fa",
+        "plot_data/{sample}.PROT.trimmed.manual.fa.wRef.fa"
+    output:  
+        "plot_data/{sample}.PROT.sub"
+    shell:
+        "python makemergetable.py {input} -> {output}"
+
+rule makeSubAlign:
+    input:
+        "plot_data/{sample}.PROT.sub",
+        "plot_data/{sample}.PROT.trimmed.manual.fa.wRef.fa"
+    output:
+        "plot_data/{sample}.PROT.aligned.wRef.fa"
+    shell:
+        "./runMafft.sh {input} -> {output}"

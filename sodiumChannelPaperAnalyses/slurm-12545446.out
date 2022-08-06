@@ -1,0 +1,2387 @@
+/global/scratch/users/uricchio
+
+
+Building a new DB, current time: 07/18/2022 19:42:22
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Allobates-1/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00282192 seconds.
+
+real	7m58.217s
+user	153m57.986s
+sys	1m49.021s
+
+real	7m56.084s
+user	153m33.211s
+sys	1m47.179s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.090s
+user	0m0.038s
+sys	0m0.012s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Allobates-1_S97_L002_R1_001_val_1.fq /global/scratch/users/uricchio/Allobates-1_S97_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Allobates-1 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Allobates-1_S97_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Allobates-1.blastx 
+time cat /global/scratch/users/uricchio/Allobates-1_S97_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Allobates-1.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/18/2022 19:58:17
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Allobates-2/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00289202 seconds.
+
+real	15m20.309s
+user	296m17.264s
+sys	3m45.966s
+
+real	15m24.612s
+user	296m21.814s
+sys	3m54.447s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.086s
+user	0m0.042s
+sys	0m0.010s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Allobates-2_S90_L002_R1_001_val_1.fq /global/scratch/users/uricchio/Allobates-2_S90_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Allobates-2 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Allobates-2_S90_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Allobates-2.blastx 
+time cat /global/scratch/users/uricchio/Allobates-2_S90_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Allobates-2.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/18/2022 20:29:02
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Allobates-3/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00278282 seconds.
+
+real	15m22.952s
+user	293m56.594s
+sys	4m2.458s
+
+real	15m30.244s
+user	293m42.150s
+sys	4m5.192s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.099s
+user	0m0.054s
+sys	0m0.014s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Allobates-3_S91_L002_R1_001_val_1.fq /global/scratch/users/uricchio/Allobates-3_S91_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Allobates-3 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Allobates-3_S91_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Allobates-3.blastx 
+time cat /global/scratch/users/uricchio/Allobates-3_S91_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Allobates-3.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/18/2022 20:59:56
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Allobates-4/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00277305 seconds.
+
+real	11m14.392s
+user	211m11.617s
+sys	3m17.804s
+
+real	11m19.528s
+user	211m25.433s
+sys	3m20.875s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.092s
+user	0m0.041s
+sys	0m0.017s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Allobates-4_S92_L002_R1_001_val_1.fq /global/scratch/users/uricchio/Allobates-4_S92_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Allobates-4 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Allobates-4_S92_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Allobates-4.blastx 
+time cat /global/scratch/users/uricchio/Allobates-4_S92_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Allobates-4.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/18/2022 21:22:30
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Allobates-5/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00280714 seconds.
+cat: /global/scratch/users/uricchio/Allobates-5*.fq: No such file or directory
+
+real	0m0.248s
+user	0m0.208s
+sys	0m0.152s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.049s
+user	0m0.028s
+sys	0m0.009s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Allobates-5*.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Allobates-5 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Allobates-5*.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Allobates-5.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/18/2022 21:22:30
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Allobates-6/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00293589 seconds.
+
+real	14m21.373s
+user	268m29.595s
+sys	3m18.176s
+
+real	14m11.025s
+user	268m50.707s
+sys	3m20.936s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.103s
+user	0m0.051s
+sys	0m0.014s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Allobates-6_S94_L002_R1_001_val_1.fq /global/scratch/users/uricchio/Allobates-6_S94_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Allobates-6 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Allobates-6_S94_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Allobates-6.blastx 
+time cat /global/scratch/users/uricchio/Allobates-6_S94_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Allobates-6.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/18/2022 21:51:03
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Allobates-7/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.002918 seconds.
+
+real	15m19.277s
+user	290m15.084s
+sys	3m55.348s
+
+real	15m23.954s
+user	291m11.511s
+sys	3m55.039s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.098s
+user	0m0.048s
+sys	0m0.011s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Allobates-7_S95_L002_R1_001_val_1.fq /global/scratch/users/uricchio/Allobates-7_S95_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Allobates-7 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Allobates-7_S95_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Allobates-7.blastx 
+time cat /global/scratch/users/uricchio/Allobates-7_S95_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Allobates-7.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/18/2022 22:21:47
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Allobates-8/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00315094 seconds.
+
+real	16m56.626s
+user	319m41.918s
+sys	4m51.785s
+
+real	16m59.313s
+user	320m13.679s
+sys	4m56.196s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.110s
+user	0m0.052s
+sys	0m0.018s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Allobates-8_S96_L002_R1_001_val_1.fq /global/scratch/users/uricchio/Allobates-8_S96_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Allobates-8 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Allobates-8_S96_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Allobates-8.blastx 
+time cat /global/scratch/users/uricchio/Allobates-8_S96_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Allobates-8.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/18/2022 22:55:43
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/AmazonAte-1/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00269008 seconds.
+
+real	7m34.923s
+user	142m18.969s
+sys	2m30.868s
+
+real	7m35.073s
+user	142m16.941s
+sys	2m29.952s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.082s
+user	0m0.036s
+sys	0m0.014s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/AmazonAte-1_S33_L001_R1_001_val_1.fq /global/scratch/users/uricchio/AmazonAte-1_S33_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/AmazonAte-1 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/AmazonAte-1_S33_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> AmazonAte-1.blastx 
+time cat /global/scratch/users/uricchio/AmazonAte-1_S33_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> AmazonAte-1.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/18/2022 23:10:53
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/AmazonAte-2/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00300503 seconds.
+
+real	4m59.792s
+user	93m36.770s
+sys	1m35.460s
+
+real	4m59.991s
+user	93m32.333s
+sys	1m34.636s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.095s
+user	0m0.038s
+sys	0m0.014s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/AmazonAte-2_S34_L001_R1_001_val_1.fq /global/scratch/users/uricchio/AmazonAte-2_S34_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/AmazonAte-2 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/AmazonAte-2_S34_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> AmazonAte-2.blastx 
+time cat /global/scratch/users/uricchio/AmazonAte-2_S34_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> AmazonAte-2.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/18/2022 23:20:53
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/AmazonAte-3/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00237584 seconds.
+
+real	2m51.193s
+user	53m16.579s
+sys	0m50.137s
+
+real	2m51.335s
+user	53m15.968s
+sys	0m50.307s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.087s
+user	0m0.043s
+sys	0m0.017s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/AmazonAte-3_S35_L001_R1_001_val_1.fq /global/scratch/users/uricchio/AmazonAte-3_S35_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/AmazonAte-3 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/AmazonAte-3_S35_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> AmazonAte-3.blastx 
+time cat /global/scratch/users/uricchio/AmazonAte-3_S35_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> AmazonAte-3.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/18/2022 23:26:36
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/AmazonAte-4/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00291419 seconds.
+
+real	7m32.342s
+user	141m19.866s
+sys	2m12.476s
+
+real	7m32.177s
+user	141m16.695s
+sys	2m12.666s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.080s
+user	0m0.037s
+sys	0m0.014s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/AmazonAte-4_S36_L001_R1_001_val_1.fq /global/scratch/users/uricchio/AmazonAte-4_S36_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/AmazonAte-4 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/AmazonAte-4_S36_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> AmazonAte-4.blastx 
+time cat /global/scratch/users/uricchio/AmazonAte-4_S36_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> AmazonAte-4.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/18/2022 23:41:41
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Ame-1/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00300002 seconds.
+
+real	4m17.692s
+user	80m31.925s
+sys	1m2.340s
+
+real	4m17.766s
+user	80m28.345s
+sys	1m2.386s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.089s
+user	0m0.043s
+sys	0m0.016s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Ame-1_S41_L001_R1_001_val_1.fq /global/scratch/users/uricchio/Ame-1_S41_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Ame-1 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Ame-1_S41_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Ame-1.blastx 
+time cat /global/scratch/users/uricchio/Ame-1_S41_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Ame-1.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/18/2022 23:50:17
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Ame-2/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00299907 seconds.
+
+real	3m46.677s
+user	70m41.886s
+sys	0m56.620s
+
+real	3m46.144s
+user	70m33.447s
+sys	0m55.474s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.061s
+user	0m0.024s
+sys	0m0.007s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Ame-2_S42_L001_R1_001_val_1.fq /global/scratch/users/uricchio/Ame-2_S42_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Ame-2 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Ame-2_S42_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Ame-2.blastx 
+time cat /global/scratch/users/uricchio/Ame-2_S42_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Ame-2.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/18/2022 23:57:50
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Ame-3/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00354886 seconds.
+
+real	4m32.594s
+user	84m56.025s
+sys	1m6.832s
+
+real	4m31.689s
+user	84m48.556s
+sys	1m6.897s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.083s
+user	0m0.040s
+sys	0m0.012s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Ame-3_S43_L001_R1_001_val_1.fq /global/scratch/users/uricchio/Ame-3_S43_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Ame-3 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Ame-3_S43_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Ame-3.blastx 
+time cat /global/scratch/users/uricchio/Ame-3_S43_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Ame-3.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 00:06:54
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Ame-4/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00288796 seconds.
+
+real	2m40.559s
+user	49m53.780s
+sys	0m38.228s
+
+real	2m40.472s
+user	49m55.198s
+sys	0m38.205s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.068s
+user	0m0.033s
+sys	0m0.008s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Ame-4_S44_L001_R1_001_val_1.fq /global/scratch/users/uricchio/Ame-4_S44_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Ame-4 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Ame-4_S44_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Ame-4.blastx 
+time cat /global/scratch/users/uricchio/Ame-4_S44_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Ame-4.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 00:12:16
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Ame-5/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00310302 seconds.
+
+real	5m12.712s
+user	97m21.931s
+sys	1m28.836s
+
+real	5m13.005s
+user	97m22.684s
+sys	1m28.068s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.091s
+user	0m0.044s
+sys	0m0.015s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Ame-5_S45_L001_R1_001_val_1.fq /global/scratch/users/uricchio/Ame-5_S45_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Ame-5 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Ame-5_S45_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Ame-5.blastx 
+time cat /global/scratch/users/uricchio/Ame-5_S45_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Ame-5.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 00:22:42
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Ame-6/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00243998 seconds.
+
+real	7m9.151s
+user	133m56.388s
+sys	1m44.934s
+
+real	7m8.219s
+user	133m37.565s
+sys	1m44.349s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.076s
+user	0m0.036s
+sys	0m0.013s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Ame-6_S46_L001_R1_001_val_1.fq /global/scratch/users/uricchio/Ame-6_S46_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Ame-6 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Ame-6_S46_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Ame-6.blastx 
+time cat /global/scratch/users/uricchio/Ame-6_S46_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Ame-6.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 00:36:59
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Ame-7/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00251412 seconds.
+
+real	7m37.147s
+user	142m17.226s
+sys	2m2.490s
+
+real	7m36.910s
+user	142m12.704s
+sys	2m1.231s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.100s
+user	0m0.051s
+sys	0m0.014s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Ame-7_S47_L001_R1_001_val_1.fq /global/scratch/users/uricchio/Ame-7_S47_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Ame-7 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Ame-7_S47_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Ame-7.blastx 
+time cat /global/scratch/users/uricchio/Ame-7_S47_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Ame-7.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 00:52:14
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Ame-8/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00292206 seconds.
+
+real	4m26.380s
+user	82m34.242s
+sys	1m12.895s
+
+real	4m25.862s
+user	82m27.758s
+sys	1m13.405s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.099s
+user	0m0.054s
+sys	0m0.015s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Ame-8_S48_L001_R1_001_val_1.fq /global/scratch/users/uricchio/Ame-8_S48_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Ame-8 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Ame-8_S48_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Ame-8.blastx 
+time cat /global/scratch/users/uricchio/Ame-8_S48_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Ame-8.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 01:01:06
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Ame-9/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00287485 seconds.
+
+real	5m39.058s
+user	105m20.243s
+sys	1m27.463s
+
+real	5m39.292s
+user	105m19.402s
+sys	1m28.285s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.100s
+user	0m0.051s
+sys	0m0.018s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Ame-9_S49_L001_R1_001_val_1.fq /global/scratch/users/uricchio/Ame-9_S49_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Ame-9 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Ame-9_S49_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Ame-9.blastx 
+time cat /global/scratch/users/uricchio/Ame-9_S49_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Ame-9.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 01:12:25
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/AndesAte-1/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00285101 seconds.
+
+real	13m2.184s
+user	242m13.558s
+sys	4m29.858s
+
+real	13m3.989s
+user	242m43.809s
+sys	4m30.705s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.086s
+user	0m0.047s
+sys	0m0.011s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/AndesAte-1_S77_L002_R1_001_val_1.fq /global/scratch/users/uricchio/AndesAte-1_S77_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/AndesAte-1 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/AndesAte-1_S77_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> AndesAte-1.blastx 
+time cat /global/scratch/users/uricchio/AndesAte-1_S77_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> AndesAte-1.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 01:38:31
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/AndesAte-2/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00283885 seconds.
+
+real	8m52.676s
+user	165m10.607s
+sys	2m31.233s
+
+real	8m54.068s
+user	165m27.351s
+sys	2m34.829s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.092s
+user	0m0.049s
+sys	0m0.013s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/AndesAte-2_S78_L002_R1_001_val_1.fq /global/scratch/users/uricchio/AndesAte-2_S78_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/AndesAte-2 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/AndesAte-2_S78_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> AndesAte-2.blastx 
+time cat /global/scratch/users/uricchio/AndesAte-2_S78_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> AndesAte-2.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 01:56:18
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/AndesAte-3/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00290418 seconds.
+
+real	6m3.885s
+user	112m36.534s
+sys	1m47.957s
+
+real	6m5.030s
+user	112m52.477s
+sys	1m50.773s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.081s
+user	0m0.039s
+sys	0m0.015s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/AndesAte-3_S79_L002_R1_001_val_1.fq /global/scratch/users/uricchio/AndesAte-3_S79_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/AndesAte-3 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/AndesAte-3_S79_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> AndesAte-3.blastx 
+time cat /global/scratch/users/uricchio/AndesAte-3_S79_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> AndesAte-3.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 02:08:28
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/AndesAte-4/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00283813 seconds.
+
+real	5m48.813s
+user	107m57.923s
+sys	1m35.706s
+
+real	5m49.359s
+user	108m6.087s
+sys	1m37.140s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.087s
+user	0m0.044s
+sys	0m0.011s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/AndesAte-4_S80_L002_R1_001_val_1.fq /global/scratch/users/uricchio/AndesAte-4_S80_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/AndesAte-4 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/AndesAte-4_S80_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> AndesAte-4.blastx 
+time cat /global/scratch/users/uricchio/AndesAte-4_S80_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> AndesAte-4.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 02:20:06
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/AndesAte-5/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00276899 seconds.
+
+real	8m11.784s
+user	152m17.776s
+sys	2m20.529s
+
+real	8m13.533s
+user	152m31.500s
+sys	2m24.897s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.091s
+user	0m0.045s
+sys	0m0.016s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/AndesAte-5_S81_L002_R1_001_val_1.fq /global/scratch/users/uricchio/AndesAte-5_S81_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/AndesAte-5 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/AndesAte-5_S81_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> AndesAte-5.blastx 
+time cat /global/scratch/users/uricchio/AndesAte-5_S81_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> AndesAte-5.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 02:36:32
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/AndesAte-6/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00261903 seconds.
+
+real	11m9.877s
+user	207m0.135s
+sys	3m22.931s
+
+real	11m10.606s
+user	207m11.174s
+sys	3m24.365s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.065s
+user	0m0.027s
+sys	0m0.009s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/AndesAte-6_S82_L002_R1_001_val_1.fq /global/scratch/users/uricchio/AndesAte-6_S82_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/AndesAte-6 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/AndesAte-6_S82_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> AndesAte-6.blastx 
+time cat /global/scratch/users/uricchio/AndesAte-6_S82_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> AndesAte-6.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 02:58:52
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/AndesAte-7/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00283289 seconds.
+
+real	5m21.235s
+user	98m43.442s
+sys	1m43.759s
+
+real	5m20.351s
+user	98m45.443s
+sys	1m44.356s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.100s
+user	0m0.047s
+sys	0m0.018s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/AndesAte-7_S83_L002_R1_001_val_1.fq /global/scratch/users/uricchio/AndesAte-7_S83_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/AndesAte-7 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/AndesAte-7_S83_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> AndesAte-7.blastx 
+time cat /global/scratch/users/uricchio/AndesAte-7_S83_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> AndesAte-7.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 03:09:34
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/AndesAte-8/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00310993 seconds.
+
+real	7m20.205s
+user	136m17.162s
+sys	2m4.212s
+
+real	7m20.509s
+user	136m35.212s
+sys	2m7.084s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.086s
+user	0m0.045s
+sys	0m0.012s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/AndesAte-8_S84_L002_R1_001_val_1.fq /global/scratch/users/uricchio/AndesAte-8_S84_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/AndesAte-8 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/AndesAte-8_S84_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> AndesAte-8.blastx 
+time cat /global/scratch/users/uricchio/AndesAte-8_S84_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> AndesAte-8.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 03:24:15
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Aromo-1/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00341201 seconds.
+
+real	5m37.261s
+user	104m53.009s
+sys	1m54.904s
+
+real	5m36.300s
+user	104m45.675s
+sys	1m53.035s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.090s
+user	0m0.049s
+sys	0m0.009s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Aromo-1_S24_L001_R1_001_val_1.fq /global/scratch/users/uricchio/Aromo-1_S24_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Aromo-1 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Aromo-1_S24_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Aromo-1.blastx 
+time cat /global/scratch/users/uricchio/Aromo-1_S24_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Aromo-1.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 03:35:29
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Aromo-2/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00312996 seconds.
+
+real	6m10.282s
+user	115m52.019s
+sys	1m36.749s
+
+real	6m10.885s
+user	115m56.580s
+sys	1m37.941s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.088s
+user	0m0.044s
+sys	0m0.011s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Aromo-2_S25_L001_R1_001_val_1.fq /global/scratch/users/uricchio/Aromo-2_S25_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Aromo-2 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Aromo-2_S25_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Aromo-2.blastx 
+time cat /global/scratch/users/uricchio/Aromo-2_S25_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Aromo-2.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 03:47:51
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Aromo-3/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00230503 seconds.
+
+real	8m54.210s
+user	167m5.784s
+sys	2m28.852s
+
+real	8m54.346s
+user	167m8.345s
+sys	2m29.217s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.095s
+user	0m0.046s
+sys	0m0.017s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Aromo-3_S26_L001_R1_001_val_1.fq /global/scratch/users/uricchio/Aromo-3_S26_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Aromo-3 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Aromo-3_S26_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Aromo-3.blastx 
+time cat /global/scratch/users/uricchio/Aromo-3_S26_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Aromo-3.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 04:05:40
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Aromo-4/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00310993 seconds.
+
+real	6m12.351s
+user	116m37.226s
+sys	1m35.434s
+
+real	6m12.932s
+user	116m35.937s
+sys	1m37.157s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.101s
+user	0m0.054s
+sys	0m0.012s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Aromo-4_S27_L001_R1_001_val_1.fq /global/scratch/users/uricchio/Aromo-4_S27_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Aromo-4 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Aromo-4_S27_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Aromo-4.blastx 
+time cat /global/scratch/users/uricchio/Aromo-4_S27_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Aromo-4.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 04:18:05
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Aromo-5/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00327206 seconds.
+
+real	4m59.103s
+user	93m21.124s
+sys	1m20.670s
+
+real	4m58.905s
+user	93m26.964s
+sys	1m22.230s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.091s
+user	0m0.040s
+sys	0m0.016s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Aromo-5_S28_L001_R1_001_val_1.fq /global/scratch/users/uricchio/Aromo-5_S28_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Aromo-5 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Aromo-5_S28_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Aromo-5.blastx 
+time cat /global/scratch/users/uricchio/Aromo-5_S28_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Aromo-5.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 04:28:04
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Aromo-6/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00340414 seconds.
+
+real	4m41.391s
+user	87m51.847s
+sys	1m14.798s
+
+real	4m41.334s
+user	87m52.914s
+sys	1m13.575s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.095s
+user	0m0.045s
+sys	0m0.018s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Aromo-6_S29_L001_R1_001_val_1.fq /global/scratch/users/uricchio/Aromo-6_S29_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Aromo-6 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Aromo-6_S29_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Aromo-6.blastx 
+time cat /global/scratch/users/uricchio/Aromo-6_S29_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Aromo-6.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 04:37:27
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Aromo-7/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00293708 seconds.
+
+real	5m5.372s
+user	95m25.030s
+sys	1m16.457s
+
+real	5m5.224s
+user	95m27.879s
+sys	1m15.980s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.077s
+user	0m0.032s
+sys	0m0.010s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Aromo-7_S30_L001_R1_001_val_1.fq /global/scratch/users/uricchio/Aromo-7_S30_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Aromo-7 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Aromo-7_S30_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Aromo-7.blastx 
+time cat /global/scratch/users/uricchio/Aromo-7_S30_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Aromo-7.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 04:47:37
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Aromo-8/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00223899 seconds.
+
+real	7m32.249s
+user	141m31.641s
+sys	1m56.182s
+
+real	7m31.776s
+user	141m26.365s
+sys	1m56.131s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.080s
+user	0m0.038s
+sys	0m0.012s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Aromo-8_S31_L001_R1_001_val_1.fq /global/scratch/users/uricchio/Aromo-8_S31_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Aromo-8 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Aromo-8_S31_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Aromo-8.blastx 
+time cat /global/scratch/users/uricchio/Aromo-8_S31_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Aromo-8.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 05:02:42
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Aromo-9/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00269508 seconds.
+
+real	8m57.848s
+user	167m51.130s
+sys	2m55.193s
+
+real	8m57.854s
+user	167m47.342s
+sys	2m56.526s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.073s
+user	0m0.031s
+sys	0m0.012s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Aromo-9_S32_L001_R1_001_val_1.fq /global/scratch/users/uricchio/Aromo-9_S32_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Aromo-9 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Aromo-9_S32_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Aromo-9.blastx 
+time cat /global/scratch/users/uricchio/Aromo-9_S32_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Aromo-9.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 05:20:38
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Brachy-1/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00328708 seconds.
+
+real	4m12.246s
+user	78m34.468s
+sys	1m9.771s
+
+real	4m11.877s
+user	78m25.894s
+sys	1m9.694s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.092s
+user	0m0.038s
+sys	0m0.015s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Brachy-1_S1_L001_R1_001_val_1.fq /global/scratch/users/uricchio/Brachy-1_S1_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Brachy-1 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Brachy-1_S1_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Brachy-1.blastx 
+time cat /global/scratch/users/uricchio/Brachy-1_S1_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Brachy-1.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 05:29:02
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Brachy-2/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00236082 seconds.
+
+real	3m10.356s
+user	59m8.233s
+sys	0m51.016s
+
+real	3m9.546s
+user	59m1.619s
+sys	0m50.630s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.101s
+user	0m0.055s
+sys	0m0.013s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Brachy-2_S2_L001_R1_001_val_1.fq /global/scratch/users/uricchio/Brachy-2_S2_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Brachy-2 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Brachy-2_S2_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Brachy-2.blastx 
+time cat /global/scratch/users/uricchio/Brachy-2_S2_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Brachy-2.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 05:35:22
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Brachy-3/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.003263 seconds.
+
+real	3m13.562s
+user	60m17.657s
+sys	0m48.022s
+
+real	3m13.762s
+user	60m18.528s
+sys	0m48.231s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.110s
+user	0m0.031s
+sys	0m0.012s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Brachy-3_S3_L001_R1_001_val_1.fq /global/scratch/users/uricchio/Brachy-3_S3_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Brachy-3 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Brachy-3_S3_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Brachy-3.blastx 
+time cat /global/scratch/users/uricchio/Brachy-3_S3_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Brachy-3.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 05:41:50
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Brachy-4/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.0035491 seconds.
+
+real	3m16.749s
+user	61m7.914s
+sys	0m50.805s
+
+real	3m16.263s
+user	61m10.364s
+sys	0m50.099s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.088s
+user	0m0.042s
+sys	0m0.013s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Brachy-4_S4_L001_R1_001_val_1.fq /global/scratch/users/uricchio/Brachy-4_S4_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Brachy-4 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Brachy-4_S4_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Brachy-4.blastx 
+time cat /global/scratch/users/uricchio/Brachy-4_S4_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Brachy-4.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 05:48:23
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Brachy-5/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00303411 seconds.
+
+real	3m40.201s
+user	68m35.006s
+sys	0m58.156s
+
+real	3m39.887s
+user	68m29.993s
+sys	0m57.620s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.066s
+user	0m0.023s
+sys	0m0.011s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Brachy-5_S5_L001_R1_001_val_1.fq /global/scratch/users/uricchio/Brachy-5_S5_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Brachy-5 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Brachy-5_S5_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Brachy-5.blastx 
+time cat /global/scratch/users/uricchio/Brachy-5_S5_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Brachy-5.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 05:55:44
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Brachy-6/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00277495 seconds.
+
+real	2m47.076s
+user	51m59.453s
+sys	0m41.188s
+
+real	2m47.282s
+user	52m2.739s
+sys	0m41.649s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.099s
+user	0m0.041s
+sys	0m0.022s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Brachy-6_S6_L001_R1_001_val_1.fq /global/scratch/users/uricchio/Brachy-6_S6_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Brachy-6 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Brachy-6_S6_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Brachy-6.blastx 
+time cat /global/scratch/users/uricchio/Brachy-6_S6_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Brachy-6.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 06:01:18
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Brachy-7/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00285006 seconds.
+
+real	7m11.059s
+user	133m30.095s
+sys	2m3.651s
+
+real	7m4.836s
+user	131m43.675s
+sys	2m4.615s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.096s
+user	0m0.049s
+sys	0m0.016s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Brachy-7_S7_L001_R1_001_val_1.fq /global/scratch/users/uricchio/Brachy-7_S7_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Brachy-7 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Brachy-7_S7_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Brachy-7.blastx 
+time cat /global/scratch/users/uricchio/Brachy-7_S7_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Brachy-7.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 06:15:35
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Brachy-8/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00268197 seconds.
+
+real	7m55.624s
+user	147m7.304s
+sys	2m31.764s
+
+real	7m54.873s
+user	146m51.115s
+sys	2m33.570s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.077s
+user	0m0.027s
+sys	0m0.015s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Brachy-8_S8_L001_R1_001_val_1.fq /global/scratch/users/uricchio/Brachy-8_S8_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Brachy-8 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Brachy-8_S8_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Brachy-8.blastx 
+time cat /global/scratch/users/uricchio/Brachy-8_S8_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Brachy-8.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 06:31:25
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Bufonid-1/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.002316 seconds.
+
+real	4m5.692s
+user	76m18.033s
+sys	1m21.856s
+
+real	4m6.044s
+user	76m23.292s
+sys	1m23.303s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.092s
+user	0m0.052s
+sys	0m0.008s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Bufonid-1_S73_L002_R1_001_val_1.fq /global/scratch/users/uricchio/Bufonid-1_S73_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Bufonid-1 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Bufonid-1_S73_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Bufonid-1.blastx 
+time cat /global/scratch/users/uricchio/Bufonid-1_S73_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Bufonid-1.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 06:39:37
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Bufonid-2/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00300002 seconds.
+
+real	5m59.673s
+user	111m58.480s
+sys	1m57.348s
+
+real	6m0.331s
+user	112m7.269s
+sys	1m58.022s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.102s
+user	0m0.054s
+sys	0m0.015s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Bufonid-2_S74_L002_R1_001_val_1.fq /global/scratch/users/uricchio/Bufonid-2_S74_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Bufonid-2 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Bufonid-2_S74_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Bufonid-2.blastx 
+time cat /global/scratch/users/uricchio/Bufonid-2_S74_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Bufonid-2.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 06:51:38
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Bufonid-3/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00220108 seconds.
+
+real	17m50.102s
+user	333m33.070s
+sys	6m9.174s
+
+real	17m51.306s
+user	333m55.771s
+sys	6m10.631s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.093s
+user	0m0.039s
+sys	0m0.019s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Bufonid-3_S75_L002_R1_001_val_1.fq /global/scratch/users/uricchio/Bufonid-3_S75_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Bufonid-3 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Bufonid-3_S75_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Bufonid-3.blastx 
+time cat /global/scratch/users/uricchio/Bufonid-3_S75_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Bufonid-3.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 07:27:20
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Bufonid-4/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00354409 seconds.
+
+real	5m19.734s
+user	99m21.907s
+sys	1m49.245s
+
+real	5m20.231s
+user	99m29.024s
+sys	1m49.692s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.063s
+user	0m0.024s
+sys	0m0.009s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Bufonid-4_S76_L002_R1_001_val_1.fq /global/scratch/users/uricchio/Bufonid-4_S76_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Bufonid-4 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Bufonid-4_S76_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Bufonid-4.blastx 
+time cat /global/scratch/users/uricchio/Bufonid-4_S76_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Bufonid-4.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 07:38:00
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/CentroLepto-1/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00286293 seconds.
+
+real	8m46.837s
+user	164m1.503s
+sys	2m56.340s
+
+real	8m46.544s
+user	163m58.485s
+sys	2m53.211s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.093s
+user	0m0.043s
+sys	0m0.017s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/CentroLepto-1_S37_L001_R1_001_val_1.fq /global/scratch/users/uricchio/CentroLepto-1_S37_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/CentroLepto-1 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/CentroLepto-1_S37_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> CentroLepto-1.blastx 
+time cat /global/scratch/users/uricchio/CentroLepto-1_S37_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> CentroLepto-1.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 07:55:33
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/CentroLepto-2/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00330901 seconds.
+
+real	6m43.890s
+user	125m44.404s
+sys	2m12.351s
+
+real	6m43.494s
+user	125m35.325s
+sys	2m11.557s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.102s
+user	0m0.052s
+sys	0m0.014s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/CentroLepto-2_S38_L001_R1_001_val_1.fq /global/scratch/users/uricchio/CentroLepto-2_S38_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/CentroLepto-2 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/CentroLepto-2_S38_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> CentroLepto-2.blastx 
+time cat /global/scratch/users/uricchio/CentroLepto-2_S38_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> CentroLepto-2.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 08:09:01
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/CentroLepto-3/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.0032742 seconds.
+
+real	7m18.882s
+user	136m35.457s
+sys	2m24.725s
+
+real	7m18.630s
+user	136m27.926s
+sys	2m23.501s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.088s
+user	0m0.042s
+sys	0m0.015s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/CentroLepto-3_S39_L001_R1_001_val_1.fq /global/scratch/users/uricchio/CentroLepto-3_S39_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/CentroLepto-3 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/CentroLepto-3_S39_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> CentroLepto-3.blastx 
+time cat /global/scratch/users/uricchio/CentroLepto-3_S39_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> CentroLepto-3.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 08:23:39
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/CentroLepto-4/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00237393 seconds.
+
+real	3m56.841s
+user	73m25.587s
+sys	1m21.641s
+
+real	3m56.864s
+user	73m25.423s
+sys	1m22.091s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.090s
+user	0m0.044s
+sys	0m0.015s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/CentroLepto-4_S40_L001_R1_001_val_1.fq /global/scratch/users/uricchio/CentroLepto-4_S40_L001_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/CentroLepto-4 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/CentroLepto-4_S40_L001_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> CentroLepto-4.blastx 
+time cat /global/scratch/users/uricchio/CentroLepto-4_S40_L001_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> CentroLepto-4.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 08:31:33
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/CeraTelma-1/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00311399 seconds.
+
+real	6m46.977s
+user	126m33.371s
+sys	2m15.374s
+
+real	6m47.551s
+user	126m38.513s
+sys	2m16.610s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.096s
+user	0m0.048s
+sys	0m0.015s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/CeraTelma-1_S85_L002_R1_001_val_1.fq /global/scratch/users/uricchio/CeraTelma-1_S85_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/CeraTelma-1 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/CeraTelma-1_S85_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> CeraTelma-1.blastx 
+time cat /global/scratch/users/uricchio/CeraTelma-1_S85_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> CeraTelma-1.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 08:45:08
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/CeraTelma-2/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00278711 seconds.
+
+real	14m37.381s
+user	273m38.689s
+sys	4m41.542s
+
+real	14m38.785s
+user	273m56.727s
+sys	4m41.625s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.101s
+user	0m0.048s
+sys	0m0.022s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/CeraTelma-2_S86_L002_R1_001_val_1.fq /global/scratch/users/uricchio/CeraTelma-2_S86_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/CeraTelma-2 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/CeraTelma-2_S86_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> CeraTelma-2.blastx 
+time cat /global/scratch/users/uricchio/CeraTelma-2_S86_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> CeraTelma-2.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 09:14:24
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/CeraTelma-3/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00252104 seconds.
+
+real	6m5.323s
+user	113m25.995s
+sys	2m4.180s
+
+real	6m5.879s
+user	113m40.279s
+sys	2m4.016s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.100s
+user	0m0.054s
+sys	0m0.014s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/CeraTelma-3_S87_L002_R1_001_val_1.fq /global/scratch/users/uricchio/CeraTelma-3_S87_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/CeraTelma-3 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/CeraTelma-3_S87_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> CeraTelma-3.blastx 
+time cat /global/scratch/users/uricchio/CeraTelma-3_S87_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> CeraTelma-3.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 09:26:36
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/CeraTelma-4/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00296903 seconds.
+
+real	5m23.923s
+user	101m17.998s
+sys	1m9.591s
+
+real	5m24.500s
+user	101m32.753s
+sys	1m9.197s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.092s
+user	0m0.046s
+sys	0m0.015s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/CeraTelma-4_S88_L002_R1_001_val_1.fq /global/scratch/users/uricchio/CeraTelma-4_S88_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/CeraTelma-4 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/CeraTelma-4_S88_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> CeraTelma-4.blastx 
+time cat /global/scratch/users/uricchio/CeraTelma-4_S88_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> CeraTelma-4.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 09:37:24
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/CeraTelma-5/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00238204 seconds.
+
+real	2m48.629s
+user	52m24.681s
+sys	0m38.546s
+
+real	2m48.648s
+user	52m31.388s
+sys	0m37.993s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.071s
+user	0m0.029s
+sys	0m0.010s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/CeraTelma-5_S89_L002_R1_001_val_1.fq /global/scratch/users/uricchio/CeraTelma-5_S89_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/CeraTelma-5 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/CeraTelma-5_S89_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> CeraTelma-5.blastx 
+time cat /global/scratch/users/uricchio/CeraTelma-5_S89_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> CeraTelma-5.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 09:43:02
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Dendro1-1/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.0029099 seconds.
+
+real	6m57.241s
+user	129m57.925s
+sys	2m9.175s
+
+real	6m58.858s
+user	130m19.169s
+sys	2m14.257s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.065s
+user	0m0.027s
+sys	0m0.009s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Dendro1-1_S60_L002_R1_001_val_1.fq /global/scratch/users/uricchio/Dendro1-1_S60_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Dendro1-1 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Dendro1-1_S60_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro1-1.blastx 
+time cat /global/scratch/users/uricchio/Dendro1-1_S60_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro1-1.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 09:56:58
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Dendro1-2/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00247979 seconds.
+
+real	7m19.523s
+user	136m44.820s
+sys	2m23.109s
+
+real	7m20.407s
+user	137m0.452s
+sys	2m25.671s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.092s
+user	0m0.041s
+sys	0m0.016s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Dendro1-2_S61_L002_R1_001_val_1.fq /global/scratch/users/uricchio/Dendro1-2_S61_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Dendro1-2 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Dendro1-2_S61_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro1-2.blastx 
+time cat /global/scratch/users/uricchio/Dendro1-2_S61_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro1-2.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 10:11:39
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Dendro1-3/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00280094 seconds.
+
+real	8m31.098s
+user	159m3.753s
+sys	2m49.455s
+
+real	8m32.185s
+user	159m18.457s
+sys	2m52.443s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.103s
+user	0m0.055s
+sys	0m0.012s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Dendro1-3_S62_L002_R1_001_val_1.fq /global/scratch/users/uricchio/Dendro1-3_S62_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Dendro1-3 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Dendro1-3_S62_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro1-3.blastx 
+time cat /global/scratch/users/uricchio/Dendro1-3_S62_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro1-3.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 10:28:42
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Dendro1-4/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00309896 seconds.
+
+real	9m58.878s
+user	186m32.108s
+sys	3m8.557s
+
+real	10m0.926s
+user	187m10.714s
+sys	3m10.751s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.091s
+user	0m0.048s
+sys	0m0.013s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Dendro1-4_S63_L002_R1_001_val_1.fq /global/scratch/users/uricchio/Dendro1-4_S63_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Dendro1-4 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Dendro1-4_S63_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro1-4.blastx 
+time cat /global/scratch/users/uricchio/Dendro1-4_S63_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro1-4.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 10:48:42
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Dendro1-5/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00330114 seconds.
+
+real	7m28.477s
+user	139m30.107s
+sys	2m21.981s
+
+real	7m29.705s
+user	139m57.150s
+sys	2m23.533s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.092s
+user	0m0.042s
+sys	0m0.019s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Dendro1-5_S64_L002_R1_001_val_1.fq /global/scratch/users/uricchio/Dendro1-5_S64_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Dendro1-5 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Dendro1-5_S64_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro1-5.blastx 
+time cat /global/scratch/users/uricchio/Dendro1-5_S64_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro1-5.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 11:03:41
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Dendro2-1/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00263405 seconds.
+
+real	7m41.497s
+user	143m23.478s
+sys	2m39.371s
+
+real	7m42.728s
+user	143m44.498s
+sys	2m38.881s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.062s
+user	0m0.025s
+sys	0m0.006s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Dendro2-1_S65_L002_R1_001_val_1.fq /global/scratch/users/uricchio/Dendro2-1_S65_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Dendro2-1 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Dendro2-1_S65_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro2-1.blastx 
+time cat /global/scratch/users/uricchio/Dendro2-1_S65_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro2-1.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 11:19:05
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Dendro2-2/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00215197 seconds.
+
+real	4m37.317s
+user	86m7.378s
+sys	1m32.211s
+
+real	4m38.024s
+user	86m15.653s
+sys	1m32.999s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.094s
+user	0m0.040s
+sys	0m0.017s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Dendro2-2_S66_L002_R1_001_val_1.fq /global/scratch/users/uricchio/Dendro2-2_S66_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Dendro2-2 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Dendro2-2_S66_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro2-2.blastx 
+time cat /global/scratch/users/uricchio/Dendro2-2_S66_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro2-2.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 11:28:21
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Dendro2-3/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00277996 seconds.
+
+real	3m1.520s
+user	56m3.485s
+sys	0m59.005s
+
+real	3m1.463s
+user	56m6.678s
+sys	0m59.808s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.077s
+user	0m0.031s
+sys	0m0.014s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Dendro2-3_S67_L002_R1_001_val_1.fq /global/scratch/users/uricchio/Dendro2-3_S67_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Dendro2-3 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Dendro2-3_S67_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro2-3.blastx 
+time cat /global/scratch/users/uricchio/Dendro2-3_S67_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro2-3.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 11:34:24
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Dendro2-4/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00320911 seconds.
+
+real	4m55.516s
+user	91m36.006s
+sys	1m40.638s
+
+real	4m56.362s
+user	91m55.289s
+sys	1m41.217s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.105s
+user	0m0.057s
+sys	0m0.012s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Dendro2-4_S68_L002_R1_001_val_1.fq /global/scratch/users/uricchio/Dendro2-4_S68_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Dendro2-4 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Dendro2-4_S68_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro2-4.blastx 
+time cat /global/scratch/users/uricchio/Dendro2-4_S68_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro2-4.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 11:44:16
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Dendro2-5/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00348186 seconds.
+
+real	3m23.277s
+user	62m56.492s
+sys	1m9.062s
+
+real	3m23.776s
+user	63m4.050s
+sys	1m9.749s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.094s
+user	0m0.049s
+sys	0m0.018s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Dendro2-5_S69_L002_R1_001_val_1.fq /global/scratch/users/uricchio/Dendro2-5_S69_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Dendro2-5 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Dendro2-5_S69_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro2-5.blastx 
+time cat /global/scratch/users/uricchio/Dendro2-5_S69_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro2-5.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 11:51:04
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Dendro2-6/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00243402 seconds.
+
+real	4m54.541s
+user	91m35.627s
+sys	1m26.315s
+
+real	4m54.922s
+user	91m42.734s
+sys	1m28.965s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.096s
+user	0m0.044s
+sys	0m0.018s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Dendro2-6_S70_L002_R1_001_val_1.fq /global/scratch/users/uricchio/Dendro2-6_S70_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Dendro2-6 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Dendro2-6_S70_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro2-6.blastx 
+time cat /global/scratch/users/uricchio/Dendro2-6_S70_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro2-6.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 12:00:54
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Dendro2-7/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00250983 seconds.
+
+real	7m59.475s
+user	149m5.016s
+sys	2m39.071s
+
+real	8m1.361s
+user	149m35.942s
+sys	2m40.553s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.089s
+user	0m0.048s
+sys	0m0.013s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Dendro2-7_S71_L002_R1_001_val_1.fq /global/scratch/users/uricchio/Dendro2-7_S71_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Dendro2-7 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Dendro2-7_S71_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro2-7.blastx 
+time cat /global/scratch/users/uricchio/Dendro2-7_S71_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro2-7.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 12:16:55
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Dendro2-8/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.00276208 seconds.
+
+real	6m33.413s
+user	122m28.123s
+sys	1m58.661s
+
+real	6m34.748s
+user	122m42.683s
+sys	2m1.826s
+Traceback (most recent call last):
+  File "/global/home/users/uricchio/software/HybPiper-master/distribute_reads_to_targets.py", line 4, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+
+real	0m0.089s
+user	0m0.048s
+sys	0m0.011s
+HybPiper was called with these arguments:
+/global/home/users/uricchio/software/HybPiper-master//reads_first.py -r /global/scratch/users/uricchio/Dendro2-8_S72_L002_R1_001_val_1.fq /global/scratch/users/uricchio/Dendro2-8_S72_L002_R2_001_val_2.fq -b data/hybrids.fa --prefix /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Dendro2-8 --thresh 80 --kvals 35,75,95 --evalue 1e-10 --depth_multiplier 10
+
+Making protein blastdb in current directory.
+makeblastdb -dbtype prot -in hybrids.fa
+time cat /global/scratch/users/uricchio/Dendro2-8_S72_L002_R1_001_val_1.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro2-8.blastx 
+time cat /global/scratch/users/uricchio/Dendro2-8_S72_L002_R2_001_val_2.fq |  awk '{if(NR % 4 == 1 || NR % 4 == 2) {sub(/@/, ">"); print; } }' | parallel -k --block 200K --recstart '>' --pipe 'blastx -db hybrids.fa -query - -evalue 1e-10 -outfmt 6 -max_target_seqs 10' >> Dendro2-8.blastx 
+ERROR: Something went wrong with distributing reads to gene directories.
+
+
+Building a new DB, current time: 07/19/2022 12:30:03
+New DB name:   /global/scratch/users/uricchio/assembs_xenPum_ref_HPfixed_all/t80d10k35/Epi-1/hybrids.fa
+New DB title:  hybrids.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6 sequences in 0.002666 seconds.
+
+real	14m32.500s
+user	272m28.461s
+sys	4m1.811s
+slurmstepd: error: *** JOB 12545446 ON n0159.savio1 CANCELLED AT 2022-07-19T12:58:12 ***

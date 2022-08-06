@@ -1,0 +1,165 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count    min threads    max threads
+----------------  -------  -------------  -------------
+all                     1              1              1
+makeDNA                 5              1              1
+trim_bad_columns        5              1              1
+total                  11              1              1
+
+Select jobs to execute...
+
+[Tue Jul 26 15:49:06 2022]
+rule trim_bad_columns:
+    input: ../../Data/alignments_full_assemb/align_SCN5A/SCN5A.t68d10k45.all.renamed.fa.mafft.noStars
+    output: plot_data/SCN5A.columns
+    jobid: 28
+    reason: Missing output files: plot_data/SCN5A.columns
+    wildcards: sample=SCN5A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Tue Jul 26 15:49:07 2022]
+Finished job 28.
+1 of 11 steps (9%) done
+Select jobs to execute...
+
+[Tue Jul 26 15:49:07 2022]
+rule makeDNA:
+    input: plot_data/SCN5A.columns, plot_data/SCN5A.DNA.fa
+    output: plot_data/SCN5A.DNA.trimmed.fa
+    jobid: 33
+    reason: Input files updated by another job: plot_data/SCN5A.columns
+    wildcards: sample=SCN5A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Tue Jul 26 15:49:07 2022]
+Finished job 33.
+2 of 11 steps (18%) done
+Select jobs to execute...
+
+[Tue Jul 26 15:49:07 2022]
+rule trim_bad_columns:
+    input: ../../Data/alignments_full_assemb/align_SCN1A/SCN1A.t68d10k45.all.renamed.fa.mafft.noStars
+    output: plot_data/SCN1A.columns
+    jobid: 25
+    reason: Missing output files: plot_data/SCN1A.columns
+    wildcards: sample=SCN1A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Tue Jul 26 15:49:07 2022]
+Finished job 25.
+3 of 11 steps (27%) done
+Select jobs to execute...
+
+[Tue Jul 26 15:49:07 2022]
+rule makeDNA:
+    input: plot_data/SCN1A.columns, plot_data/SCN1A.DNA.fa
+    output: plot_data/SCN1A.DNA.trimmed.fa
+    jobid: 30
+    reason: Input files updated by another job: plot_data/SCN1A.columns
+    wildcards: sample=SCN1A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Tue Jul 26 15:49:07 2022]
+Finished job 30.
+4 of 11 steps (36%) done
+Select jobs to execute...
+
+[Tue Jul 26 15:49:07 2022]
+rule trim_bad_columns:
+    input: ../../Data/alignments_full_assemb/align_SCN8A/SCN8A.t68d10k45.all.renamed.fa.mafft.noStars
+    output: plot_data/SCN8A.columns
+    jobid: 29
+    reason: Missing output files: plot_data/SCN8A.columns
+    wildcards: sample=SCN8A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Tue Jul 26 15:49:07 2022]
+Finished job 29.
+5 of 11 steps (45%) done
+Select jobs to execute...
+
+[Tue Jul 26 15:49:07 2022]
+rule trim_bad_columns:
+    input: ../../Data/alignments_full_assemb/align_SCN4A/SCN4A.t68d10k45.all.renamed.fa.mafft.noStars
+    output: plot_data/SCN4A.columns
+    jobid: 27
+    reason: Missing output files: plot_data/SCN4A.columns
+    wildcards: sample=SCN4A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Tue Jul 26 15:49:08 2022]
+Finished job 27.
+6 of 11 steps (55%) done
+Select jobs to execute...
+
+[Tue Jul 26 15:49:08 2022]
+rule makeDNA:
+    input: plot_data/SCN4A.columns, plot_data/SCN4A.DNA.fa
+    output: plot_data/SCN4A.DNA.trimmed.fa
+    jobid: 32
+    reason: Input files updated by another job: plot_data/SCN4A.columns
+    wildcards: sample=SCN4A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Tue Jul 26 15:49:08 2022]
+Finished job 32.
+7 of 11 steps (64%) done
+Select jobs to execute...
+
+[Tue Jul 26 15:49:08 2022]
+rule trim_bad_columns:
+    input: ../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.fa.mafft.noStars
+    output: plot_data/SCN3A.columns
+    jobid: 26
+    reason: Missing output files: plot_data/SCN3A.columns
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Tue Jul 26 15:49:08 2022]
+Finished job 26.
+8 of 11 steps (73%) done
+Select jobs to execute...
+
+[Tue Jul 26 15:49:08 2022]
+rule makeDNA:
+    input: plot_data/SCN8A.columns, plot_data/SCN8A.DNA.fa
+    output: plot_data/SCN8A.DNA.trimmed.fa
+    jobid: 34
+    reason: Input files updated by another job: plot_data/SCN8A.columns
+    wildcards: sample=SCN8A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Tue Jul 26 15:49:08 2022]
+Finished job 34.
+9 of 11 steps (82%) done
+Select jobs to execute...
+
+[Tue Jul 26 15:49:08 2022]
+rule makeDNA:
+    input: plot_data/SCN3A.columns, plot_data/SCN3A.DNA.fa
+    output: plot_data/SCN3A.DNA.trimmed.fa
+    jobid: 31
+    reason: Input files updated by another job: plot_data/SCN3A.columns
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Tue Jul 26 15:49:09 2022]
+Finished job 31.
+10 of 11 steps (91%) done
+Select jobs to execute...
+
+[Tue Jul 26 15:49:09 2022]
+localrule all:
+    input: ../../Data/alignments_full_assemb/align_SCN1A/SCN1A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN2A/SCN2A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN4A/SCN4A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN5A/SCN5A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN8A/SCN8A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN1A/SCN1A.t68d10k45.all.renamed.fa.mafft.noStars, ../../Data/alignments_full_assemb/align_SCN2A/SCN2A.t68d10k45.all.renamed.fa.mafft.noStars, ../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.fa.mafft.noStars, ../../Data/alignments_full_assemb/align_SCN4A/SCN4A.t68d10k45.all.renamed.fa.mafft.noStars, ../../Data/alignments_full_assemb/align_SCN5A/SCN5A.t68d10k45.all.renamed.fa.mafft.noStars, ../../Data/alignments_full_assemb/align_SCN8A/SCN8A.t68d10k45.all.renamed.fa.mafft.noStars, plot_data/SCN1A.fa, plot_data/SCN2A.fa, plot_data/SCN3A.fa, plot_data/SCN4A.fa, plot_data/SCN5A.fa, plot_data/SCN8A.fa, plot_data/SCN1A.DNA.fa, plot_data/SCN2A.DNA.fa, plot_data/SCN3A.DNA.fa, plot_data/SCN4A.DNA.fa, plot_data/SCN5A.DNA.fa, plot_data/SCN8A.DNA.fa, plot_data/SCN1A.columns, plot_data/SCN3A.columns, plot_data/SCN4A.columns, plot_data/SCN5A.columns, plot_data/SCN8A.columns, plot_data/SCN1A.DNA.trimmed.fa, plot_data/SCN3A.DNA.trimmed.fa, plot_data/SCN4A.DNA.trimmed.fa, plot_data/SCN5A.DNA.trimmed.fa, plot_data/SCN8A.DNA.trimmed.fa
+    jobid: 0
+    reason: Input files updated by another job: plot_data/SCN4A.columns, plot_data/SCN3A.DNA.trimmed.fa, plot_data/SCN3A.columns, plot_data/SCN5A.columns, plot_data/SCN8A.DNA.trimmed.fa, plot_data/SCN1A.DNA.trimmed.fa, plot_data/SCN8A.columns, plot_data/SCN4A.DNA.trimmed.fa, plot_data/SCN5A.DNA.trimmed.fa, plot_data/SCN1A.columns
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Tue Jul 26 15:49:09 2022]
+Finished job 0.
+11 of 11 steps (100%) done
+Complete log: .snakemake/log/2022-07-26T154906.515194.snakemake.log

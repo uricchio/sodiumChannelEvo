@@ -1,56 +1,215 @@
-SAMPLES = ["A", "B"]
-
+SAMPLES = ["SCN1A", "SCN2A", "SCN3A", "SCN4A", "SCN5A", "SCN8A"]
 
 rule all:
     input:
-        "plots/quals.svg"
+        "../../Data/alignments_full_assemb/align_SCN1A/SCN1A.spec.fa",
+        "../../Data/alignments_full_assemb/align_SCN2A/SCN2A.spec.fa",
+        "../../Data/alignments_full_assemb/align_SCN3A/SCN3A.spec.fa",
+        "../../Data/alignments_full_assemb/align_SCN4A/SCN4A.spec.fa",
+        "../../Data/alignments_full_assemb/align_SCN5A/SCN5A.spec.fa",
+        "../../Data/alignments_full_assemb/align_SCN8A/SCN8A.spec.fa",
+        "../../Data/alignments_full_assemb/align_SCN1A/SCN1A.t68d10k45.all.renamed.spec.fa",
+        "../../Data/alignments_full_assemb/align_SCN2A/SCN2A.t68d10k45.all.renamed.spec.fa",
+        "../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.spec.fa",
+        "../../Data/alignments_full_assemb/align_SCN4A/SCN4A.t68d10k45.all.renamed.spec.fa",
+        "../../Data/alignments_full_assemb/align_SCN5A/SCN5A.t68d10k45.all.renamed.spec.fa",
+        "../../Data/alignments_full_assemb/align_SCN8A/SCN8A.t68d10k45.all.renamed.spec.fa",
+        "../../Data/alignments_full_assemb/align_SCN1A/SCN1A.t68d10k45.all.renamed.fa.mafft",
+        "../../Data/alignments_full_assemb/align_SCN2A/SCN2A.t68d10k45.all.renamed.fa.mafft",
+        "../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.fa.mafft",
+        "../../Data/alignments_full_assemb/align_SCN4A/SCN4A.t68d10k45.all.renamed.fa.mafft",
+        "../../Data/alignments_full_assemb/align_SCN5A/SCN5A.t68d10k45.all.renamed.fa.mafft",
+        "../../Data/alignments_full_assemb/align_SCN8A/SCN8A.t68d10k45.all.renamed.fa.mafft",
+        "../../Data/alignments_full_assemb/align_SCN1A/SCN1A.t68d10k45.all.renamed.fa.mafft.noStars",
+        "../../Data/alignments_full_assemb/align_SCN2A/SCN2A.t68d10k45.all.renamed.fa.mafft.noStars",
+        "../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.fa.mafft.noStars",
+        "../../Data/alignments_full_assemb/align_SCN4A/SCN4A.t68d10k45.all.renamed.fa.mafft.noStars",
+        "../../Data/alignments_full_assemb/align_SCN5A/SCN5A.t68d10k45.all.renamed.fa.mafft.noStars",
+        "../../Data/alignments_full_assemb/align_SCN8A/SCN8A.t68d10k45.all.renamed.fa.mafft.noStars",
+        "plot_data/SCN1A.fa",
+        "plot_data/SCN2A.fa",
+        "plot_data/SCN3A.fa",
+        "plot_data/SCN4A.fa",
+        "plot_data/SCN5A.fa",
+        "plot_data/SCN8A.fa",
+        "plot_data/SCN1A.DNA.fa",
+        "plot_data/SCN2A.DNA.fa",
+        "plot_data/SCN3A.DNA.fa",
+        "plot_data/SCN4A.DNA.fa",
+        "plot_data/SCN5A.DNA.fa",
+        "plot_data/SCN8A.DNA.fa",
+        "plot_data/SCN1A.columns",
+        "plot_data/SCN3A.columns",
+        "plot_data/SCN4A.columns",
+        "plot_data/SCN5A.columns",
+        "plot_data/SCN8A.columns",
+        "plot_data/SCN1A.DNA.trimmed.fa",
+        "plot_data/SCN3A.DNA.trimmed.fa",
+        "plot_data/SCN4A.DNA.trimmed.fa",
+        "plot_data/SCN5A.DNA.trimmed.fa",
+        "plot_data/SCN8A.DNA.trimmed.fa",
+        "plot_data/SCN1A.DNA.trimmed.fa.raxml.bestTree",
+        "plot_data/SCN3A.DNA.trimmed.fa.raxml.bestTree",
+        "plot_data/SCN4A.DNA.trimmed.fa.raxml.bestTree",
+        "plot_data/SCN5A.DNA.trimmed.fa.raxml.bestTree",
+        "plot_data/SCN8A.DNA.trimmed.fa.raxml.bestTree",
+        "plot_data/SCN1A.DNA.trimmed.wTree.fa",
+        "plot_data/SCN3A.DNA.trimmed.wTree.fa",
+        "plot_data/SCN4A.DNA.trimmed.wTree.fa",
+        "plot_data/SCN5A.DNA.trimmed.wTree.fa",
+        "plot_data/SCN8A.DNA.trimmed.wTree.fa",
+        "plot_data/SCN1A.DNA.trimmed.wTree.fa.MEME.json",
+        "plot_data/SCN3A.DNA.trimmed.wTree.fa.MEME.json",
+        "plot_data/SCN4A.DNA.trimmed.wTree.fa.MEME.json",
+        "plot_data/SCN5A.DNA.trimmed.wTree.fa.MEME.json",
+        "plot_data/SCN8A.DNA.trimmed.wTree.fa.MEME.json",
+        "plot_data/SCN1A.PROT.trimmed.fa",
+        "plot_data/SCN3A.PROT.trimmed.fa",
+        "plot_data/SCN4A.PROT.trimmed.fa",
+        "plot_data/SCN5A.PROT.trimmed.fa",
+        "plot_data/SCN8A.PROT.trimmed.fa",
+        "plot_data/SCN1A.DNA.trimmed.manual.fa",
+        "plot_data/SCN3A.DNA.trimmed.manual.fa",
+        "plot_data/SCN4A.DNA.trimmed.manual.fa",
+        "plot_data/SCN5A.DNA.trimmed.manual.fa",
+        "plot_data/SCN8A.DNA.trimmed.manual.fa",
+        "plot_data/SCN1A.DNA.trimmed.manual.fa.raxml.bestTree",
+        "plot_data/SCN3A.DNA.trimmed.manual.fa.raxml.bestTree",
+        "plot_data/SCN4A.DNA.trimmed.manual.fa.raxml.bestTree",
+        "plot_data/SCN5A.DNA.trimmed.manual.fa.raxml.bestTree",
+        "plot_data/SCN8A.DNA.trimmed.manual.fa.raxml.bestTree",
+        "plot_data/SCN1A.DNA.trimmed.wTree.manual.fa",
+        "plot_data/SCN3A.DNA.trimmed.wTree.manual.fa",
+        "plot_data/SCN4A.DNA.trimmed.wTree.manual.fa",
+        "plot_data/SCN5A.DNA.trimmed.wTree.manual.fa",
+        "plot_data/SCN8A.DNA.trimmed.wTree.manual.fa",
+        "plot_data/SCN1A.DNA.trimmed.wTree.manual.fa.MEME.json",
+        "plot_data/SCN3A.DNA.trimmed.wTree.manual.fa.MEME.json",
+        "plot_data/SCN4A.DNA.trimmed.wTree.manual.fa.MEME.json",
+        "plot_data/SCN5A.DNA.trimmed.wTree.manual.fa.MEME.json",
+        "plot_data/SCN8A.DNA.trimmed.wTree.manual.fa.MEME.json"
 
 
-rule bwa_map:
+wildcard_constraints:
+    sample="SCN\dA"
+
+rule run_mafft:
     input:
-        "data/genome.fa",
-        "data/samples/{sample}.fastq"
+        "../../Data/alignments_full_assemb/align_{sample}/{sample}.spec.fa"
     output:
-        "mapped_reads/{sample}.bam"
+        "../../Data/alignments_full_assemb/align_{sample}/{sample}.t68d10k45.all.renamed.fa.mafft"
     shell:
-        "bwa mem {input} | samtools view -Sb - > {output}"
+        "../../scripts/run_mafft.sh {input} -> {output}" 
 
-
-rule samtools_sort:
+rule remove_stars:
     input:
-        "mapped_reads/{sample}.bam"
+        "../../Data/alignments_full_assemb/align_{sample}/{sample}.t68d10k45.all.renamed.fa.mafft"
     output:
-        "sorted_reads/{sample}.bam"
+        "../../Data/alignments_full_assemb/align_{sample}/{sample}.t68d10k45.all.renamed.fa.mafft.noStars"
     shell:
-        "samtools sort -T sorted_reads/{wildcards.sample} "
-        "-O bam {input} > {output}"
+        "../../scripts/removeStars.sh {input} -> {output}"
 
-
-rule samtools_index:
+rule trim_bad_seqs:
     input:
-        "sorted_reads/{sample}.bam"
+        "../../Data/alignments_full_assemb/align_{sample}/{sample}.t68d10k45.all.renamed.fa.mafft.noStars"
     output:
-        "sorted_reads/{sample}.bam.bai"
+        "plot_data/{sample}.fa"
     shell:
-        "samtools index {input}"
+        "./trimAl.sh {input} {wildcards.sample}"
 
-
-rule bcftools_call:
+rule get_remaining_DNA_seqs:
     input:
-        fa="data/genome.fa",
-        bam=expand("sorted_reads/{sample}.bam", sample=SAMPLES),
-        bai=expand("sorted_reads/{sample}.bam.bai", sample=SAMPLES)
+        "plot_data/{sample}.fa",
+        "../../Data/alignments_full_assemb/align_{sample}/{sample}.t68d10k45.all.renamed.fa.mafft",
+        "../../Data/alignments_full_assemb/align_{sample}/{sample}.DNA.spec.fa"
     output:
-        "calls/all.vcf"
+        "plot_data/{sample}.DNA.fa"
     shell:
-        "samtools mpileup -g -f {input.fa} {input.bam} | "
-        "bcftools call -mv - > {output}"
+        "python ../../scripts/getDNAfromProtAlign.py {input} -> {output}"
 
-
-rule plot_quals:
+rule trim_bad_columns:
     input:
-        "calls/all.vcf"
+        "../../Data/alignments_full_assemb/align_{sample}/{sample}.t68d10k45.all.renamed.fa.mafft.noStars"
     output:
-        "plots/quals.svg"
-    script:
-        "scripts/plot-quals.py"
+        "plot_data/{sample}.columns"
+    shell:
+        "./trimAlCol.sh {wildcards.sample} -> {output}"
+
+rule makeDNA:
+    input:
+        "plot_data/{sample}.columns",
+        "plot_data/{sample}.DNA.fa"
+    output:
+        "plot_data/{sample}.DNA.trimmed.fa"
+    shell:
+        "python ../../scripts/removeBadCols.py {input} -> {output}"
+
+rule makeTree:
+    input:
+        "plot_data/{sample}.DNA.trimmed.fa"
+    output:
+        "plot_data/{sample}.DNA.trimmed.fa.raxml.bestTree"
+    shell:
+        "../../scripts/make_tree.sh {input}"
+
+rule makeHyphyInput:
+    input:
+        "plot_data/{sample}.DNA.trimmed.fa",
+        "plot_data/{sample}.DNA.trimmed.fa.raxml.bestTree"
+    output:
+        "plot_data/{sample}.DNA.trimmed.wTree.fa"
+    shell:
+        "../../scripts/makeHyphyInput.sh {input} {output}" 
+        
+rule runMeme:
+    input:
+         "plot_data/{sample}.DNA.trimmed.wTree.fa"
+    output:   
+         "plot_data/{sample}.DNA.trimmed.wTree.fa.MEME.json"
+    shell:
+         "hyphy meme {input}"
+
+rule makePROTfromDNA:
+    input:
+        "plot_data/{sample}.DNA.trimmed.fa"
+    output:
+        "plot_data/{sample}.PROT.trimmed.fa"
+    shell:
+        "python ../../scripts/translateDNA.py {input} -> {output}"
+
+
+rule makeDNAManualfromPROTManual:
+    input:
+        "plot_data/{sample}.PROT.trimmed.manual.fa",
+        "plot_data/{sample}.DNA.trimmed.fa"
+    output:
+        "plot_data/{sample}.DNA.trimmed.manual.fa"
+    shell:
+        "python ../../scripts/deleteColumns.py {input} -> {output}"
+
+rule makeTreeMan:
+    input:
+        "plot_data/{sample}.DNA.trimmed.manual.fa"
+    output:
+        "plot_data/{sample}.DNA.trimmed.manual.fa.raxml.bestTree"
+    shell:
+        "../../scripts/make_tree.sh {input}"
+
+rule makeHyphyInputMan:
+    input:
+        "plot_data/{sample}.DNA.trimmed.manual.fa",
+        "plot_data/{sample}.DNA.trimmed.manual.fa.raxml.bestTree"
+    output:
+        "plot_data/{sample}.DNA.trimmed.wTree.manual.fa"
+    shell:
+        "../../scripts/makeHyphyInput.sh {input} {output}"
+
+rule runMemeMan:
+    input:
+         "plot_data/{sample}.DNA.trimmed.wTree.manual.fa"
+    output:
+         "plot_data/{sample}.DNA.trimmed.wTree.manual.fa.MEME.json"
+    shell:
+         "hyphy meme {input}"
+
+

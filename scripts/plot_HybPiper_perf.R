@@ -8,7 +8,7 @@ library(wesanderson)
 # test data from small number of species with xenopus reference seq
 
 data<-read.table("plot_data/trees_xen_ref_orig_DNA.txt")
-plA<-ggplot(data=data, aes(V1,V4,fill=interaction(V2,V3),group=interaction(V1,V2,V3)))+geom_boxplot(width=3)+ylab("Deep coalescences")+scale_x_discrete(name ="Threshold", limits=c(56,60,64,68,72,76,80,84))+theme(legend.position="none")
+plA<-ggplot(data=data, aes(V1,V4,fill=interaction(V2,V3),group=interaction(V1,V2,V3)))+geom_boxplot(width=3)+scale_x_discrete(name ="Threshold", limits=c(56,60,64,68,72,76,80,84))+theme(legend.position="none")+scale_y_continuous(limits=c(0,35),name="Deep coalescences")
 
 # make table of assembly lengths
 data<-read.table("plot_data/lens_xen_ref_orig.txt")
@@ -26,7 +26,7 @@ ggsave("plot_data/summary_alignments_xen_ref_orig.pdf",width=13,height=10)
 
 # test data from small number of species with pumilio/xenopus reference sequence
 data<-read.table("plot_data/trees_xenPum_ref_orig_DNA.txt")
-plA<-ggplot(data=data, aes(V1,V4,fill=interaction(V2,V3),group=interaction(V1,V2,V3)))+geom_boxplot(width=3)+ylab("Deep coalescences")+scale_x_discrete(name ="Threshold", limits=c(56,60,64,68,72,76,80,84))+theme(legend.position="none")
+plA<-ggplot(data=data, aes(V1,V4,fill=interaction(V2,V3),group=interaction(V1,V2,V3)))+geom_boxplot(width=3)+scale_x_discrete(name ="Threshold", limits=c(56,60,64,68,72,76,80,84))+theme(legend.position="none")+scale_y_continuous(limits=c(0,35),name="Deep coalescences")
 
 # make table of assembly lengths
 data<-read.table("plot_data/lens_xenPum_ref_orig.txt")

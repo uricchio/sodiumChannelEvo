@@ -1,0 +1,34 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+all              1              1              1
+plot_data        1              1              1
+total            2              1              1
+
+Select jobs to execute...
+
+[Fri Jul 22 14:29:14 2022]
+rule plot_data:
+    input: plot_data/trees_xenPum_ref_HPfixed_DNA.txt, plot_data/trees_xen_ref_HPfixed_DNA.txt, plot_data/lens_xenPum_ref_HPfixed.txt, plot_data/lens_xen_ref_HPfixed.txt
+    output: plot_data/summary_alignments_xenPum_ref_HPfixed.pdf, plot_data/summary_alignments_xen_ref_HPfixed.pdf
+    jobid: 5
+    reason: Missing output files: plot_data/summary_alignments_xenPum_ref_HPfixed.pdf, plot_data/summary_alignments_xen_ref_HPfixed.pdf
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Fri Jul 22 14:29:15 2022]
+Error in rule plot_data:
+    jobid: 5
+    output: plot_data/summary_alignments_xenPum_ref_HPfixed.pdf, plot_data/summary_alignments_xen_ref_HPfixed.pdf
+    shell:
+        Rscript ../../scripts/plot_HybPiper_perf_HPfixed.R
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job plot_data since they might be corrupted:
+plot_data/summary_alignments_xen_ref_HPfixed.pdf
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2022-07-22T142914.399436.snakemake.log

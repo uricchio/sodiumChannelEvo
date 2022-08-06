@@ -10,8 +10,8 @@ alignFile = sys.argv[5]
 #obj.makeAllHybs()
 
 # run HypPiper
-obj2 = HPtools.RunHybPiper(ref=alignFile,naU='data/namelistUnique.txt',naS='data/namelistScratch.txt',tvals=[56,60,64,68,72,76,80,84], assembDir=outDirAssembs,HPshFile='sodiumChannelPaperAnalyses/scripts/run_tests.sh')
-obj2.runHybPiper(t=int(sys.argv[1]),k=int(sys.argv[2]))
+#obj2 = HPtools.RunHybPiper(ref=alignFile,naU='data/namelistUnique.txt',naS='data/namelistScratch.txt',tvals=[56,60,64,68,72,76,80,84], assembDir=outDirAssembs,HPshFile='sodiumChannelPaperAnalyses/scripts/run_tests.sh')
+#obj2.runHybPiper(t=int(sys.argv[1]),k=int(sys.argv[2]))
 
 # Generate trees
 t = sys.argv[1]

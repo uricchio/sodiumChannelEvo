@@ -1,0 +1,37 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+all              1              1              1
+plot_data        1              1              1
+total            2              1              1
+
+Select jobs to execute...
+
+[Fri Jul 22 14:35:17 2022]
+rule plot_data:
+    input: plot_data/trees_xenPum_ref_HPfixed_DNA.txt, plot_data/trees_xen_ref_HPfixed_DNA.txt, plot_data/lens_xenPum_ref_HPfixed.txt, plot_data/lens_xen_ref_HPfixed.txt
+    output: plot_data/summary_alignments_xenPum_ref_HPfixed.pdf, plot_data/summary_alignments_xen_ref_HPfixed.pdf
+    jobid: 5
+    reason: Missing output files: plot_data/summary_alignments_xen_ref_HPfixed.pdf, plot_data/summary_alignments_xenPum_ref_HPfixed.pdf
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Fri Jul 22 14:35:18 2022]
+Finished job 5.
+1 of 2 steps (50%) done
+Select jobs to execute...
+
+[Fri Jul 22 14:35:18 2022]
+localrule all:
+    input: plot_data/trees_xenPum_ref_HPfixed_DNA.txt, plot_data/trees_xen_ref_HPfixed_DNA.txt, plot_data/lens_xenPum_ref_HPfixed.txt, plot_data/lens_xen_ref_HPfixed.txt, plot_data/summary_alignments_xenPum_ref_HPfixed.pdf, plot_data/summary_alignments_xen_ref_HPfixed.pdf
+    jobid: 0
+    reason: Input files updated by another job: plot_data/summary_alignments_xen_ref_HPfixed.pdf, plot_data/summary_alignments_xenPum_ref_HPfixed.pdf
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Fri Jul 22 14:35:18 2022]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: .snakemake/log/2022-07-22T143516.853470.snakemake.log

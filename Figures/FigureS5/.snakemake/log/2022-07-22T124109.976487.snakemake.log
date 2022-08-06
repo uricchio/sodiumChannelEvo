@@ -1,0 +1,36 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+all              1              1              1
+make_lens        1              1              1
+plot_data        1              1              1
+total            3              1              1
+
+Select jobs to execute...
+
+[Fri Jul 22 12:41:10 2022]
+rule make_lens:
+    input: ../../Data/alignments_full_assemb
+    output: plot_data/lens_full_assemb.txt
+    jobid: 2
+    reason: Missing output files: plot_data/lens_full_assemb.txt; Updated input files: ../../Data/alignments_full_assemb
+    wildcards: sample=full_assemb
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Fri Jul 22 12:41:11 2022]
+Error in rule make_lens:
+    jobid: 2
+    output: plot_data/lens_full_assemb.txt
+    shell:
+        ./make_lens_all.sh ../../Data/alignments_full_assemb - > plot_data/lens_full_assemb.txt
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job make_lens since they might be corrupted:
+plot_data/lens_full_assemb.txt
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2022-07-22T124109.976487.snakemake.log

@@ -1,0 +1,33 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job               count    min threads    max threads
+--------------  -------  -------------  -------------
+all                   1              1              1
+makeHyphyInput        5              1              1
+total                 6              1              1
+
+Select jobs to execute...
+
+[Wed Jul 27 10:14:50 2022]
+rule makeHyphyInput:
+    input: plot_data/SCN8A.DNA.trimmed.fa.raxml.bestTree, plot_data/SCN8A.DNA.trimmed.fa
+    output: plot_data/SCN8A.DNA.trimmed.wTree.fa
+    jobid: 44
+    reason: Missing output files: plot_data/SCN8A.DNA.trimmed.wTree.fa
+    wildcards: sample=SCN8A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Wed Jul 27 10:14:50 2022]
+Error in rule makeHyphyInput:
+    jobid: 44
+    output: plot_data/SCN8A.DNA.trimmed.wTree.fa
+    shell:
+        ../../scripts/makeHyphyOutput.sh plot_data/SCN8A.DNA.trimmed.fa.raxml.bestTree plot_data/SCN8A.DNA.trimmed.fa plot_data/SCN8A.DNA.trimmed.wTree.fa
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2022-07-27T101450.025863.snakemake.log

@@ -1,0 +1,24 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job              count    min threads    max threads
+-------------  -------  -------------  -------------
+all                  1              1              1
+trim_bad_seqs        5              1              1
+total                6              1              1
+
+Select jobs to execute...
+
+[Tue Jul 26 11:19:47 2022]
+rule trim_bad_seqs:
+    input: ../../Data/alignments_full_assemb/align_SCN3A
+    output: plot_data/SCN3A.fa
+    jobid: 3
+    reason: Missing output files: plot_data/SCN3A.fa
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+RuleException in line 12 of /Users/uricchio/projects/poison/sodiumChannelPaper/Figures/Figure2/Snakefile:
+NameError: The name 'sample' is unknown in this context. Did you mean 'wildcards.sample'?

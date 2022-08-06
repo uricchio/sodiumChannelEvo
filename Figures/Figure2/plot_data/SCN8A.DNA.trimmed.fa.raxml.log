@@ -1,0 +1,58 @@
+
+RAxML-NG v. 1.1.0 released on 29.11.2021 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Apple M1, 8 cores, 8 GB RAM
+
+RAxML-NG was called at 05-Aug-2022 23:55:20 as follows:
+
+/Users/uricchio/projects/software/raxml-ng_v1.1.0_macos_x86_64/raxml-ng --model GTR+G --prefix plot_data/SCN8A.DNA.trimmed.fa --redo --msa plot_data/SCN8A.DNA.trimmed.fa.raxml.rba
+
+Analysis options:
+  run mode: ML tree search
+  start tree(s): random (10) + parsimony (10)
+  random seed: 1659768920
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  fast spr radius: AUTO
+  spr subtree cutoff: 1.000000
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: SSE3
+  parallelization: coarse-grained (auto), PTHREADS (auto)
+
+WARNING: Running in REDO mode: existing checkpoints are ignored, and all result files will be overwritten!
+
+WARNING: The model you specified on the command line (GTR+G) will be ignored 
+         since the binary MSA file already contains a model definition.
+         If you want to change the model, please re-run RAxML-NG 
+         with the original PHYLIP/FASTA alignment and --redo option.
+
+[00:00:00] Loading binary alignment from file: plot_data/SCN8A.DNA.trimmed.fa.raxml.rba
+[00:00:00] Alignment comprises 94 taxa, 1 partitions and 2115 patterns
+
+Partition 0: noname
+Model: GTR+FO+G4m
+Alignment sites / patterns: 5676 / 2115
+Gaps: 1.77 %
+Invariant sites: 59.09 %
+
+
+Parallelization scheme autoconfig: 4 worker(s) x 2 thread(s)
+
+Parallel reduction/worker buffer size: 1 KB  / 0 KB
+
+[00:00:00] Generating 10 random starting tree(s) with 94 taxa
+[00:00:00] Generating 10 parsimony starting tree(s) with 94 taxa
+[00:00:00] Data distribution: max. partitions/sites/weight per thread: 1 / 1058 / 16928
+[00:00:00] Data distribution: max. searches per worker: 5
+
+Starting ML tree search with 20 distinct starting trees
+
+[00:00:00 -117660.315436] Initial branch length optimization
+[00:00:21 -101360.842116] Model parameter optimization (eps = 10.000000)
+[00:03:10 -92349.946988] AUTODETECT spr round 1 (radius: 5)

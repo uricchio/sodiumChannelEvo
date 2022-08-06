@@ -1,0 +1,42 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                       count    min threads    max threads
+----------------------  -------  -------------  -------------
+all                           1              1              1
+get_remaining_DNA_seqs        5              1              1
+makeDNA                       4              1              1
+makeHyphyInput                5              1              1
+makePROTfromDNA               5              1              1
+makeTree                      5              1              1
+remove_stars                  2              1              1
+runMeme                       5              1              1
+run_mafft                     1              1              1
+trim_bad_columns              2              1              1
+trim_bad_seqs                 2              1              1
+total                        37              1              1
+
+Select jobs to execute...
+
+[Fri Aug  5 22:20:37 2022]
+rule makeTree:
+    input: plot_data/SCN3A.DNA.trimmed.fa
+    output: plot_data/SCN3A.DNA.trimmed.fa.raxml.bestTree
+    jobid: 36
+    reason: Missing output files: plot_data/SCN3A.DNA.trimmed.fa.raxml.bestTree
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Fri Aug  5 22:20:37 2022]
+Error in rule makeTree:
+    jobid: 36
+    output: plot_data/SCN3A.DNA.trimmed.fa.raxml.bestTree
+    shell:
+        ../../scripts/make_tree.sh plot_data/SCN3A.DNA.trimmed.fa
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2022-08-05T222037.167291.snakemake.log

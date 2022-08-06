@@ -1,0 +1,37 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+all              1              1              1
+plot_data        1              1              1
+total            2              1              1
+
+Select jobs to execute...
+
+[Fri Jul 22 11:26:03 2022]
+rule plot_data:
+    input: plot_data/trees_full_assemb.txt, plot_data/lens_full_assemb.txt
+    output: plot_data/summary_alignments.pdf
+    jobid: 3
+    reason: Forced execution
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Fri Jul 22 11:26:04 2022]
+Finished job 3.
+1 of 2 steps (50%) done
+Select jobs to execute...
+
+[Fri Jul 22 11:26:04 2022]
+localrule all:
+    input: plot_data/trees_full_assemb.txt, plot_data/lens_full_assemb.txt, plot_data/summary_alignments.pdf
+    jobid: 0
+    reason: Input files updated by another job: plot_data/summary_alignments.pdf
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Fri Jul 22 11:26:04 2022]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: .snakemake/log/2022-07-22T112603.316502.snakemake.log

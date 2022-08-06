@@ -1,0 +1,35 @@
+
+RAxML-NG v. 1.0.0 released on 07.08.2020 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz, 20 cores, 62 GB RAM
+
+RAxML-NG was called at 22-Jul-2022 11:48:39 as follows:
+
+/global/home/users/uricchio/software/raxml-ng-master/raxml-ng --rfdist --tree t84d10k45.orig.raxml.mlTrees --prefix t64
+
+Analysis options:
+  run mode: RF distance computation
+  start tree(s): user
+  random seed: 1658515719
+  SIMD kernels: AVX
+  parallelization: coarse-grained (auto), PTHREADS (auto)
+
+Reading input trees from file: t84d10k45.orig.raxml.mlTrees
+Loaded 20 trees with 60 taxa.
+
+Average absolute RF distance in this tree set: 5.789474
+Average relative RF distance in this tree set: 0.050785
+Number of unique topologies in this tree set: 5
+
+Pairwise RF distances saved to: /global/home/users/uricchio/software/HybPiper-master/sodiumChannelPaperAnalyses/trees_xenPum_ref_HPfixed_DNA/t64.raxml.rfDistances
+
+Execution log saved to: /global/home/users/uricchio/software/HybPiper-master/sodiumChannelPaperAnalyses/trees_xenPum_ref_HPfixed_DNA/t64.raxml.log
+
+Analysis started: 22-Jul-2022 11:48:39 / finished: 22-Jul-2022 11:48:39
+
+Elapsed time: 0.029 seconds
+

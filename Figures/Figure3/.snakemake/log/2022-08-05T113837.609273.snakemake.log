@@ -1,0 +1,32 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job             count    min threads    max threads
+------------  -------  -------------  -------------
+all                 1              1              1
+makeSubAlign        5              1              1
+total               6              1              1
+
+Select jobs to execute...
+
+[Fri Aug  5 11:38:38 2022]
+rule makeSubAlign:
+    input: plot_data/SCN5A.PROT.sub, plot_data/SCN5A.PROT.trimmed.manual.fa.wRef.fa
+    output: plot_data/SCN5A.PROT.aligned.wRef.fa
+    jobid: 9
+    reason: Missing output files: plot_data/SCN5A.PROT.aligned.wRef.fa
+    wildcards: sample=SCN5A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+Terminating processes on user request, this might take some time.
+[Fri Aug  5 11:38:53 2022]
+Error in rule makeSubAlign:
+    jobid: 9
+    output: plot_data/SCN5A.PROT.aligned.wRef.fa
+    shell:
+        mafft --merge plot_data/SCN5A.PROT.sub plot_data/SCN5A.PROT.trimmed.manual.fa.wRef.fa -> plot_data/SCN5A.PROT.aligned.wRef.fa
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Complete log: .snakemake/log/2022-08-05T113837.609273.snakemake.log
