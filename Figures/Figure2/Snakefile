@@ -87,7 +87,12 @@ rule all:
         "plot_data/SCN3A.DNA.trimmed.wTree.manual.fa.MEME.json",
         "plot_data/SCN4A.DNA.trimmed.wTree.manual.fa.MEME.json",
         "plot_data/SCN5A.DNA.trimmed.wTree.manual.fa.MEME.json",
-        "plot_data/SCN8A.DNA.trimmed.wTree.manual.fa.MEME.json"
+        "plot_data/SCN8A.DNA.trimmed.wTree.manual.fa.MEME.json",
+        "plot_data/SCN1A.DNA.trimmed.wTree.manual.fa.BUSTED.json",
+        "plot_data/SCN3A.DNA.trimmed.wTree.manual.fa.BUSTED.json",
+        "plot_data/SCN4A.DNA.trimmed.wTree.manual.fa.BUSTED.json",
+        "plot_data/SCN5A.DNA.trimmed.wTree.manual.fa.BUSTED.json",
+        "plot_data/SCN8A.DNA.trimmed.wTree.manual.fa.BUSTED.json"
 
 
 wildcard_constraints:
@@ -167,7 +172,7 @@ rule runMeme:
     output:   
          "plot_data/{sample}.DNA.trimmed.wTree.fa.MEME.json"
     shell:
-         "hyphy meme {input}"
+         "/Users/uricchio/opt/anaconda3/bin/hyphy meme {input}"
 
 rule makePROTfromDNA:
     input:
@@ -210,6 +215,12 @@ rule runMemeMan:
     output:
          "plot_data/{sample}.DNA.trimmed.wTree.manual.fa.MEME.json"
     shell:
-         "hyphy meme {input}"
+         "/Users/uricchio/opt/anaconda3/bin/hyphy meme {input}"
 
-
+rule runBustedMan:
+    input:
+         "plot_data/{sample}.DNA.trimmed.wTree.manual.fa"
+    output:
+         "plot_data/{sample}.DNA.trimmed.wTree.manual.fa.BUSTED.json"
+    shell:
+         "/Users/uricchio/opt/anaconda3/bin/hyphy busted {input}"

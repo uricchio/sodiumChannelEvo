@@ -1,0 +1,635 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job                            count    min threads    max threads
+---------------------------  -------  -------------  -------------
+all                                1              1              1
+get_remaining_DNA_seqs             6              1              1
+makeDNA                            5              1              1
+makeDNAManualfromPROTManual        5              1              1
+makeHyphyInput                     5              1              1
+makeHyphyInputMan                  5              1              1
+makePROTfromDNA                    5              1              1
+makeTree                           5              1              1
+makeTreeMan                        5              1              1
+runMeme                            5              1              1
+runMemeMan                         5              1              1
+trim_bad_columns                   5              1              1
+trim_bad_seqs                      6              1              1
+total                             63              1              1
+
+Select jobs to execute...
+
+[Sat Aug  6 09:04:35 2022]
+rule trim_bad_columns:
+    input: ../../Data/alignments_full_assemb/align_SCN1A/SCN1A.t68d10k45.all.renamed.fa.mafft.noStars
+    output: plot_data/SCN1A.columns
+    jobid: 25
+    reason: Missing output files: plot_data/SCN1A.columns
+    wildcards: sample=SCN1A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Sat Aug  6 09:04:35 2022]
+rule trim_bad_columns:
+    input: ../../Data/alignments_full_assemb/align_SCN4A/SCN4A.t68d10k45.all.renamed.fa.mafft.noStars
+    output: plot_data/SCN4A.columns
+    jobid: 27
+    reason: Missing output files: plot_data/SCN4A.columns
+    wildcards: sample=SCN4A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Sat Aug  6 09:04:35 2022]
+rule trim_bad_columns:
+    input: ../../Data/alignments_full_assemb/align_SCN8A/SCN8A.t68d10k45.all.renamed.fa.mafft.noStars
+    output: plot_data/SCN8A.columns
+    jobid: 29
+    reason: Missing output files: plot_data/SCN8A.columns
+    wildcards: sample=SCN8A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Sat Aug  6 09:04:35 2022]
+rule trim_bad_seqs:
+    input: ../../Data/alignments_full_assemb/align_SCN2A/SCN2A.t68d10k45.all.renamed.fa.mafft.noStars
+    output: plot_data/SCN2A.fa
+    jobid: 14
+    reason: Missing output files: plot_data/SCN2A.fa
+    wildcards: sample=SCN2A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Sat Aug  6 09:04:35 2022]
+rule trim_bad_seqs:
+    input: ../../Data/alignments_full_assemb/align_SCN4A/SCN4A.t68d10k45.all.renamed.fa.mafft.noStars
+    output: plot_data/SCN4A.fa
+    jobid: 16
+    reason: Missing output files: plot_data/SCN4A.fa
+    wildcards: sample=SCN4A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Sat Aug  6 09:04:35 2022]
+rule trim_bad_seqs:
+    input: ../../Data/alignments_full_assemb/align_SCN8A/SCN8A.t68d10k45.all.renamed.fa.mafft.noStars
+    output: plot_data/SCN8A.fa
+    jobid: 18
+    reason: Missing output files: plot_data/SCN8A.fa
+    wildcards: sample=SCN8A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Sat Aug  6 09:04:35 2022]
+rule trim_bad_columns:
+    input: ../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.fa.mafft.noStars
+    output: plot_data/SCN3A.columns
+    jobid: 26
+    reason: Missing output files: plot_data/SCN3A.columns
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Sat Aug  6 09:04:35 2022]
+rule trim_bad_seqs:
+    input: ../../Data/alignments_full_assemb/align_SCN5A/SCN5A.t68d10k45.all.renamed.fa.mafft.noStars
+    output: plot_data/SCN5A.fa
+    jobid: 17
+    reason: Missing output files: plot_data/SCN5A.fa
+    wildcards: sample=SCN5A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Sat Aug  6 09:04:35 2022]
+Finished job 16.
+1 of 63 steps (2%) done
+Select jobs to execute...
+
+[Sat Aug  6 09:04:35 2022]
+rule trim_bad_columns:
+    input: ../../Data/alignments_full_assemb/align_SCN5A/SCN5A.t68d10k45.all.renamed.fa.mafft.noStars
+    output: plot_data/SCN5A.columns
+    jobid: 28
+    reason: Missing output files: plot_data/SCN5A.columns
+    wildcards: sample=SCN5A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Sat Aug  6 09:04:35 2022]
+Finished job 18.
+2 of 63 steps (3%) done
+[Sat Aug  6 09:04:35 2022]
+Finished job 17.
+3 of 63 steps (5%) done
+Select jobs to execute...
+
+[Sat Aug  6 09:04:35 2022]
+rule get_remaining_DNA_seqs:
+    input: plot_data/SCN4A.fa, ../../Data/alignments_full_assemb/align_SCN4A/SCN4A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN4A/SCN4A.DNA.spec.fa
+    output: plot_data/SCN4A.DNA.fa
+    jobid: 22
+    reason: Missing output files: plot_data/SCN4A.DNA.fa; Input files updated by another job: plot_data/SCN4A.fa
+    wildcards: sample=SCN4A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Sat Aug  6 09:04:35 2022]
+rule get_remaining_DNA_seqs:
+    input: plot_data/SCN5A.fa, ../../Data/alignments_full_assemb/align_SCN5A/SCN5A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN5A/SCN5A.DNA.spec.fa
+    output: plot_data/SCN5A.DNA.fa
+    jobid: 23
+    reason: Missing output files: plot_data/SCN5A.DNA.fa; Input files updated by another job: plot_data/SCN5A.fa
+    wildcards: sample=SCN5A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Sat Aug  6 09:04:35 2022]
+Finished job 14.
+4 of 63 steps (6%) done
+[Sat Aug  6 09:04:35 2022]
+Finished job 27.
+5 of 63 steps (8%) done
+Select jobs to execute...
+
+[Sat Aug  6 09:04:35 2022]
+rule trim_bad_seqs:
+    input: ../../Data/alignments_full_assemb/align_SCN1A/SCN1A.t68d10k45.all.renamed.fa.mafft.noStars
+    output: plot_data/SCN1A.fa
+    jobid: 13
+    reason: Missing output files: plot_data/SCN1A.fa
+    wildcards: sample=SCN1A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Sat Aug  6 09:04:35 2022]
+rule trim_bad_seqs:
+    input: ../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.fa.mafft.noStars
+    output: plot_data/SCN3A.fa
+    jobid: 15
+    reason: Missing output files: plot_data/SCN3A.fa
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Sat Aug  6 09:04:35 2022]
+Finished job 25.
+6 of 63 steps (10%) done
+[Sat Aug  6 09:04:35 2022]
+Finished job 29.
+7 of 63 steps (11%) done
+[Sat Aug  6 09:04:35 2022]
+Finished job 26.
+8 of 63 steps (13%) done
+Select jobs to execute...
+
+[Sat Aug  6 09:04:35 2022]
+rule get_remaining_DNA_seqs:
+    input: plot_data/SCN8A.fa, ../../Data/alignments_full_assemb/align_SCN8A/SCN8A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN8A/SCN8A.DNA.spec.fa
+    output: plot_data/SCN8A.DNA.fa
+    jobid: 24
+    reason: Missing output files: plot_data/SCN8A.DNA.fa; Input files updated by another job: plot_data/SCN8A.fa
+    wildcards: sample=SCN8A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Sat Aug  6 09:04:35 2022]
+rule get_remaining_DNA_seqs:
+    input: plot_data/SCN2A.fa, ../../Data/alignments_full_assemb/align_SCN2A/SCN2A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN2A/SCN2A.DNA.spec.fa
+    output: plot_data/SCN2A.DNA.fa
+    jobid: 20
+    reason: Missing output files: plot_data/SCN2A.DNA.fa; Input files updated by another job: plot_data/SCN2A.fa
+    wildcards: sample=SCN2A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Sat Aug  6 09:04:35 2022]
+Finished job 23.
+9 of 63 steps (14%) done
+[Sat Aug  6 09:04:35 2022]
+Finished job 22.
+10 of 63 steps (16%) done
+Select jobs to execute...
+
+[Sat Aug  6 09:04:35 2022]
+rule makeDNA:
+    input: plot_data/SCN4A.columns, plot_data/SCN4A.DNA.fa
+    output: plot_data/SCN4A.DNA.trimmed.fa
+    jobid: 32
+    reason: Missing output files: plot_data/SCN4A.DNA.trimmed.fa; Input files updated by another job: plot_data/SCN4A.columns, plot_data/SCN4A.DNA.fa
+    wildcards: sample=SCN4A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Sat Aug  6 09:04:35 2022]
+Finished job 13.
+11 of 63 steps (17%) done
+Select jobs to execute...
+
+[Sat Aug  6 09:04:35 2022]
+rule get_remaining_DNA_seqs:
+    input: plot_data/SCN1A.fa, ../../Data/alignments_full_assemb/align_SCN1A/SCN1A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN1A/SCN1A.DNA.spec.fa
+    output: plot_data/SCN1A.DNA.fa
+    jobid: 19
+    reason: Missing output files: plot_data/SCN1A.DNA.fa; Input files updated by another job: plot_data/SCN1A.fa
+    wildcards: sample=SCN1A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Sat Aug  6 09:04:35 2022]
+Finished job 15.
+12 of 63 steps (19%) done
+Select jobs to execute...
+
+[Sat Aug  6 09:04:35 2022]
+rule get_remaining_DNA_seqs:
+    input: plot_data/SCN3A.fa, ../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN3A/SCN3A.DNA.spec.fa
+    output: plot_data/SCN3A.DNA.fa
+    jobid: 21
+    reason: Missing output files: plot_data/SCN3A.DNA.fa; Input files updated by another job: plot_data/SCN3A.fa
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Sat Aug  6 09:04:35 2022]
+Finished job 20.
+13 of 63 steps (21%) done
+[Sat Aug  6 09:04:35 2022]
+Finished job 28.
+14 of 63 steps (22%) done
+Select jobs to execute...
+
+[Sat Aug  6 09:04:35 2022]
+rule makeDNA:
+    input: plot_data/SCN5A.columns, plot_data/SCN5A.DNA.fa
+    output: plot_data/SCN5A.DNA.trimmed.fa
+    jobid: 33
+    reason: Missing output files: plot_data/SCN5A.DNA.trimmed.fa; Input files updated by another job: plot_data/SCN5A.DNA.fa, plot_data/SCN5A.columns
+    wildcards: sample=SCN5A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Sat Aug  6 09:04:35 2022]
+Finished job 19.
+15 of 63 steps (24%) done
+Select jobs to execute...
+
+[Sat Aug  6 09:04:35 2022]
+rule makeDNA:
+    input: plot_data/SCN1A.columns, plot_data/SCN1A.DNA.fa
+    output: plot_data/SCN1A.DNA.trimmed.fa
+    jobid: 30
+    reason: Missing output files: plot_data/SCN1A.DNA.trimmed.fa; Input files updated by another job: plot_data/SCN1A.DNA.fa, plot_data/SCN1A.columns
+    wildcards: sample=SCN1A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Sat Aug  6 09:04:35 2022]
+Finished job 24.
+16 of 63 steps (25%) done
+Select jobs to execute...
+
+[Sat Aug  6 09:04:35 2022]
+rule makeDNA:
+    input: plot_data/SCN8A.columns, plot_data/SCN8A.DNA.fa
+    output: plot_data/SCN8A.DNA.trimmed.fa
+    jobid: 34
+    reason: Missing output files: plot_data/SCN8A.DNA.trimmed.fa; Input files updated by another job: plot_data/SCN8A.DNA.fa, plot_data/SCN8A.columns
+    wildcards: sample=SCN8A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Sat Aug  6 09:04:35 2022]
+Finished job 32.
+17 of 63 steps (27%) done
+Select jobs to execute...
+
+[Sat Aug  6 09:04:35 2022]
+rule makeTree:
+    input: plot_data/SCN4A.DNA.trimmed.fa
+    output: plot_data/SCN4A.DNA.trimmed.fa.raxml.bestTree
+    jobid: 37
+    reason: Missing output files: plot_data/SCN4A.DNA.trimmed.fa.raxml.bestTree; Input files updated by another job: plot_data/SCN4A.DNA.trimmed.fa
+    wildcards: sample=SCN4A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Sat Aug  6 09:04:35 2022]
+rule makeDNAManualfromPROTManual:
+    input: plot_data/SCN4A.PROT.trimmed.manual.fa, plot_data/SCN4A.DNA.trimmed.fa
+    output: plot_data/SCN4A.DNA.trimmed.manual.fa
+    jobid: 57
+    reason: Missing output files: plot_data/SCN4A.DNA.trimmed.manual.fa; Input files updated by another job: plot_data/SCN4A.DNA.trimmed.fa
+    wildcards: sample=SCN4A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Sat Aug  6 09:04:35 2022]
+rule makePROTfromDNA:
+    input: plot_data/SCN4A.DNA.trimmed.fa
+    output: plot_data/SCN4A.PROT.trimmed.fa
+    jobid: 52
+    reason: Missing output files: plot_data/SCN4A.PROT.trimmed.fa; Input files updated by another job: plot_data/SCN4A.DNA.trimmed.fa
+    wildcards: sample=SCN4A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Sat Aug  6 09:04:35 2022]
+Finished job 21.
+18 of 63 steps (29%) done
+[Sat Aug  6 09:04:35 2022]
+Finished job 30.
+19 of 63 steps (30%) done
+Select jobs to execute...
+
+[Sat Aug  6 09:04:36 2022]
+rule makeDNA:
+    input: plot_data/SCN3A.columns, plot_data/SCN3A.DNA.fa
+    output: plot_data/SCN3A.DNA.trimmed.fa
+    jobid: 31
+    reason: Missing output files: plot_data/SCN3A.DNA.trimmed.fa; Input files updated by another job: plot_data/SCN3A.DNA.fa, plot_data/SCN3A.columns
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Sat Aug  6 09:04:36 2022]
+rule makePROTfromDNA:
+    input: plot_data/SCN1A.DNA.trimmed.fa
+    output: plot_data/SCN1A.PROT.trimmed.fa
+    jobid: 50
+    reason: Missing output files: plot_data/SCN1A.PROT.trimmed.fa; Input files updated by another job: plot_data/SCN1A.DNA.trimmed.fa
+    wildcards: sample=SCN1A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Sat Aug  6 09:04:36 2022]
+rule makeTree:
+    input: plot_data/SCN1A.DNA.trimmed.fa
+    output: plot_data/SCN1A.DNA.trimmed.fa.raxml.bestTree
+    jobid: 35
+    reason: Missing output files: plot_data/SCN1A.DNA.trimmed.fa.raxml.bestTree; Input files updated by another job: plot_data/SCN1A.DNA.trimmed.fa
+    wildcards: sample=SCN1A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Sat Aug  6 09:04:36 2022]
+Finished job 33.
+20 of 63 steps (32%) done
+[Sat Aug  6 09:04:36 2022]
+Finished job 34.
+21 of 63 steps (33%) done
+Select jobs to execute...
+
+[Sat Aug  6 09:04:36 2022]
+rule makeTree:
+    input: plot_data/SCN5A.DNA.trimmed.fa
+    output: plot_data/SCN5A.DNA.trimmed.fa.raxml.bestTree
+    jobid: 38
+    reason: Missing output files: plot_data/SCN5A.DNA.trimmed.fa.raxml.bestTree; Input files updated by another job: plot_data/SCN5A.DNA.trimmed.fa
+    wildcards: sample=SCN5A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Sat Aug  6 09:04:36 2022]
+rule makePROTfromDNA:
+    input: plot_data/SCN5A.DNA.trimmed.fa
+    output: plot_data/SCN5A.PROT.trimmed.fa
+    jobid: 53
+    reason: Missing output files: plot_data/SCN5A.PROT.trimmed.fa; Input files updated by another job: plot_data/SCN5A.DNA.trimmed.fa
+    wildcards: sample=SCN5A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Sat Aug  6 09:04:36 2022]
+Finished job 52.
+22 of 63 steps (35%) done
+[Sat Aug  6 09:04:36 2022]
+Finished job 50.
+23 of 63 steps (37%) done
+[Sat Aug  6 09:04:36 2022]
+Finished job 57.
+24 of 63 steps (38%) done
+Select jobs to execute...
+
+[Sat Aug  6 09:04:36 2022]
+rule makeDNAManualfromPROTManual:
+    input: plot_data/SCN8A.PROT.trimmed.manual.fa, plot_data/SCN8A.DNA.trimmed.fa
+    output: plot_data/SCN8A.DNA.trimmed.manual.fa
+    jobid: 59
+    reason: Missing output files: plot_data/SCN8A.DNA.trimmed.manual.fa; Input files updated by another job: plot_data/SCN8A.DNA.trimmed.fa
+    wildcards: sample=SCN8A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Sat Aug  6 09:04:36 2022]
+rule makeTree:
+    input: plot_data/SCN8A.DNA.trimmed.fa
+    output: plot_data/SCN8A.DNA.trimmed.fa.raxml.bestTree
+    jobid: 39
+    reason: Missing output files: plot_data/SCN8A.DNA.trimmed.fa.raxml.bestTree; Input files updated by another job: plot_data/SCN8A.DNA.trimmed.fa
+    wildcards: sample=SCN8A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Sat Aug  6 09:04:36 2022]
+rule makeDNAManualfromPROTManual:
+    input: plot_data/SCN1A.PROT.trimmed.manual.fa, plot_data/SCN1A.DNA.trimmed.fa
+    output: plot_data/SCN1A.DNA.trimmed.manual.fa
+    jobid: 55
+    reason: Missing output files: plot_data/SCN1A.DNA.trimmed.manual.fa; Input files updated by another job: plot_data/SCN1A.DNA.trimmed.fa
+    wildcards: sample=SCN1A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+Select jobs to execute...
+[Sat Aug  6 09:04:36 2022]
+Finished job 55.
+25 of 63 steps (40%) done
+
+[Sat Aug  6 09:04:36 2022]
+rule makeTreeMan:
+    input: plot_data/SCN4A.DNA.trimmed.manual.fa
+    output: plot_data/SCN4A.DNA.trimmed.manual.fa.raxml.bestTree
+    jobid: 62
+    reason: Missing output files: plot_data/SCN4A.DNA.trimmed.manual.fa.raxml.bestTree; Input files updated by another job: plot_data/SCN4A.DNA.trimmed.manual.fa
+    wildcards: sample=SCN4A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Sat Aug  6 09:04:36 2022]
+Finished job 53.
+26 of 63 steps (41%) done
+Select jobs to execute...
+
+[Sat Aug  6 09:04:36 2022]
+rule makePROTfromDNA:
+    input: plot_data/SCN8A.DNA.trimmed.fa
+    output: plot_data/SCN8A.PROT.trimmed.fa
+    jobid: 54
+    reason: Missing output files: plot_data/SCN8A.PROT.trimmed.fa; Input files updated by another job: plot_data/SCN8A.DNA.trimmed.fa
+    wildcards: sample=SCN8A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Sat Aug  6 09:04:36 2022]
+Finished job 31.
+27 of 63 steps (43%) done
+Select jobs to execute...
+
+[Sat Aug  6 09:04:36 2022]
+rule makeTree:
+    input: plot_data/SCN3A.DNA.trimmed.fa
+    output: plot_data/SCN3A.DNA.trimmed.fa.raxml.bestTree
+    jobid: 36
+    reason: Missing output files: plot_data/SCN3A.DNA.trimmed.fa.raxml.bestTree; Input files updated by another job: plot_data/SCN3A.DNA.trimmed.fa
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Sat Aug  6 09:04:36 2022]
+Finished job 54.
+28 of 63 steps (44%) done
+Select jobs to execute...
+
+[Sat Aug  6 09:04:36 2022]
+rule makeDNAManualfromPROTManual:
+    input: plot_data/SCN3A.PROT.trimmed.manual.fa, plot_data/SCN3A.DNA.trimmed.fa
+    output: plot_data/SCN3A.DNA.trimmed.manual.fa
+    jobid: 56
+    reason: Missing output files: plot_data/SCN3A.DNA.trimmed.manual.fa; Input files updated by another job: plot_data/SCN3A.DNA.trimmed.fa
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Sat Aug  6 09:04:37 2022]
+Finished job 59.
+29 of 63 steps (46%) done
+Select jobs to execute...
+
+[Sat Aug  6 09:04:37 2022]
+rule makeTreeMan:
+    input: plot_data/SCN8A.DNA.trimmed.manual.fa
+    output: plot_data/SCN8A.DNA.trimmed.manual.fa.raxml.bestTree
+    jobid: 64
+    reason: Missing output files: plot_data/SCN8A.DNA.trimmed.manual.fa.raxml.bestTree; Input files updated by another job: plot_data/SCN8A.DNA.trimmed.manual.fa
+    wildcards: sample=SCN8A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Sat Aug  6 09:04:37 2022]
+Finished job 56.
+30 of 63 steps (48%) done
+Select jobs to execute...
+
+[Sat Aug  6 09:04:37 2022]
+rule makePROTfromDNA:
+    input: plot_data/SCN3A.DNA.trimmed.fa
+    output: plot_data/SCN3A.PROT.trimmed.fa
+    jobid: 51
+    reason: Missing output files: plot_data/SCN3A.PROT.trimmed.fa; Input files updated by another job: plot_data/SCN3A.DNA.trimmed.fa
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Sat Aug  6 09:04:38 2022]
+Finished job 51.
+31 of 63 steps (49%) done
+Select jobs to execute...
+
+[Sat Aug  6 09:04:38 2022]
+rule makeTreeMan:
+    input: plot_data/SCN3A.DNA.trimmed.manual.fa
+    output: plot_data/SCN3A.DNA.trimmed.manual.fa.raxml.bestTree
+    jobid: 61
+    reason: Missing output files: plot_data/SCN3A.DNA.trimmed.manual.fa.raxml.bestTree; Input files updated by another job: plot_data/SCN3A.DNA.trimmed.manual.fa
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Sat Aug  6 09:07:43 2022]
+Finished job 35.
+32 of 63 steps (51%) done
+Select jobs to execute...
+
+[Sat Aug  6 09:07:43 2022]
+rule makeTreeMan:
+    input: plot_data/SCN1A.DNA.trimmed.manual.fa
+    output: plot_data/SCN1A.DNA.trimmed.manual.fa.raxml.bestTree
+    jobid: 60
+    reason: Missing output files: plot_data/SCN1A.DNA.trimmed.manual.fa.raxml.bestTree; Input files updated by another job: plot_data/SCN1A.DNA.trimmed.manual.fa
+    wildcards: sample=SCN1A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Sat Aug  6 09:10:37 2022]
+Finished job 60.
+33 of 63 steps (52%) done
+Select jobs to execute...
+
+[Sat Aug  6 09:10:37 2022]
+rule makeHyphyInput:
+    input: plot_data/SCN1A.DNA.trimmed.fa, plot_data/SCN1A.DNA.trimmed.fa.raxml.bestTree
+    output: plot_data/SCN1A.DNA.trimmed.wTree.fa
+    jobid: 40
+    reason: Missing output files: plot_data/SCN1A.DNA.trimmed.wTree.fa; Input files updated by another job: plot_data/SCN1A.DNA.trimmed.fa.raxml.bestTree, plot_data/SCN1A.DNA.trimmed.fa
+    wildcards: sample=SCN1A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Sat Aug  6 09:10:37 2022]
+Finished job 40.
+34 of 63 steps (54%) done
+Select jobs to execute...
+
+[Sat Aug  6 09:10:37 2022]
+rule runMeme:
+    input: plot_data/SCN1A.DNA.trimmed.wTree.fa
+    output: plot_data/SCN1A.DNA.trimmed.wTree.fa.MEME.json
+    jobid: 45
+    reason: Missing output files: plot_data/SCN1A.DNA.trimmed.wTree.fa.MEME.json; Input files updated by another job: plot_data/SCN1A.DNA.trimmed.wTree.fa
+    wildcards: sample=SCN1A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Sat Aug  6 09:10:37 2022]
+Error in rule runMeme:
+    jobid: 45
+    output: plot_data/SCN1A.DNA.trimmed.wTree.fa.MEME.json
+    shell:
+        hyphy meme plot_data/SCN1A.DNA.trimmed.wTree.fa
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Terminating processes on user request, this might take some time.
+[Sat Aug  6 09:19:38 2022]
+Error in rule makeTreeMan:
+    jobid: 64
+    output: plot_data/SCN8A.DNA.trimmed.manual.fa.raxml.bestTree
+    shell:
+        ../../scripts/make_tree.sh plot_data/SCN8A.DNA.trimmed.manual.fa
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sat Aug  6 09:19:38 2022]
+[Sat Aug  6 09:19:38 2022]
+[Sat Aug  6 09:19:38 2022]
+Error in rule makeTreeMan:
+    jobid: 61
+    output: plot_data/SCN3A.DNA.trimmed.manual.fa.raxml.bestTree
+    shell:
+        ../../scripts/make_tree.sh plot_data/SCN3A.DNA.trimmed.manual.fa
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule makeTree:
+    jobid: 39
+    output: plot_data/SCN8A.DNA.trimmed.fa.raxml.bestTree
+    shell:
+        ../../scripts/make_tree.sh plot_data/SCN8A.DNA.trimmed.fa
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule makeTree:
+    jobid: 38
+    output: plot_data/SCN5A.DNA.trimmed.fa.raxml.bestTree
+    shell:
+        ../../scripts/make_tree.sh plot_data/SCN5A.DNA.trimmed.fa
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sat Aug  6 09:19:38 2022]
+[Sat Aug  6 09:19:38 2022]
+[Sat Aug  6 09:19:38 2022]
+Error in rule makeTree:
+    jobid: 37
+    output: plot_data/SCN4A.DNA.trimmed.fa.raxml.bestTree
+    shell:
+        ../../scripts/make_tree.sh plot_data/SCN4A.DNA.trimmed.fa
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule makeTreeMan:
+    jobid: 62
+    output: plot_data/SCN4A.DNA.trimmed.manual.fa.raxml.bestTree
+    shell:
+        ../../scripts/make_tree.sh plot_data/SCN4A.DNA.trimmed.manual.fa
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule makeTree:
+    jobid: 36
+    output: plot_data/SCN3A.DNA.trimmed.fa.raxml.bestTree
+    shell:
+        ../../scripts/make_tree.sh plot_data/SCN3A.DNA.trimmed.fa
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Complete log: .snakemake/log/2022-08-06T090434.885805.snakemake.log

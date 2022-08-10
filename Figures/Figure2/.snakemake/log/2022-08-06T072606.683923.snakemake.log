@@ -1,0 +1,7 @@
+Building DAG of jobs...
+MissingInputException in line 181 of /Users/uricchio/projects/poison/sodiumChannelPaper/Figures/Figure2/Snakefile:
+Missing input files for rule makeDNAManualfromPROTManual:
+    output: plot_data/SCN1A.DNA.trimmed.manual.fa
+    wildcards: sample=SCN1A
+    affected files:
+        plot_data/SCN1A.PROT.trimmed.manual.fa
