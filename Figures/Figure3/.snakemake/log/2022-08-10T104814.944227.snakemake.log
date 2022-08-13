@@ -1,0 +1,7 @@
+Building DAG of jobs...
+MissingInputException in line 26 of /Users/uricchio/projects/poison/sodiumChannelPaper/Figures/Figure3/Snakefile:
+Missing input files for rule makeAlign:
+    output: plot_data/SCN1A.PROT.trimmed.manual.fa.wRef.faplot_data/SCN1A.PROT.pLoop.seqsplot_data/SCN3A.PROT.pLoop.seqsplot_data/SCN4A.PROT.pLoop.seqsplot_data/SCN5A.PROT.pLoop.seqsplot_data/SCN8A.PROT.trimmed.manual.fa.wRef.fa
+    wildcards: sample=SCN1A.PROT.trimmed.manual.fa.wRef.faplot_data/SCN1A.PROT.pLoop.seqsplot_data/SCN3A.PROT.pLoop.seqsplot_data/SCN4A.PROT.pLoop.seqsplot_data/SCN5A.PROT.pLoop.seqsplot_data/SCN8A
+    affected files:
+        plot_data/SCN1A.PROT.trimmed.manual.fa.wRef.faplot_data/SCN1A.PROT.pLoop.seqsplot_data/SCN3A.PROT.pLoop.seqsplot_data/SCN4A.PROT.pLoop.seqsplot_data/SCN5A.PROT.pLoop.seqsplot_data/SCN8A.PROT.trimmed.manual.fa

@@ -1,0 +1,236 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count    min threads    max threads
+----------------  -------  -------------  -------------
+all                     1              1              1
+makeAlign               5              1              1
+makeSubAlign            5              1              1
+makeSubAlignFile        5              1              1
+total                  16              1              1
+
+Select jobs to execute...
+
+[Wed Aug 10 10:33:11 2022]
+rule makeAlign:
+    input: ../../Data/alignmentREF.fa, plot_data/SCN3A.PROT.trimmed.manual.fa
+    output: plot_data/SCN3A.PROT.trimmed.manual.fa.wRef.fa
+    jobid: 4
+    reason: Missing output files: plot_data/SCN3A.PROT.trimmed.manual.fa.wRef.fa
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Wed Aug 10 10:33:11 2022]
+Finished job 4.
+1 of 16 steps (6%) done
+Select jobs to execute...
+
+[Wed Aug 10 10:33:11 2022]
+rule makeAlign:
+    input: ../../Data/alignmentREF.fa, plot_data/SCN1A.PROT.trimmed.manual.fa
+    output: plot_data/SCN1A.PROT.trimmed.manual.fa.wRef.fa
+    jobid: 2
+    reason: Missing output files: plot_data/SCN1A.PROT.trimmed.manual.fa.wRef.fa
+    wildcards: sample=SCN1A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Wed Aug 10 10:33:11 2022]
+Finished job 2.
+2 of 16 steps (12%) done
+Select jobs to execute...
+
+[Wed Aug 10 10:33:11 2022]
+rule makeSubAlignFile:
+    input: ../../Data/alignmentREF.fa, plot_data/SCN3A.PROT.trimmed.manual.fa.wRef.fa
+    output: plot_data/SCN3A.PROT.sub
+    jobid: 3
+    reason: Missing output files: plot_data/SCN3A.PROT.sub; Input files updated by another job: plot_data/SCN3A.PROT.trimmed.manual.fa.wRef.fa
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Wed Aug 10 10:33:11 2022]
+Finished job 3.
+3 of 16 steps (19%) done
+Select jobs to execute...
+
+[Wed Aug 10 10:33:11 2022]
+rule makeSubAlignFile:
+    input: ../../Data/alignmentREF.fa, plot_data/SCN1A.PROT.trimmed.manual.fa.wRef.fa
+    output: plot_data/SCN1A.PROT.sub
+    jobid: 1
+    reason: Missing output files: plot_data/SCN1A.PROT.sub; Input files updated by another job: plot_data/SCN1A.PROT.trimmed.manual.fa.wRef.fa
+    wildcards: sample=SCN1A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Wed Aug 10 10:33:11 2022]
+Finished job 1.
+4 of 16 steps (25%) done
+Select jobs to execute...
+
+[Wed Aug 10 10:33:11 2022]
+rule makeSubAlign:
+    input: plot_data/SCN1A.PROT.sub, plot_data/SCN1A.PROT.trimmed.manual.fa.wRef.fa
+    output: plot_data/SCN1A.PROT.aligned.wRef.fa
+    jobid: 11
+    reason: Missing output files: plot_data/SCN1A.PROT.aligned.wRef.fa; Input files updated by another job: plot_data/SCN1A.PROT.trimmed.manual.fa.wRef.fa, plot_data/SCN1A.PROT.sub
+    wildcards: sample=SCN1A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Wed Aug 10 10:33:11 2022]
+Finished job 11.
+5 of 16 steps (31%) done
+Select jobs to execute...
+
+[Wed Aug 10 10:33:11 2022]
+rule makeSubAlign:
+    input: plot_data/SCN3A.PROT.sub, plot_data/SCN3A.PROT.trimmed.manual.fa.wRef.fa
+    output: plot_data/SCN3A.PROT.aligned.wRef.fa
+    jobid: 12
+    reason: Missing output files: plot_data/SCN3A.PROT.aligned.wRef.fa; Input files updated by another job: plot_data/SCN3A.PROT.trimmed.manual.fa.wRef.fa, plot_data/SCN3A.PROT.sub
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Wed Aug 10 10:33:13 2022]
+Finished job 12.
+6 of 16 steps (38%) done
+Select jobs to execute...
+
+[Wed Aug 10 10:33:13 2022]
+rule makeAlign:
+    input: ../../Data/alignmentREF.fa, plot_data/SCN8A.PROT.trimmed.manual.fa
+    output: plot_data/SCN8A.PROT.trimmed.manual.fa.wRef.fa
+    jobid: 10
+    reason: Missing output files: plot_data/SCN8A.PROT.trimmed.manual.fa.wRef.fa
+    wildcards: sample=SCN8A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Wed Aug 10 10:33:13 2022]
+Finished job 10.
+7 of 16 steps (44%) done
+Select jobs to execute...
+
+[Wed Aug 10 10:33:13 2022]
+rule makeSubAlignFile:
+    input: ../../Data/alignmentREF.fa, plot_data/SCN8A.PROT.trimmed.manual.fa.wRef.fa
+    output: plot_data/SCN8A.PROT.sub
+    jobid: 9
+    reason: Missing output files: plot_data/SCN8A.PROT.sub; Input files updated by another job: plot_data/SCN8A.PROT.trimmed.manual.fa.wRef.fa
+    wildcards: sample=SCN8A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Wed Aug 10 10:33:13 2022]
+Finished job 9.
+8 of 16 steps (50%) done
+Select jobs to execute...
+
+[Wed Aug 10 10:33:13 2022]
+rule makeAlign:
+    input: ../../Data/alignmentREF.fa, plot_data/SCN5A.PROT.trimmed.manual.fa
+    output: plot_data/SCN5A.PROT.trimmed.manual.fa.wRef.fa
+    jobid: 8
+    reason: Missing output files: plot_data/SCN5A.PROT.trimmed.manual.fa.wRef.fa
+    wildcards: sample=SCN5A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Wed Aug 10 10:33:13 2022]
+Finished job 8.
+9 of 16 steps (56%) done
+Select jobs to execute...
+
+[Wed Aug 10 10:33:13 2022]
+rule makeSubAlign:
+    input: plot_data/SCN8A.PROT.sub, plot_data/SCN8A.PROT.trimmed.manual.fa.wRef.fa
+    output: plot_data/SCN8A.PROT.aligned.wRef.fa
+    jobid: 15
+    reason: Missing output files: plot_data/SCN8A.PROT.aligned.wRef.fa; Input files updated by another job: plot_data/SCN8A.PROT.trimmed.manual.fa.wRef.fa, plot_data/SCN8A.PROT.sub
+    wildcards: sample=SCN8A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Wed Aug 10 10:33:14 2022]
+Finished job 15.
+10 of 16 steps (62%) done
+Select jobs to execute...
+
+[Wed Aug 10 10:33:14 2022]
+rule makeAlign:
+    input: ../../Data/alignmentREF.fa, plot_data/SCN4A.PROT.trimmed.manual.fa
+    output: plot_data/SCN4A.PROT.trimmed.manual.fa.wRef.fa
+    jobid: 6
+    reason: Missing output files: plot_data/SCN4A.PROT.trimmed.manual.fa.wRef.fa
+    wildcards: sample=SCN4A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Wed Aug 10 10:33:14 2022]
+Finished job 6.
+11 of 16 steps (69%) done
+Select jobs to execute...
+
+[Wed Aug 10 10:33:14 2022]
+rule makeSubAlignFile:
+    input: ../../Data/alignmentREF.fa, plot_data/SCN4A.PROT.trimmed.manual.fa.wRef.fa
+    output: plot_data/SCN4A.PROT.sub
+    jobid: 5
+    reason: Missing output files: plot_data/SCN4A.PROT.sub; Input files updated by another job: plot_data/SCN4A.PROT.trimmed.manual.fa.wRef.fa
+    wildcards: sample=SCN4A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Wed Aug 10 10:33:14 2022]
+Finished job 5.
+12 of 16 steps (75%) done
+Select jobs to execute...
+
+[Wed Aug 10 10:33:14 2022]
+rule makeSubAlign:
+    input: plot_data/SCN4A.PROT.sub, plot_data/SCN4A.PROT.trimmed.manual.fa.wRef.fa
+    output: plot_data/SCN4A.PROT.aligned.wRef.fa
+    jobid: 13
+    reason: Missing output files: plot_data/SCN4A.PROT.aligned.wRef.fa; Input files updated by another job: plot_data/SCN4A.PROT.sub, plot_data/SCN4A.PROT.trimmed.manual.fa.wRef.fa
+    wildcards: sample=SCN4A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Wed Aug 10 10:33:15 2022]
+Finished job 13.
+13 of 16 steps (81%) done
+Select jobs to execute...
+
+[Wed Aug 10 10:33:15 2022]
+rule makeSubAlignFile:
+    input: ../../Data/alignmentREF.fa, plot_data/SCN5A.PROT.trimmed.manual.fa.wRef.fa
+    output: plot_data/SCN5A.PROT.sub
+    jobid: 7
+    reason: Missing output files: plot_data/SCN5A.PROT.sub; Input files updated by another job: plot_data/SCN5A.PROT.trimmed.manual.fa.wRef.fa
+    wildcards: sample=SCN5A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Wed Aug 10 10:33:15 2022]
+Finished job 7.
+14 of 16 steps (88%) done
+Select jobs to execute...
+
+[Wed Aug 10 10:33:15 2022]
+rule makeSubAlign:
+    input: plot_data/SCN5A.PROT.sub, plot_data/SCN5A.PROT.trimmed.manual.fa.wRef.fa
+    output: plot_data/SCN5A.PROT.aligned.wRef.fa
+    jobid: 14
+    reason: Missing output files: plot_data/SCN5A.PROT.aligned.wRef.fa; Input files updated by another job: plot_data/SCN5A.PROT.trimmed.manual.fa.wRef.fa, plot_data/SCN5A.PROT.sub
+    wildcards: sample=SCN5A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Wed Aug 10 10:33:16 2022]
+Finished job 14.
+15 of 16 steps (94%) done
+Select jobs to execute...
+
+[Wed Aug 10 10:33:16 2022]
+localrule all:
+    input: plot_data/SCN1A.PROT.sub, plot_data/SCN3A.PROT.sub, plot_data/SCN4A.PROT.sub, plot_data/SCN5A.PROT.sub, plot_data/SCN8A.PROT.sub, plot_data/SCN1A.PROT.aligned.wRef.fa, plot_data/SCN3A.PROT.aligned.wRef.fa, plot_data/SCN4A.PROT.aligned.wRef.fa, plot_data/SCN5A.PROT.aligned.wRef.fa, plot_data/SCN8A.PROT.aligned.wRef.fa, plot_data/SCN1A.PROT.trimmed.manual.fa.wRef.fa, plot_data/SCN1A.PROT.trimmed.manual.fa.wRef.fa, plot_data/SCN1A.PROT.trimmed.manual.fa.wRef.fa, plot_data/SCN1A.PROT.trimmed.manual.fa.wRef.fa, plot_data/SCN1A.PROT.trimmed.manual.fa.wRef.fa
+    jobid: 0
+    reason: Input files updated by another job: plot_data/SCN1A.PROT.aligned.wRef.fa, plot_data/SCN8A.PROT.aligned.wRef.fa, plot_data/SCN4A.PROT.sub, plot_data/SCN5A.PROT.sub, plot_data/SCN1A.PROT.trimmed.manual.fa.wRef.fa, plot_data/SCN4A.PROT.aligned.wRef.fa, plot_data/SCN8A.PROT.sub, plot_data/SCN1A.PROT.sub, plot_data/SCN5A.PROT.aligned.wRef.fa, plot_data/SCN3A.PROT.sub, plot_data/SCN3A.PROT.aligned.wRef.fa
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Wed Aug 10 10:33:16 2022]
+Finished job 0.
+16 of 16 steps (100%) done
+Complete log: .snakemake/log/2022-08-10T103310.673013.snakemake.log

@@ -1,0 +1,32 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job        count    min threads    max threads
+-------  -------  -------------  -------------
+all            1              1              1
+makeRef        5              1              1
+total          6              1              1
+
+Select jobs to execute...
+
+[Fri Aug  5 10:47:30 2022]
+rule makeRef:
+    input: plot_data/SCN5A.PROT.trimmed.manual.fa
+    output: plot_data/SCN5A.PROT.trimmed.manual.wRef.fa
+    jobid: 4
+    reason: Missing output files: plot_data/SCN5A.PROT.trimmed.manual.wRef.fa
+    wildcards: sample=SCN5A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+Terminating processes on user request, this might take some time.
+[Fri Aug  5 10:47:50 2022]
+Error in rule makeRef:
+    jobid: 4
+    output: plot_data/SCN5A.PROT.trimmed.manual.wRef.fa
+    shell:
+        cat ../../Data/alignmentREF.fa plot_data/SCN5A.PROT.trimmed.manual.fa -> plot_data/SCN5A.PROT.trimmed.manual.wRef.fa
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Complete log: .snakemake/log/2022-08-05T104729.820948.snakemake.log

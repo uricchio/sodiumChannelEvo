@@ -1,0 +1,7 @@
+Building DAG of jobs...
+MissingInputException in line 16 of /Users/uricchio/projects/poison/sodiumChannelPaper/Figures/Figure3/Snakefile:
+Missing input files for rule makeSubAlignFile:
+    output: plot_data/SCN8A.PROT.trimmed.manual.fa.wRef.faplot_data/SCN1A.PROT.sub
+    wildcards: sample=SCN8A.PROT.trimmed.manual.fa.wRef.faplot_data/SCN1A
+    affected files:
+        plot_data/SCN8A.PROT.trimmed.manual.fa.wRef.faplot_data/SCN1A.PROT.trimmed.manual.fa.wRef.fa

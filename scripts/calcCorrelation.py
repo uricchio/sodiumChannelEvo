@@ -66,9 +66,8 @@ for i in range(0,len(seqs[name])):
   
     # Calculate Cramer's V
     result = np.sqrt((X2/N) / minimum_dimension)
-    if result > 0.5:
-        print (i, result, end='')
-        for thing in dataset:
-            print (thing, end='')
-        print()  
-
+    if result > 0.41:
+        print (i, result)
+        #for thing in dataset:
+        #   print (thing, end=' ')
+        #print()  

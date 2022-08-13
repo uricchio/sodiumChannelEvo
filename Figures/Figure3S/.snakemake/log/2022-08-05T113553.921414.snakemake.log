@@ -1,0 +1,3 @@
+CreateRuleException in line 26 of /Users/uricchio/projects/poison/sodiumChannelPaper/Figures/Figure3/Snakefile:
+The name makeSubAlignFile is already used by another rule
+  File "/Users/uricchio/projects/poison/sodiumChannelPaper/Figures/Figure3/Snakefile", line 26, in <module>

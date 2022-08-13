@@ -1,0 +1,90 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count    min threads    max threads
+----------------  -------  -------------  -------------
+all                     1              1              1
+makeSubAlignFile        5              1              1
+total                   6              1              1
+
+Select jobs to execute...
+
+[Fri Aug  5 11:32:03 2022]
+rule makeSubAlignFile:
+    input: ../../Data/alignmentREF.fa, plot_data/SCN1A.PROT.trimmed.manual.fa.wRef.fa
+    output: plot_data/SCN1A.PROT.sub
+    jobid: 1
+    reason: Missing output files: plot_data/SCN1A.PROT.sub
+    wildcards: sample=SCN1A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Fri Aug  5 11:32:03 2022]
+rule makeSubAlignFile:
+    input: ../../Data/alignmentREF.fa, plot_data/SCN4A.PROT.trimmed.manual.fa.wRef.fa
+    output: plot_data/SCN4A.PROT.sub
+    jobid: 3
+    reason: Missing output files: plot_data/SCN4A.PROT.sub
+    wildcards: sample=SCN4A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Fri Aug  5 11:32:03 2022]
+rule makeSubAlignFile:
+    input: ../../Data/alignmentREF.fa, plot_data/SCN8A.PROT.trimmed.manual.fa.wRef.fa
+    output: plot_data/SCN8A.PROT.sub
+    jobid: 5
+    reason: Missing output files: plot_data/SCN8A.PROT.sub
+    wildcards: sample=SCN8A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Fri Aug  5 11:32:03 2022]
+rule makeSubAlignFile:
+    input: ../../Data/alignmentREF.fa, plot_data/SCN3A.PROT.trimmed.manual.fa.wRef.fa
+    output: plot_data/SCN3A.PROT.sub
+    jobid: 2
+    reason: Missing output files: plot_data/SCN3A.PROT.sub
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Fri Aug  5 11:32:03 2022]
+rule makeSubAlignFile:
+    input: ../../Data/alignmentREF.fa, plot_data/SCN5A.PROT.trimmed.manual.fa.wRef.fa
+    output: plot_data/SCN5A.PROT.sub
+    jobid: 4
+    reason: Missing output files: plot_data/SCN5A.PROT.sub
+    wildcards: sample=SCN5A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Fri Aug  5 11:32:03 2022]
+Finished job 3.
+1 of 6 steps (17%) done
+[Fri Aug  5 11:32:03 2022]
+Finished job 1.
+2 of 6 steps (33%) done
+[Fri Aug  5 11:32:03 2022]
+Finished job 5.
+3 of 6 steps (50%) done
+[Fri Aug  5 11:32:03 2022]
+Finished job 2.
+4 of 6 steps (67%) done
+[Fri Aug  5 11:32:03 2022]
+Finished job 4.
+5 of 6 steps (83%) done
+Select jobs to execute...
+
+[Fri Aug  5 11:32:03 2022]
+localrule all:
+    input: plot_data/SCN1A.PROT.sub, plot_data/SCN3A.PROT.sub, plot_data/SCN4A.PROT.sub, plot_data/SCN5A.PROT.sub, plot_data/SCN8A.PROT.sub
+    jobid: 0
+    reason: Input files updated by another job: plot_data/SCN3A.PROT.sub, plot_data/SCN4A.PROT.sub, plot_data/SCN5A.PROT.sub, plot_data/SCN8A.PROT.sub, plot_data/SCN1A.PROT.sub
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Fri Aug  5 11:32:03 2022]
+Finished job 0.
+6 of 6 steps (100%) done
+Complete log: .snakemake/log/2022-08-05T113203.460244.snakemake.log

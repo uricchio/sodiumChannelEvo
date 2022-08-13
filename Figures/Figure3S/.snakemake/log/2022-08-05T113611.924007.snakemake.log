@@ -1,0 +1,24 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job             count    min threads    max threads
+------------  -------  -------------  -------------
+all                 1              1              1
+makeSubAlign        5              1              1
+total               6              1              1
+
+Select jobs to execute...
+
+[Fri Aug  5 11:36:12 2022]
+rule makeSubAlign:
+    input: plot_data/SCN5A.PROT.sub, plot_data/SCN5A.PROT.trimmed.manual.fa.wRef.fa
+    output: plot_data/SCN5A.PROT.aligned.wRef.fa
+    jobid: 9
+    reason: Missing output files: plot_data/SCN5A.PROT.aligned.wRef.fa
+    wildcards: sample=SCN5A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+RuleException in line 25 of /Users/uricchio/projects/poison/sodiumChannelPaper/Figures/Figure3/Snakefile:
+NameError: The name 'innput' is unknown in this context. Please make sure that you defined that variable. Also note that braces not used for variable access have to be escaped by repeating them, i.e. {{print $1}}
