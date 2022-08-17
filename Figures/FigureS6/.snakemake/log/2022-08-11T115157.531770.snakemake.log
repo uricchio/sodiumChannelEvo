@@ -1,0 +1,94 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job              count    min threads    max threads
+-------------  -------  -------------  -------------
+all                  1              1              1
+getBustedTree        5              1              1
+total                6              1              1
+
+Select jobs to execute...
+
+[Thu Aug 11 11:51:58 2022]
+rule getBustedTree:
+    input: plot_data/SCN5A.DNA.trimmed.wTree.manual.fa.BUSTED.json
+    output: plot_data/SCN5A.DNA.trimmed.wTree.manual.fa.BUSTED.json.tree
+    jobid: 88
+    reason: Missing output files: plot_data/SCN5A.DNA.trimmed.wTree.manual.fa.BUSTED.json.tree
+    wildcards: sample=SCN5A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Thu Aug 11 11:51:58 2022]
+Finished job 88.
+1 of 6 steps (17%) done
+Select jobs to execute...
+
+[Thu Aug 11 11:51:58 2022]
+rule getBustedTree:
+    input: plot_data/SCN4A.DNA.trimmed.wTree.manual.fa.BUSTED.json
+    output: plot_data/SCN4A.DNA.trimmed.wTree.manual.fa.BUSTED.json.tree
+    jobid: 87
+    reason: Missing output files: plot_data/SCN4A.DNA.trimmed.wTree.manual.fa.BUSTED.json.tree
+    wildcards: sample=SCN4A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Thu Aug 11 11:51:58 2022]
+Finished job 87.
+2 of 6 steps (33%) done
+Select jobs to execute...
+
+[Thu Aug 11 11:51:58 2022]
+rule getBustedTree:
+    input: plot_data/SCN3A.DNA.trimmed.wTree.manual.fa.BUSTED.json
+    output: plot_data/SCN3A.DNA.trimmed.wTree.manual.fa.BUSTED.json.tree
+    jobid: 86
+    reason: Missing output files: plot_data/SCN3A.DNA.trimmed.wTree.manual.fa.BUSTED.json.tree
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Thu Aug 11 11:51:58 2022]
+Finished job 86.
+3 of 6 steps (50%) done
+Select jobs to execute...
+
+[Thu Aug 11 11:51:58 2022]
+rule getBustedTree:
+    input: plot_data/SCN8A.DNA.trimmed.wTree.manual.fa.BUSTED.json
+    output: plot_data/SCN8A.DNA.trimmed.wTree.manual.fa.BUSTED.json.tree
+    jobid: 89
+    reason: Missing output files: plot_data/SCN8A.DNA.trimmed.wTree.manual.fa.BUSTED.json.tree
+    wildcards: sample=SCN8A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Thu Aug 11 11:51:58 2022]
+Finished job 89.
+4 of 6 steps (67%) done
+Select jobs to execute...
+
+[Thu Aug 11 11:51:58 2022]
+rule getBustedTree:
+    input: plot_data/SCN1A.DNA.trimmed.wTree.manual.fa.BUSTED.json
+    output: plot_data/SCN1A.DNA.trimmed.wTree.manual.fa.BUSTED.json.tree
+    jobid: 85
+    reason: Missing output files: plot_data/SCN1A.DNA.trimmed.wTree.manual.fa.BUSTED.json.tree
+    wildcards: sample=SCN1A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Thu Aug 11 11:51:58 2022]
+Finished job 85.
+5 of 6 steps (83%) done
+Select jobs to execute...
+
+[Thu Aug 11 11:51:58 2022]
+localrule all:
+    input: ../../Data/alignments_full_assemb/align_SCN1A/SCN1A.spec.fa, ../../Data/alignments_full_assemb/align_SCN2A/SCN2A.spec.fa, ../../Data/alignments_full_assemb/align_SCN3A/SCN3A.spec.fa, ../../Data/alignments_full_assemb/align_SCN4A/SCN4A.spec.fa, ../../Data/alignments_full_assemb/align_SCN5A/SCN5A.spec.fa, ../../Data/alignments_full_assemb/align_SCN8A/SCN8A.spec.fa, ../../Data/alignments_full_assemb/align_SCN1A/SCN1A.t68d10k45.all.renamed.spec.fa, ../../Data/alignments_full_assemb/align_SCN2A/SCN2A.t68d10k45.all.renamed.spec.fa, ../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.spec.fa, ../../Data/alignments_full_assemb/align_SCN4A/SCN4A.t68d10k45.all.renamed.spec.fa, ../../Data/alignments_full_assemb/align_SCN5A/SCN5A.t68d10k45.all.renamed.spec.fa, ../../Data/alignments_full_assemb/align_SCN8A/SCN8A.t68d10k45.all.renamed.spec.fa, ../../Data/alignments_full_assemb/align_SCN1A/SCN1A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN2A/SCN2A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN4A/SCN4A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN5A/SCN5A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN8A/SCN8A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN1A/SCN1A.t68d10k45.all.renamed.fa.mafft.noStars, ../../Data/alignments_full_assemb/align_SCN2A/SCN2A.t68d10k45.all.renamed.fa.mafft.noStars, ../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.fa.mafft.noStars, ../../Data/alignments_full_assemb/align_SCN4A/SCN4A.t68d10k45.all.renamed.fa.mafft.noStars, ../../Data/alignments_full_assemb/align_SCN5A/SCN5A.t68d10k45.all.renamed.fa.mafft.noStars, ../../Data/alignments_full_assemb/align_SCN8A/SCN8A.t68d10k45.all.renamed.fa.mafft.noStars, plot_data/SCN1A.fa, plot_data/SCN2A.fa, plot_data/SCN3A.fa, plot_data/SCN4A.fa, plot_data/SCN5A.fa, plot_data/SCN8A.fa, plot_data/SCN1A.DNA.fa, plot_data/SCN2A.DNA.fa, plot_data/SCN3A.DNA.fa, plot_data/SCN4A.DNA.fa, plot_data/SCN5A.DNA.fa, plot_data/SCN8A.DNA.fa, plot_data/SCN1A.columns, plot_data/SCN3A.columns, plot_data/SCN4A.columns, plot_data/SCN5A.columns, plot_data/SCN8A.columns, plot_data/SCN1A.DNA.trimmed.fa, plot_data/SCN3A.DNA.trimmed.fa, plot_data/SCN4A.DNA.trimmed.fa, plot_data/SCN5A.DNA.trimmed.fa, plot_data/SCN8A.DNA.trimmed.fa, plot_data/SCN1A.DNA.trimmed.fa.raxml.bestTree, plot_data/SCN3A.DNA.trimmed.fa.raxml.bestTree, plot_data/SCN4A.DNA.trimmed.fa.raxml.bestTree, plot_data/SCN5A.DNA.trimmed.fa.raxml.bestTree, plot_data/SCN8A.DNA.trimmed.fa.raxml.bestTree, plot_data/SCN1A.DNA.trimmed.wTree.fa, plot_data/SCN3A.DNA.trimmed.wTree.fa, plot_data/SCN4A.DNA.trimmed.wTree.fa, plot_data/SCN5A.DNA.trimmed.wTree.fa, plot_data/SCN8A.DNA.trimmed.wTree.fa, plot_data/SCN1A.DNA.trimmed.wTree.fa.MEME.json, plot_data/SCN3A.DNA.trimmed.wTree.fa.MEME.json, plot_data/SCN4A.DNA.trimmed.wTree.fa.MEME.json, plot_data/SCN5A.DNA.trimmed.wTree.fa.MEME.json, plot_data/SCN8A.DNA.trimmed.wTree.fa.MEME.json, plot_data/SCN1A.PROT.trimmed.fa, plot_data/SCN3A.PROT.trimmed.fa, plot_data/SCN4A.PROT.trimmed.fa, plot_data/SCN5A.PROT.trimmed.fa, plot_data/SCN8A.PROT.trimmed.fa, plot_data/SCN1A.DNA.trimmed.manual.fa, plot_data/SCN3A.DNA.trimmed.manual.fa, plot_data/SCN4A.DNA.trimmed.manual.fa, plot_data/SCN5A.DNA.trimmed.manual.fa, plot_data/SCN8A.DNA.trimmed.manual.fa, plot_data/SCN1A.DNA.trimmed.manual.fa.raxml.bestTree, plot_data/SCN3A.DNA.trimmed.manual.fa.raxml.bestTree, plot_data/SCN4A.DNA.trimmed.manual.fa.raxml.bestTree, plot_data/SCN5A.DNA.trimmed.manual.fa.raxml.bestTree, plot_data/SCN8A.DNA.trimmed.manual.fa.raxml.bestTree, plot_data/SCN1A.DNA.trimmed.wTree.manual.fa, plot_data/SCN3A.DNA.trimmed.wTree.manual.fa, plot_data/SCN4A.DNA.trimmed.wTree.manual.fa, plot_data/SCN5A.DNA.trimmed.wTree.manual.fa, plot_data/SCN8A.DNA.trimmed.wTree.manual.fa, plot_data/SCN1A.DNA.trimmed.wTree.manual.fa.MEME.json, plot_data/SCN3A.DNA.trimmed.wTree.manual.fa.MEME.json, plot_data/SCN4A.DNA.trimmed.wTree.manual.fa.MEME.json, plot_data/SCN5A.DNA.trimmed.wTree.manual.fa.MEME.json, plot_data/SCN8A.DNA.trimmed.wTree.manual.fa.MEME.json, plot_data/SCN1A.DNA.trimmed.wTree.manual.fa.BUSTED.json, plot_data/SCN3A.DNA.trimmed.wTree.manual.fa.BUSTED.json, plot_data/SCN4A.DNA.trimmed.wTree.manual.fa.BUSTED.json, plot_data/SCN5A.DNA.trimmed.wTree.manual.fa.BUSTED.json, plot_data/SCN8A.DNA.trimmed.wTree.manual.fa.BUSTED.json, plot_data/SCN1A.DNA.trimmed.wTree.manual.fa.BUSTED.json.sum, plot_data/SCN3A.DNA.trimmed.wTree.manual.fa.BUSTED.json.sum, plot_data/SCN4A.DNA.trimmed.wTree.manual.fa.BUSTED.json.sum, plot_data/SCN5A.DNA.trimmed.wTree.manual.fa.BUSTED.json.sum, plot_data/SCN8A.DNA.trimmed.wTree.manual.fa.BUSTED.json.sum, plot_data/SCN1A.DNA.trimmed.wTree.manual.fa.BUSTED.json.tree, plot_data/SCN3A.DNA.trimmed.wTree.manual.fa.BUSTED.json.tree, plot_data/SCN4A.DNA.trimmed.wTree.manual.fa.BUSTED.json.tree, plot_data/SCN5A.DNA.trimmed.wTree.manual.fa.BUSTED.json.tree, plot_data/SCN8A.DNA.trimmed.wTree.manual.fa.BUSTED.json.tree
+    jobid: 0
+    reason: Input files updated by another job: plot_data/SCN3A.DNA.trimmed.wTree.manual.fa.BUSTED.json.tree, plot_data/SCN1A.DNA.trimmed.wTree.manual.fa.BUSTED.json.tree, plot_data/SCN8A.DNA.trimmed.wTree.manual.fa.BUSTED.json.tree, plot_data/SCN4A.DNA.trimmed.wTree.manual.fa.BUSTED.json.tree, plot_data/SCN5A.DNA.trimmed.wTree.manual.fa.BUSTED.json.tree
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Thu Aug 11 11:51:58 2022]
+Finished job 0.
+6 of 6 steps (100%) done
+Complete log: .snakemake/log/2022-08-11T115157.531770.snakemake.log

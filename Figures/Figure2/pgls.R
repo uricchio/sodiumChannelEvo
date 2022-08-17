@@ -52,5 +52,4 @@ for (k in pos) {
 
 #sites significantly correlated at p < 0.05 level given PGLS correction
 
-pval[pval$pv < 0.05,]
-
+write.table(pval[pval$pv < 0.05,],"/Users/uricchio/projects/poison/sodiumChannelPaper/Figures/Figure2/plot_data/cor_sites.all.pgls")

@@ -1,0 +1,123 @@
+
+RAxML-NG v. 1.1.0 released on 29.11.2021 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Apple M1, 8 cores, 8 GB RAM
+
+RAxML-NG was called at 16-Aug-2022 13:30:56 as follows:
+
+/Users/uricchio/projects/software/raxml-ng_v1.1.0_macos_x86_64/raxml-ng --model GTR+G --prefix plot_data/SCN3A.DNA.trimmed.fa --redo --msa plot_data/SCN3A.DNA.trimmed.fa.raxml.rba
+
+Analysis options:
+  run mode: ML tree search
+  start tree(s): random (10) + parsimony (10)
+  random seed: 1660681856
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  fast spr radius: AUTO
+  spr subtree cutoff: 1.000000
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: SSE3
+  parallelization: coarse-grained (auto), PTHREADS (auto)
+
+WARNING: Running in REDO mode: existing checkpoints are ignored, and all result files will be overwritten!
+
+WARNING: The model you specified on the command line (GTR+G) will be ignored 
+         since the binary MSA file already contains a model definition.
+         If you want to change the model, please re-run RAxML-NG 
+         with the original PHYLIP/FASTA alignment and --redo option.
+
+[00:00:00] Loading binary alignment from file: plot_data/SCN3A.DNA.trimmed.fa.raxml.rba
+[00:00:00] Alignment comprises 93 taxa, 1 partitions and 2546 patterns
+
+Partition 0: noname
+Model: GTR+FO+G4m
+Alignment sites / patterns: 5352 / 2546
+Gaps: 3.28 %
+Invariant sites: 51.08 %
+
+
+Parallelization scheme autoconfig: 4 worker(s) x 2 thread(s)
+
+Parallel reduction/worker buffer size: 1 KB  / 0 KB
+
+[00:00:00] Generating 10 random starting tree(s) with 93 taxa
+[00:00:00] Generating 10 parsimony starting tree(s) with 93 taxa
+[00:00:00] Data distribution: max. partitions/sites/weight per thread: 1 / 1273 / 20368
+[00:00:00] Data distribution: max. searches per worker: 5
+
+Starting ML tree search with 20 distinct starting trees
+
+[00:00:00 -122989.238346] Initial branch length optimization
+[00:00:09 -107113.573515] Model parameter optimization (eps = 10.000000)
+[00:01:09 -98816.596232] AUTODETECT spr round 1 (radius: 5)
+[00:02:08 -82419.626300] AUTODETECT spr round 2 (radius: 10)
+[00:04:08 -70369.833006] AUTODETECT spr round 3 (radius: 15)
+[00:06:31 -70013.541459] AUTODETECT spr round 4 (radius: 20)
+[00:08:07 -69996.865910] AUTODETECT spr round 5 (radius: 25)
+[00:08:59 -69996.863939] SPR radius for FAST iterations: 20 (autodetect)
+[00:08:59 -69996.863939] Model parameter optimization (eps = 3.000000)
+[00:09:27 -69896.191459] FAST spr round 1 (radius: 20)
+[00:13:02 -67776.533267] FAST spr round 2 (radius: 20)
+[00:15:33 -67613.655908] FAST spr round 3 (radius: 20)
+[00:18:04 -67474.125533] FAST spr round 4 (radius: 20)
+[00:19:56 -67447.322734] FAST spr round 5 (radius: 20)
+[00:21:49 -67447.322265] Model parameter optimization (eps = 1.000000)
+[00:22:12 -67445.318750] SLOW spr round 1 (radius: 5)
+[00:29:39 -67438.463920] SLOW spr round 2 (radius: 5)
+[00:35:49 -67438.463301] SLOW spr round 3 (radius: 10)
+[00:41:20 -67438.463270] SLOW spr round 4 (radius: 15)
+[00:50:26 -67438.463269] SLOW spr round 5 (radius: 20)
+[00:54:26 -67438.463269] SLOW spr round 6 (radius: 25)
+[00:54:30] [worker #1] ML tree search #2, logLikelihood: -67438.363134
+[00:56:56 -67438.463269] Model parameter optimization (eps = 0.100000)
+
+[00:57:04] [worker #0] ML tree search #1, logLikelihood: -67438.365348
+
+[00:57:04 -121309.610375] Initial branch length optimization
+[00:57:18 -106135.885782] Model parameter optimization (eps = 10.000000)
+[00:58:31 -98293.493991] AUTODETECT spr round 1 (radius: 5)
+[00:59:52 -83072.919744] AUTODETECT spr round 2 (radius: 10)
+[01:01:30] [worker #2] ML tree search #3, logLikelihood: -67428.453596
+[01:02:02] [worker #3] ML tree search #4, logLikelihood: -67473.535712
+[01:02:17 -73267.390253] AUTODETECT spr round 3 (radius: 15)
+[01:04:53 -70688.491148] AUTODETECT spr round 4 (radius: 20)
+[01:06:15 -70688.483459] SPR radius for FAST iterations: 15 (autodetect)
+[01:06:15 -70688.483459] Model parameter optimization (eps = 3.000000)
+[01:06:41 -70605.093246] FAST spr round 1 (radius: 15)
+[01:10:39 -68175.329844] FAST spr round 2 (radius: 15)
+[01:13:51 -67603.278293] FAST spr round 3 (radius: 15)
+[01:16:02 -67467.579872] FAST spr round 4 (radius: 15)
+[01:18:03 -67437.869537] FAST spr round 5 (radius: 15)
+[01:20:01 -67437.785477] Model parameter optimization (eps = 1.000000)
+[01:20:24 -67435.954579] SLOW spr round 1 (radius: 5)
+[01:27:29 -67428.519790] SLOW spr round 2 (radius: 5)
+[01:33:46 -67428.519061] SLOW spr round 3 (radius: 10)
+[01:39:16 -67428.519025] SLOW spr round 4 (radius: 15)
+[01:48:08 -67428.519024] SLOW spr round 5 (radius: 20)
+[01:52:15 -67428.519024] SLOW spr round 6 (radius: 25)
+[01:54:26 -67428.519024] Model parameter optimization (eps = 0.100000)
+
+[01:54:35] [worker #0] ML tree search #5, logLikelihood: -67428.469643
+
+[01:54:35 -122367.600347] Initial branch length optimization
+[01:54:47 -106634.748598] Model parameter optimization (eps = 10.000000)
+[01:56:03 -98667.741037] AUTODETECT spr round 1 (radius: 5)
+[01:57:27 -80913.842583] AUTODETECT spr round 2 (radius: 10)
+[02:00:37 -71283.535086] AUTODETECT spr round 3 (radius: 15)
+[02:01:43] [worker #1] ML tree search #6, logLikelihood: -67438.372629
+[02:03:31 -70977.902962] AUTODETECT spr round 4 (radius: 20)
+[02:04:44 -70977.901882] SPR radius for FAST iterations: 15 (autodetect)
+[02:04:44 -70977.901882] Model parameter optimization (eps = 3.000000)
+[02:05:10 -70892.479052] FAST spr round 1 (radius: 15)
+[02:05:11] [worker #3] ML tree search #8, logLikelihood: -67428.454116
+[02:07:42] [worker #2] ML tree search #7, logLikelihood: -67428.454741
+[02:09:34 -67864.143393] FAST spr round 2 (radius: 15)
+[02:12:41 -67514.677912] FAST spr round 3 (radius: 15)
+[02:14:55 -67438.702467] FAST spr round 4 (radius: 15)
+[02:17:08 -67436.493761] FAST spr round 5 (radius: 15)

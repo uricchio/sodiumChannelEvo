@@ -1,0 +1,7 @@
+Building DAG of jobs...
+MissingInputException in line 119 of /Users/uricchio/projects/poison/sodiumChannelPaper/Figures/Figure2/Snakefile:
+Missing input files for rule get_remaining_DNA_seqs:
+    output: plot_data/SCN1A.DNA.fa
+    wildcards: sample=SCN1A
+    affected files:
+        plot_data/SCN1A.spec.fa

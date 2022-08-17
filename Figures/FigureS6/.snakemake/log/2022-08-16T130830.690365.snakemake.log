@@ -1,0 +1,7 @@
+Building DAG of jobs...
+MissingInputException in line 151 of /Users/uricchio/projects/poison/sodiumChannelPaper/Figures/FigureS6/Snakefile:
+Missing input files for rule makeHyphyAnnotInput:
+    output: plot_data/SCN1A.DNA.trimmed.wTree.annot.fa
+    wildcards: sample=SCN1A
+    affected files:
+        plot_data/SCN1A.DNA.trimmed.wTree.manual.fa.BUSTED.json.tree.annot

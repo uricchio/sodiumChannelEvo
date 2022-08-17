@@ -1,0 +1,225 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job                  count    min threads    max threads
+-----------------  -------  -------------  -------------
+all                      1              1              1
+makeHyphyInput           3              1              1
+makeHyphyInputMan        4              1              1
+runMeme                  3              1              1
+runMemeMan               5              1              1
+total                   16              1              1
+
+Select jobs to execute...
+
+[Sun Aug  7 08:28:56 2022]
+rule makeHyphyInputMan:
+    input: plot_data/SCN3A.DNA.trimmed.manual.fa, plot_data/SCN3A.DNA.trimmed.manual.fa.raxml.bestTree
+    output: plot_data/SCN3A.DNA.trimmed.wTree.manual.fa
+    jobid: 66
+    reason: Missing output files: plot_data/SCN3A.DNA.trimmed.wTree.manual.fa
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Sun Aug  7 08:28:56 2022]
+rule makeHyphyInputMan:
+    input: plot_data/SCN5A.DNA.trimmed.manual.fa, plot_data/SCN5A.DNA.trimmed.manual.fa.raxml.bestTree
+    output: plot_data/SCN5A.DNA.trimmed.wTree.manual.fa
+    jobid: 68
+    reason: Missing output files: plot_data/SCN5A.DNA.trimmed.wTree.manual.fa
+    wildcards: sample=SCN5A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Sun Aug  7 08:28:56 2022]
+rule runMemeMan:
+    input: plot_data/SCN1A.DNA.trimmed.wTree.manual.fa
+    output: plot_data/SCN1A.DNA.trimmed.wTree.manual.fa.MEME.json
+    jobid: 70
+    reason: Missing output files: plot_data/SCN1A.DNA.trimmed.wTree.manual.fa.MEME.json
+    wildcards: sample=SCN1A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Sun Aug  7 08:28:56 2022]
+rule makeHyphyInput:
+    input: plot_data/SCN4A.DNA.trimmed.fa, plot_data/SCN4A.DNA.trimmed.fa.raxml.bestTree
+    output: plot_data/SCN4A.DNA.trimmed.wTree.fa
+    jobid: 42
+    reason: Missing output files: plot_data/SCN4A.DNA.trimmed.wTree.fa
+    wildcards: sample=SCN4A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Sun Aug  7 08:28:56 2022]
+rule makeHyphyInput:
+    input: plot_data/SCN8A.DNA.trimmed.fa, plot_data/SCN8A.DNA.trimmed.fa.raxml.bestTree
+    output: plot_data/SCN8A.DNA.trimmed.wTree.fa
+    jobid: 44
+    reason: Missing output files: plot_data/SCN8A.DNA.trimmed.wTree.fa
+    wildcards: sample=SCN8A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Sun Aug  7 08:28:56 2022]
+rule makeHyphyInputMan:
+    input: plot_data/SCN4A.DNA.trimmed.manual.fa, plot_data/SCN4A.DNA.trimmed.manual.fa.raxml.bestTree
+    output: plot_data/SCN4A.DNA.trimmed.wTree.manual.fa
+    jobid: 67
+    reason: Missing output files: plot_data/SCN4A.DNA.trimmed.wTree.manual.fa
+    wildcards: sample=SCN4A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Sun Aug  7 08:28:56 2022]
+rule makeHyphyInput:
+    input: plot_data/SCN3A.DNA.trimmed.fa, plot_data/SCN3A.DNA.trimmed.fa.raxml.bestTree
+    output: plot_data/SCN3A.DNA.trimmed.wTree.fa
+    jobid: 41
+    reason: Missing output files: plot_data/SCN3A.DNA.trimmed.wTree.fa
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Sun Aug  7 08:28:56 2022]
+rule makeHyphyInputMan:
+    input: plot_data/SCN8A.DNA.trimmed.manual.fa, plot_data/SCN8A.DNA.trimmed.manual.fa.raxml.bestTree
+    output: plot_data/SCN8A.DNA.trimmed.wTree.manual.fa
+    jobid: 69
+    reason: Missing output files: plot_data/SCN8A.DNA.trimmed.wTree.manual.fa
+    wildcards: sample=SCN8A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Sun Aug  7 08:28:56 2022]
+Finished job 66.
+1 of 16 steps (6%) done
+[Sun Aug  7 08:28:56 2022]
+Finished job 68.
+2 of 16 steps (12%) done
+[Sun Aug  7 08:28:56 2022]
+Finished job 42.
+3 of 16 steps (19%) done
+Select jobs to execute...
+
+[Sun Aug  7 08:28:56 2022]
+rule runMemeMan:
+    input: plot_data/SCN5A.DNA.trimmed.wTree.manual.fa
+    output: plot_data/SCN5A.DNA.trimmed.wTree.manual.fa.MEME.json
+    jobid: 73
+    reason: Missing output files: plot_data/SCN5A.DNA.trimmed.wTree.manual.fa.MEME.json; Input files updated by another job: plot_data/SCN5A.DNA.trimmed.wTree.manual.fa
+    wildcards: sample=SCN5A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Sun Aug  7 08:28:56 2022]
+rule runMeme:
+    input: plot_data/SCN4A.DNA.trimmed.wTree.fa
+    output: plot_data/SCN4A.DNA.trimmed.wTree.fa.MEME.json
+    jobid: 47
+    reason: Missing output files: plot_data/SCN4A.DNA.trimmed.wTree.fa.MEME.json; Input files updated by another job: plot_data/SCN4A.DNA.trimmed.wTree.fa
+    wildcards: sample=SCN4A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Sun Aug  7 08:28:56 2022]
+rule runMemeMan:
+    input: plot_data/SCN3A.DNA.trimmed.wTree.manual.fa
+    output: plot_data/SCN3A.DNA.trimmed.wTree.manual.fa.MEME.json
+    jobid: 71
+    reason: Missing output files: plot_data/SCN3A.DNA.trimmed.wTree.manual.fa.MEME.json; Input files updated by another job: plot_data/SCN3A.DNA.trimmed.wTree.manual.fa
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Sun Aug  7 08:28:56 2022]
+Finished job 44.
+4 of 16 steps (25%) done
+[Sun Aug  7 08:28:56 2022]
+Finished job 67.
+5 of 16 steps (31%) done
+[Sun Aug  7 08:28:56 2022]
+Finished job 41.
+6 of 16 steps (38%) done
+[Sun Aug  7 08:28:56 2022]
+Finished job 69.
+7 of 16 steps (44%) done
+Select jobs to execute...
+
+[Sun Aug  7 08:28:56 2022]
+rule runMeme:
+    input: plot_data/SCN3A.DNA.trimmed.wTree.fa
+    output: plot_data/SCN3A.DNA.trimmed.wTree.fa.MEME.json
+    jobid: 46
+    reason: Missing output files: plot_data/SCN3A.DNA.trimmed.wTree.fa.MEME.json; Input files updated by another job: plot_data/SCN3A.DNA.trimmed.wTree.fa
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Sun Aug  7 08:28:56 2022]
+rule runMeme:
+    input: plot_data/SCN8A.DNA.trimmed.wTree.fa
+    output: plot_data/SCN8A.DNA.trimmed.wTree.fa.MEME.json
+    jobid: 49
+    reason: Missing output files: plot_data/SCN8A.DNA.trimmed.wTree.fa.MEME.json; Input files updated by another job: plot_data/SCN8A.DNA.trimmed.wTree.fa
+    wildcards: sample=SCN8A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Sun Aug  7 08:28:56 2022]
+rule runMemeMan:
+    input: plot_data/SCN8A.DNA.trimmed.wTree.manual.fa
+    output: plot_data/SCN8A.DNA.trimmed.wTree.manual.fa.MEME.json
+    jobid: 74
+    reason: Missing output files: plot_data/SCN8A.DNA.trimmed.wTree.manual.fa.MEME.json; Input files updated by another job: plot_data/SCN8A.DNA.trimmed.wTree.manual.fa
+    wildcards: sample=SCN8A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Sun Aug  7 08:28:56 2022]
+rule runMemeMan:
+    input: plot_data/SCN4A.DNA.trimmed.wTree.manual.fa
+    output: plot_data/SCN4A.DNA.trimmed.wTree.manual.fa.MEME.json
+    jobid: 72
+    reason: Missing output files: plot_data/SCN4A.DNA.trimmed.wTree.manual.fa.MEME.json; Input files updated by another job: plot_data/SCN4A.DNA.trimmed.wTree.manual.fa
+    wildcards: sample=SCN4A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Sun Aug  7 11:11:19 2022]
+Finished job 70.
+8 of 16 steps (50%) done
+[Sun Aug  7 19:53:27 2022]
+Finished job 73.
+9 of 16 steps (56%) done
+[Sun Aug  7 23:14:51 2022]
+Finished job 74.
+10 of 16 steps (62%) done
+[Mon Aug  8 01:36:44 2022]
+Finished job 71.
+11 of 16 steps (69%) done
+[Mon Aug  8 01:49:59 2022]
+Finished job 49.
+12 of 16 steps (75%) done
+[Mon Aug  8 02:03:51 2022]
+Finished job 72.
+13 of 16 steps (81%) done
+[Mon Aug  8 02:28:57 2022]
+Finished job 47.
+14 of 16 steps (88%) done
+[Mon Aug  8 04:05:21 2022]
+Finished job 46.
+15 of 16 steps (94%) done
+Select jobs to execute...
+
+[Mon Aug  8 04:05:21 2022]
+localrule all:
+    input: ../../Data/alignments_full_assemb/align_SCN1A/SCN1A.spec.fa, ../../Data/alignments_full_assemb/align_SCN2A/SCN2A.spec.fa, ../../Data/alignments_full_assemb/align_SCN3A/SCN3A.spec.fa, ../../Data/alignments_full_assemb/align_SCN4A/SCN4A.spec.fa, ../../Data/alignments_full_assemb/align_SCN5A/SCN5A.spec.fa, ../../Data/alignments_full_assemb/align_SCN8A/SCN8A.spec.fa, ../../Data/alignments_full_assemb/align_SCN1A/SCN1A.t68d10k45.all.renamed.spec.fa, ../../Data/alignments_full_assemb/align_SCN2A/SCN2A.t68d10k45.all.renamed.spec.fa, ../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.spec.fa, ../../Data/alignments_full_assemb/align_SCN4A/SCN4A.t68d10k45.all.renamed.spec.fa, ../../Data/alignments_full_assemb/align_SCN5A/SCN5A.t68d10k45.all.renamed.spec.fa, ../../Data/alignments_full_assemb/align_SCN8A/SCN8A.t68d10k45.all.renamed.spec.fa, ../../Data/alignments_full_assemb/align_SCN1A/SCN1A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN2A/SCN2A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN4A/SCN4A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN5A/SCN5A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN8A/SCN8A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN1A/SCN1A.t68d10k45.all.renamed.fa.mafft.noStars, ../../Data/alignments_full_assemb/align_SCN2A/SCN2A.t68d10k45.all.renamed.fa.mafft.noStars, ../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.fa.mafft.noStars, ../../Data/alignments_full_assemb/align_SCN4A/SCN4A.t68d10k45.all.renamed.fa.mafft.noStars, ../../Data/alignments_full_assemb/align_SCN5A/SCN5A.t68d10k45.all.renamed.fa.mafft.noStars, ../../Data/alignments_full_assemb/align_SCN8A/SCN8A.t68d10k45.all.renamed.fa.mafft.noStars, plot_data/SCN1A.fa, plot_data/SCN2A.fa, plot_data/SCN3A.fa, plot_data/SCN4A.fa, plot_data/SCN5A.fa, plot_data/SCN8A.fa, plot_data/SCN1A.DNA.fa, plot_data/SCN2A.DNA.fa, plot_data/SCN3A.DNA.fa, plot_data/SCN4A.DNA.fa, plot_data/SCN5A.DNA.fa, plot_data/SCN8A.DNA.fa, plot_data/SCN1A.columns, plot_data/SCN3A.columns, plot_data/SCN4A.columns, plot_data/SCN5A.columns, plot_data/SCN8A.columns, plot_data/SCN1A.DNA.trimmed.fa, plot_data/SCN3A.DNA.trimmed.fa, plot_data/SCN4A.DNA.trimmed.fa, plot_data/SCN5A.DNA.trimmed.fa, plot_data/SCN8A.DNA.trimmed.fa, plot_data/SCN1A.DNA.trimmed.fa.raxml.bestTree, plot_data/SCN3A.DNA.trimmed.fa.raxml.bestTree, plot_data/SCN4A.DNA.trimmed.fa.raxml.bestTree, plot_data/SCN5A.DNA.trimmed.fa.raxml.bestTree, plot_data/SCN8A.DNA.trimmed.fa.raxml.bestTree, plot_data/SCN1A.DNA.trimmed.wTree.fa, plot_data/SCN3A.DNA.trimmed.wTree.fa, plot_data/SCN4A.DNA.trimmed.wTree.fa, plot_data/SCN5A.DNA.trimmed.wTree.fa, plot_data/SCN8A.DNA.trimmed.wTree.fa, plot_data/SCN1A.DNA.trimmed.wTree.fa.MEME.json, plot_data/SCN3A.DNA.trimmed.wTree.fa.MEME.json, plot_data/SCN4A.DNA.trimmed.wTree.fa.MEME.json, plot_data/SCN5A.DNA.trimmed.wTree.fa.MEME.json, plot_data/SCN8A.DNA.trimmed.wTree.fa.MEME.json, plot_data/SCN1A.PROT.trimmed.fa, plot_data/SCN3A.PROT.trimmed.fa, plot_data/SCN4A.PROT.trimmed.fa, plot_data/SCN5A.PROT.trimmed.fa, plot_data/SCN8A.PROT.trimmed.fa, plot_data/SCN1A.DNA.trimmed.manual.fa, plot_data/SCN3A.DNA.trimmed.manual.fa, plot_data/SCN4A.DNA.trimmed.manual.fa, plot_data/SCN5A.DNA.trimmed.manual.fa, plot_data/SCN8A.DNA.trimmed.manual.fa, plot_data/SCN1A.DNA.trimmed.manual.fa.raxml.bestTree, plot_data/SCN3A.DNA.trimmed.manual.fa.raxml.bestTree, plot_data/SCN4A.DNA.trimmed.manual.fa.raxml.bestTree, plot_data/SCN5A.DNA.trimmed.manual.fa.raxml.bestTree, plot_data/SCN8A.DNA.trimmed.manual.fa.raxml.bestTree, plot_data/SCN1A.DNA.trimmed.wTree.manual.fa, plot_data/SCN3A.DNA.trimmed.wTree.manual.fa, plot_data/SCN4A.DNA.trimmed.wTree.manual.fa, plot_data/SCN5A.DNA.trimmed.wTree.manual.fa, plot_data/SCN8A.DNA.trimmed.wTree.manual.fa, plot_data/SCN1A.DNA.trimmed.wTree.manual.fa.MEME.json, plot_data/SCN3A.DNA.trimmed.wTree.manual.fa.MEME.json, plot_data/SCN4A.DNA.trimmed.wTree.manual.fa.MEME.json, plot_data/SCN5A.DNA.trimmed.wTree.manual.fa.MEME.json, plot_data/SCN8A.DNA.trimmed.wTree.manual.fa.MEME.json
+    jobid: 0
+    reason: Input files updated by another job: plot_data/SCN3A.DNA.trimmed.wTree.fa.MEME.json, plot_data/SCN3A.DNA.trimmed.wTree.fa, plot_data/SCN8A.DNA.trimmed.wTree.fa.MEME.json, plot_data/SCN1A.DNA.trimmed.wTree.manual.fa.MEME.json, plot_data/SCN4A.DNA.trimmed.wTree.manual.fa, plot_data/SCN4A.DNA.trimmed.wTree.fa, plot_data/SCN3A.DNA.trimmed.wTree.manual.fa.MEME.json, plot_data/SCN8A.DNA.trimmed.wTree.manual.fa.MEME.json, plot_data/SCN4A.DNA.trimmed.wTree.manual.fa.MEME.json, plot_data/SCN5A.DNA.trimmed.wTree.manual.fa, plot_data/SCN4A.DNA.trimmed.wTree.fa.MEME.json, plot_data/SCN8A.DNA.trimmed.wTree.fa, plot_data/SCN8A.DNA.trimmed.wTree.manual.fa, plot_data/SCN5A.DNA.trimmed.wTree.manual.fa.MEME.json, plot_data/SCN3A.DNA.trimmed.wTree.manual.fa
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Mon Aug  8 04:05:21 2022]
+Finished job 0.
+16 of 16 steps (100%) done
+Complete log: .snakemake/log/2022-08-07T082856.216917.snakemake.log

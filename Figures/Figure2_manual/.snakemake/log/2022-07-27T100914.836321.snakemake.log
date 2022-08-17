@@ -1,3 +1,0 @@
-TypeError in line 116 of /Users/uricchio/projects/poison/sodiumChannelPaper/Figures/Figure2/Snakefile:
-Workflow.shellcmd() takes 2 positional arguments but 3 were given
-  File "/Users/uricchio/projects/poison/sodiumChannelPaper/Figures/Figure2/Snakefile", line 116, in <module>

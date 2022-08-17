@@ -98,6 +98,11 @@ rule all:
         "plot_data/SCN4A.DNA.trimmed.wTree.manual.fa.BUSTED.json.sum",
         "plot_data/SCN5A.DNA.trimmed.wTree.manual.fa.BUSTED.json.sum",
         "plot_data/SCN8A.DNA.trimmed.wTree.manual.fa.BUSTED.json.sum",
+        "plot_data/SCN1A.DNA.trimmed.wTree.manual.fa.BUSTED.json.omega",
+        "plot_data/SCN3A.DNA.trimmed.wTree.manual.fa.BUSTED.json.omega",
+        "plot_data/SCN4A.DNA.trimmed.wTree.manual.fa.BUSTED.json.omega",
+        "plot_data/SCN5A.DNA.trimmed.wTree.manual.fa.BUSTED.json.omega",
+        "plot_data/SCN8A.DNA.trimmed.wTree.manual.fa.BUSTED.json.omega",
         "plot_data/SCN1A.DNA.trimmed.wTree.manual.fa.BUSTED.json.tree",
         "plot_data/SCN3A.DNA.trimmed.wTree.manual.fa.BUSTED.json.tree",
         "plot_data/SCN4A.DNA.trimmed.wTree.manual.fa.BUSTED.json.tree",
@@ -252,6 +257,14 @@ rule getBustedAnalysis:
          "plot_data/{sample}.DNA.trimmed.wTree.manual.fa.BUSTED.json.sum"
     shell:
          "python ../../scripts/getJSON_BUSTED.py {input} -> {output}"
+
+rule getBustedAnalysisOmega:
+    input:
+         "plot_data/{sample}.DNA.trimmed.wTree.manual.fa.BUSTED.json"
+    output:
+         "plot_data/{sample}.DNA.trimmed.wTree.manual.fa.BUSTED.json.omega"
+    shell:
+         "python ../../scripts/getJSON_BUSTED_omega.py {input} -> {output}"
 
 rule getBustedTree:
     input:

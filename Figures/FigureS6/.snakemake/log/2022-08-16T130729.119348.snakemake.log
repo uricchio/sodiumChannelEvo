@@ -1,0 +1,156 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job                       count    min threads    max threads
+----------------------  -------  -------------  -------------
+all                           1              1              1
+get_remaining_DNA_seqs        6              1              1
+makeDNA                       5              1              1
+makeHyphyAnnotInput           5              1              1
+makeHyphyInput                5              1              1
+makeTree                      5              1              1
+remove_stars                  4              1              1
+runBUSTED                     5              1              1
+runMeme                       5              1              1
+trim_bad_columns              5              1              1
+trim_bad_seqs                 4              1              1
+total                        50              1              1
+
+Select jobs to execute...
+
+[Tue Aug 16 13:07:29 2022]
+rule remove_stars:
+    input: ../../Data/alignments_full_assemb/align_SCN2A/SCN2A.t68d10k45.all.renamed.fa.mafft
+    output: ../../Data/alignments_full_assemb/align_SCN2A/SCN2A.t68d10k45.all.renamed.fa.mafft.noStars
+    jobid: 8
+    reason: Updated input files: ../../Data/alignments_full_assemb/align_SCN2A/SCN2A.t68d10k45.all.renamed.fa.mafft
+    wildcards: sample=SCN2A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Tue Aug 16 13:07:29 2022]
+rule trim_bad_columns:
+    input: ../../Data/alignments_full_assemb/align_SCN4A/SCN4A.t68d10k45.all.renamed.fa.mafft.noStars
+    output: plot_data/SCN4A.columns
+    jobid: 27
+    reason: Missing output files: plot_data/SCN4A.columns; Updated input files: ../../Data/alignments_full_assemb/align_SCN4A/SCN4A.t68d10k45.all.renamed.fa.mafft.noStars
+    wildcards: sample=SCN4A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Tue Aug 16 13:07:29 2022]
+rule trim_bad_columns:
+    input: ../../Data/alignments_full_assemb/align_SCN8A/SCN8A.t68d10k45.all.renamed.fa.mafft.noStars
+    output: plot_data/SCN8A.columns
+    jobid: 29
+    reason: Missing output files: plot_data/SCN8A.columns; Updated input files: ../../Data/alignments_full_assemb/align_SCN8A/SCN8A.t68d10k45.all.renamed.fa.mafft.noStars
+    wildcards: sample=SCN8A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Tue Aug 16 13:07:29 2022]
+rule get_remaining_DNA_seqs:
+    input: plot_data/SCN4A.fa, ../../Data/alignments_full_assemb/align_SCN4A/SCN4A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN4A/SCN4A.DNA.spec.fa
+    output: plot_data/SCN4A.DNA.fa
+    jobid: 22
+    reason: Updated input files: ../../Data/alignments_full_assemb/align_SCN4A/SCN4A.t68d10k45.all.renamed.fa.mafft, plot_data/SCN4A.fa
+    wildcards: sample=SCN4A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Tue Aug 16 13:07:29 2022]
+rule remove_stars:
+    input: ../../Data/alignments_full_assemb/align_SCN1A/SCN1A.t68d10k45.all.renamed.fa.mafft
+    output: ../../Data/alignments_full_assemb/align_SCN1A/SCN1A.t68d10k45.all.renamed.fa.mafft.noStars
+    jobid: 7
+    reason: Updated input files: ../../Data/alignments_full_assemb/align_SCN1A/SCN1A.t68d10k45.all.renamed.fa.mafft
+    wildcards: sample=SCN1A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Tue Aug 16 13:07:29 2022]
+rule get_remaining_DNA_seqs:
+    input: plot_data/SCN8A.fa, ../../Data/alignments_full_assemb/align_SCN8A/SCN8A.t68d10k45.all.renamed.fa.mafft, ../../Data/alignments_full_assemb/align_SCN8A/SCN8A.DNA.spec.fa
+    output: plot_data/SCN8A.DNA.fa
+    jobid: 24
+    reason: Updated input files: plot_data/SCN8A.fa, ../../Data/alignments_full_assemb/align_SCN8A/SCN8A.t68d10k45.all.renamed.fa.mafft
+    wildcards: sample=SCN8A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Tue Aug 16 13:07:29 2022]
+rule remove_stars:
+    input: ../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.fa.mafft
+    output: ../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.fa.mafft.noStars
+    jobid: 9
+    reason: Updated input files: ../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.fa.mafft
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Tue Aug 16 13:07:29 2022]
+rule remove_stars:
+    input: ../../Data/alignments_full_assemb/align_SCN5A/SCN5A.t68d10k45.all.renamed.fa.mafft
+    output: ../../Data/alignments_full_assemb/align_SCN5A/SCN5A.t68d10k45.all.renamed.fa.mafft.noStars
+    jobid: 11
+    reason: Updated input files: ../../Data/alignments_full_assemb/align_SCN5A/SCN5A.t68d10k45.all.renamed.fa.mafft
+    wildcards: sample=SCN5A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Tue Aug 16 13:07:29 2022]
+Finished job 8.
+[Tue Aug 16 13:07:29 2022]
+1 of 50 steps (2%) done
+Error in rule trim_bad_columns:
+    jobid: 27
+    output: plot_data/SCN4A.columns
+    shell:
+        ./trimAlCol.sh SCN4A -> plot_data/SCN4A.columns
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Select jobs to execute...
+
+[Tue Aug 16 13:07:29 2022]
+rule trim_bad_seqs:
+    input: ../../Data/alignments_full_assemb/align_SCN2A/SCN2A.t68d10k45.all.renamed.fa.mafft.noStars
+    output: plot_data/SCN2A.fa
+    jobid: 14
+    reason: Input files updated by another job: ../../Data/alignments_full_assemb/align_SCN2A/SCN2A.t68d10k45.all.renamed.fa.mafft.noStars
+    wildcards: sample=SCN2A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+Removing output files of failed job trim_bad_columns since they might be corrupted:
+plot_data/SCN4A.columns
+[Tue Aug 16 13:07:29 2022]
+Error in rule trim_bad_columns:
+    jobid: 29
+    output: plot_data/SCN8A.columns
+    shell:
+        ./trimAlCol.sh SCN8A -> plot_data/SCN8A.columns
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Tue Aug 16 13:07:29 2022]
+Finished job 7.
+2 of 50 steps (4%) done
+Removing output files of failed job trim_bad_columns since they might be corrupted:
+plot_data/SCN8A.columns
+[Tue Aug 16 13:07:29 2022]
+Finished job 9.
+3 of 50 steps (6%) done
+[Tue Aug 16 13:07:29 2022]
+Finished job 11.
+4 of 50 steps (8%) done
+[Tue Aug 16 13:07:30 2022]
+Finished job 22.
+5 of 50 steps (10%) done
+[Tue Aug 16 13:07:30 2022]
+Finished job 24.
+6 of 50 steps (12%) done
+[Tue Aug 16 13:07:30 2022]
+Finished job 14.
+7 of 50 steps (14%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2022-08-16T130729.119348.snakemake.log

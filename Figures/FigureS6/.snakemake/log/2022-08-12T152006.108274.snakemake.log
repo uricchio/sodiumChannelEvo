@@ -1,0 +1,99 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job               count    min threads    max threads
+--------------  -------  -------------  -------------
+all                   1              1              1
+runaBSRELAnnot        5              1              1
+total                 6              1              1
+
+Select jobs to execute...
+
+[Fri Aug 12 15:20:06 2022]
+rule runaBSRELAnnot:
+    input: plot_data/SCN5A.DNA.trimmed.wTree.manual.annot.fa
+    output: plot_data/SCN5A.DNA.trimmed.wTree.manual.annot.fa.ABSREL.json
+    jobid: 98
+    reason: Missing output files: plot_data/SCN5A.DNA.trimmed.wTree.manual.annot.fa.ABSREL.json
+    wildcards: sample=SCN5A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Fri Aug 12 15:20:06 2022]
+rule runaBSRELAnnot:
+    input: plot_data/SCN1A.DNA.trimmed.wTree.manual.annot.fa
+    output: plot_data/SCN1A.DNA.trimmed.wTree.manual.annot.fa.ABSREL.json
+    jobid: 95
+    reason: Missing output files: plot_data/SCN1A.DNA.trimmed.wTree.manual.annot.fa.ABSREL.json
+    wildcards: sample=SCN1A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Fri Aug 12 15:20:06 2022]
+rule runaBSRELAnnot:
+    input: plot_data/SCN4A.DNA.trimmed.wTree.manual.annot.fa
+    output: plot_data/SCN4A.DNA.trimmed.wTree.manual.annot.fa.ABSREL.json
+    jobid: 97
+    reason: Missing output files: plot_data/SCN4A.DNA.trimmed.wTree.manual.annot.fa.ABSREL.json
+    wildcards: sample=SCN4A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Fri Aug 12 15:20:06 2022]
+rule runaBSRELAnnot:
+    input: plot_data/SCN8A.DNA.trimmed.wTree.manual.annot.fa
+    output: plot_data/SCN8A.DNA.trimmed.wTree.manual.annot.fa.ABSREL.json
+    jobid: 99
+    reason: Missing output files: plot_data/SCN8A.DNA.trimmed.wTree.manual.annot.fa.ABSREL.json
+    wildcards: sample=SCN8A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+
+[Fri Aug 12 15:20:06 2022]
+rule runaBSRELAnnot:
+    input: plot_data/SCN3A.DNA.trimmed.wTree.manual.annot.fa
+    output: plot_data/SCN3A.DNA.trimmed.wTree.manual.annot.fa.ABSREL.json
+    jobid: 96
+    reason: Missing output files: plot_data/SCN3A.DNA.trimmed.wTree.manual.annot.fa.ABSREL.json
+    wildcards: sample=SCN3A
+    resources: tmpdir=/var/folders/2l/zp0wk9q9097fqhyymq39vg880000gn/T
+
+[Fri Aug 12 15:59:55 2022]
+Finished job 95.
+1 of 6 steps (17%) done
+Terminating processes on user request, this might take some time.
+Cancelling snakemake on user request.
+[Fri Aug 12 18:01:21 2022]
+Error in rule runaBSRELAnnot:
+    jobid: 96
+    output: plot_data/SCN3A.DNA.trimmed.wTree.manual.annot.fa.ABSREL.json
+    shell:
+        /Users/uricchio/opt/anaconda3/bin/hyphy absrel --branches Foreground plot_data/SCN3A.DNA.trimmed.wTree.manual.annot.fa
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Fri Aug 12 18:01:21 2022]
+Error in rule runaBSRELAnnot:
+    jobid: 99
+    output: plot_data/SCN8A.DNA.trimmed.wTree.manual.annot.fa.ABSREL.json
+    shell:
+        /Users/uricchio/opt/anaconda3/bin/hyphy absrel --branches Foreground plot_data/SCN8A.DNA.trimmed.wTree.manual.annot.fa
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Fri Aug 12 18:01:21 2022]
+Error in rule runaBSRELAnnot:
+    jobid: 97
+    output: plot_data/SCN4A.DNA.trimmed.wTree.manual.annot.fa.ABSREL.json
+    shell:
+        /Users/uricchio/opt/anaconda3/bin/hyphy absrel --branches Foreground plot_data/SCN4A.DNA.trimmed.wTree.manual.annot.fa
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Fri Aug 12 18:01:21 2022]
+Error in rule runaBSRELAnnot:
+    jobid: 98
+    output: plot_data/SCN5A.DNA.trimmed.wTree.manual.annot.fa.ABSREL.json
+    shell:
+        /Users/uricchio/opt/anaconda3/bin/hyphy absrel --branches Foreground plot_data/SCN5A.DNA.trimmed.wTree.manual.annot.fa
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+

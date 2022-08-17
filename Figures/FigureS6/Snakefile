@@ -1,0 +1,153 @@
+SAMPLES = ["SCN1A", "SCN2A", "SCN3A", "SCN4A", "SCN5A", "SCN8A"]
+
+rule all:
+    input:
+        "../../Data/alignments_full_assemb/align_SCN1A/SCN1A.spec.fa",
+        "../../Data/alignments_full_assemb/align_SCN2A/SCN2A.spec.fa",
+        "../../Data/alignments_full_assemb/align_SCN3A/SCN3A.spec.fa",
+        "../../Data/alignments_full_assemb/align_SCN4A/SCN4A.spec.fa",
+        "../../Data/alignments_full_assemb/align_SCN5A/SCN5A.spec.fa",
+        "../../Data/alignments_full_assemb/align_SCN8A/SCN8A.spec.fa",
+        "../../Data/alignments_full_assemb/align_SCN1A/SCN1A.t68d10k45.all.renamed.spec.fa",
+        "../../Data/alignments_full_assemb/align_SCN2A/SCN2A.t68d10k45.all.renamed.spec.fa",
+        "../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.spec.fa",
+        "../../Data/alignments_full_assemb/align_SCN4A/SCN4A.t68d10k45.all.renamed.spec.fa",
+        "../../Data/alignments_full_assemb/align_SCN5A/SCN5A.t68d10k45.all.renamed.spec.fa",
+        "../../Data/alignments_full_assemb/align_SCN8A/SCN8A.t68d10k45.all.renamed.spec.fa",
+        "../../Data/alignments_full_assemb/align_SCN1A/SCN1A.t68d10k45.all.renamed.fa.mafft",
+        "../../Data/alignments_full_assemb/align_SCN2A/SCN2A.t68d10k45.all.renamed.fa.mafft",
+        "../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.fa.mafft",
+        "../../Data/alignments_full_assemb/align_SCN4A/SCN4A.t68d10k45.all.renamed.fa.mafft",
+        "../../Data/alignments_full_assemb/align_SCN5A/SCN5A.t68d10k45.all.renamed.fa.mafft",
+        "../../Data/alignments_full_assemb/align_SCN8A/SCN8A.t68d10k45.all.renamed.fa.mafft",
+        "../../Data/alignments_full_assemb/align_SCN1A/SCN1A.t68d10k45.all.renamed.fa.mafft.noStars",
+        "../../Data/alignments_full_assemb/align_SCN2A/SCN2A.t68d10k45.all.renamed.fa.mafft.noStars",
+        "../../Data/alignments_full_assemb/align_SCN3A/SCN3A.t68d10k45.all.renamed.fa.mafft.noStars",
+        "../../Data/alignments_full_assemb/align_SCN4A/SCN4A.t68d10k45.all.renamed.fa.mafft.noStars",
+        "../../Data/alignments_full_assemb/align_SCN5A/SCN5A.t68d10k45.all.renamed.fa.mafft.noStars",
+        "../../Data/alignments_full_assemb/align_SCN8A/SCN8A.t68d10k45.all.renamed.fa.mafft.noStars",
+        "plot_data/SCN1A.fa",
+        "plot_data/SCN2A.fa",
+        "plot_data/SCN3A.fa",
+        "plot_data/SCN4A.fa",
+        "plot_data/SCN5A.fa",
+        "plot_data/SCN8A.fa",
+        "plot_data/SCN1A.DNA.fa",
+        "plot_data/SCN2A.DNA.fa",
+        "plot_data/SCN3A.DNA.fa",
+        "plot_data/SCN4A.DNA.fa",
+        "plot_data/SCN5A.DNA.fa",
+        "plot_data/SCN8A.DNA.fa",
+        "plot_data/SCN1A.columns",
+        "plot_data/SCN3A.columns",
+        "plot_data/SCN4A.columns",
+        "plot_data/SCN5A.columns",
+        "plot_data/SCN8A.columns",
+        "plot_data/SCN1A.DNA.trimmed.fa",
+        "plot_data/SCN3A.DNA.trimmed.fa",
+        "plot_data/SCN4A.DNA.trimmed.fa",
+        "plot_data/SCN5A.DNA.trimmed.fa",
+        "plot_data/SCN8A.DNA.trimmed.fa",
+        "plot_data/SCN1A.DNA.trimmed.wTree.annot.fa.BUSTED.json",
+        "plot_data/SCN3A.DNA.trimmed.wTree.annot.fa.BUSTED.json",
+        "plot_data/SCN4A.DNA.trimmed.wTree.annot.fa.BUSTED.json",
+        "plot_data/SCN5A.DNA.trimmed.wTree.annot.fa.BUSTED.json",
+        "plot_data/SCN8A.DNA.trimmed.wTree.annot.fa.BUSTED.json",
+        "plot_data/SCN1A.DNA.trimmed.wTree.annot.fa.BUSTED.json.omega",
+        "plot_data/SCN3A.DNA.trimmed.wTree.annot.fa.BUSTED.json.omega",
+        "plot_data/SCN4A.DNA.trimmed.wTree.annot.fa.BUSTED.json.omega",
+        "plot_data/SCN5A.DNA.trimmed.wTree.annot.fa.BUSTED.json.omega",
+        "plot_data/SCN8A.DNA.trimmed.wTree.annot.fa.BUSTED.json.omega",
+        "plot_data/SCN1A.DNA.trimmed.wTree.annot.fa.BUSTED.json.sum",
+        "plot_data/SCN3A.DNA.trimmed.wTree.annot.fa.BUSTED.json.sum",
+        "plot_data/SCN4A.DNA.trimmed.wTree.annot.fa.BUSTED.json.sum",
+        "plot_data/SCN5A.DNA.trimmed.wTree.annot.fa.BUSTED.json.sum",
+        "plot_data/SCN8A.DNA.trimmed.wTree.annot.fa.BUSTED.json.sum"
+
+wildcard_constraints:
+    sample="SCN\dA"
+
+rule run_mafft:
+    input:
+        "../../Data/alignments_full_assemb/align_{sample}/{sample}.spec.fa"
+    output:
+        "../../Data/alignments_full_assemb/align_{sample}/{sample}.t68d10k45.all.renamed.fa.mafft"
+    shell:
+        "../../scripts/run_mafft.sh {input} -> {output}" 
+
+rule remove_stars:
+    input:
+        "../../Data/alignments_full_assemb/align_{sample}/{sample}.t68d10k45.all.renamed.fa.mafft"
+    output:
+        "../../Data/alignments_full_assemb/align_{sample}/{sample}.t68d10k45.all.renamed.fa.mafft.noStars"
+    shell:
+        "../../scripts/removeStars.sh {input} -> {output}"
+
+rule trim_bad_seqs:
+    input:
+        "../../Data/alignments_full_assemb/align_{sample}/{sample}.t68d10k45.all.renamed.fa.mafft.noStars"
+    output:
+        "plot_data/{sample}.fa"
+    shell:
+        "./trimAl.sh {input} {wildcards.sample}"
+
+rule get_remaining_DNA_seqs:
+    input:
+        "plot_data/{sample}.fa",
+        "../../Data/alignments_full_assemb/align_{sample}/{sample}.t68d10k45.all.renamed.fa.mafft",
+        "../../Data/alignments_full_assemb/align_{sample}/{sample}.DNA.spec.fa"
+    output:
+        "plot_data/{sample}.DNA.fa"
+    shell:
+        "python ../../scripts/getDNAfromProtAlign.py {input} -> {output}"
+
+rule trim_bad_columns:
+    input:
+        "../../Data/alignments_full_assemb/align_{sample}/{sample}.t68d10k45.all.renamed.fa.mafft.noStars"
+    output:
+        "plot_data/{sample}.columns"
+    shell:
+        "./trimAlCol.sh {wildcards.sample} -> {output}"
+
+rule makeDNA:
+    input:
+        "plot_data/{sample}.columns",
+        "plot_data/{sample}.DNA.fa"
+    output:
+        "plot_data/{sample}.DNA.trimmed.fa"
+    shell:
+        "python ../../scripts/removeBadCols.py {input} -> {output}"
+
+rule makeHyphyAnnotInput:
+    input:
+        "plot_data/{sample}.DNA.trimmed.fa",
+        "plot_data/{sample}.DNA.trimmed.wTree.manual.fa.BUSTED.json.tree.annot"
+    output:
+        "plot_data/{sample}.DNA.trimmed.wTree.annot.fa"
+    shell:
+        "../../scripts/makeHyphyInput.sh {input} {output}"
+
+rule runBUSTED:
+    input:
+         "plot_data/{sample}.DNA.trimmed.wTree.annot.fa"
+    output:   
+         "plot_data/{sample}.DNA.trimmed.wTree.annot.fa.BUSTED.json"
+    shell:
+         "/Users/uricchio/opt/anaconda3/bin/hyphy busted --branches Foreground {input}"
+
+rule getBustedAnalysis:
+    input:
+         "plot_data/{sample}.DNA.trimmed.wTree.fa.BUSTED.json"
+    output:
+         "plot_data/{sample}.DNA.trimmed.wTree.fa.BUSTED.json.sum"
+    shell:
+         "python ../../scripts/getJSON_BUSTED.py {input} -> {output}"
+
+rule getBustedAnalysisOmega:
+    input:
+         "plot_data/{sample}.DNA.trimmed.wTree.fa.BUSTED.json"
+    output:
+         "plot_data/{sample}.DNA.trimmed.wTree.fa.BUSTED.json.omega"
+    shell:
+         "python ../../scripts/getJSON_BUSTED_omega.py {input} -> {output}"
+

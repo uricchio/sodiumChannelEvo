@@ -1,9 +1,0 @@
-Building DAG of jobs...
-MissingInputException in line 3 of /Users/uricchio/projects/poison/sodiumChannelPaper/Figures/Figure2/Snakefile:
-Missing input files for rule all:
-    affected files:
-        plot_data/SCN8A.DNA.trimmed.wTree.MEME.json
-        plot_data/SCN1A.DNA.trimmed.wTree.MEME.json
-        plot_data/SCN5A.DNA.trimmed.wTree.MEME.json
-        plot_data/SCN3A.DNA.trimmed.wTree.MEME.json
-        plot_data/SCN4A.DNA.trimmed.wTree.MEME.json
