@@ -1,0 +1,11 @@
+Files in this directory correspond to running PCOC on our alignments/trees.
+
+Frist step is to run "./runAllPruning.sh". This uses dendropy to prune the trees such 
+that we only include species for which we have toxicity data, and then we generate 
+PDFs that show the labeling of nodes within PCOC. At this point we need to stop and manually 
+create the list of nodes that have toxicity, which correspond to our foreground sets in 
+PCOC for our convergence test.
+
+After manaully labeling the nodes, we can run PCOC as
+
+

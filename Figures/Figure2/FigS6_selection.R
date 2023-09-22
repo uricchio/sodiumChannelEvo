@@ -5,7 +5,7 @@ library("wesanderson")
 
 data <-data.frame()
 for (i in c("1","3","4","5","8") ){
-  data<-rbind(data,read.table(paste("/Users/uricchio/projects/poison/sodiumChannelPaper/Figures/Figure2/plot_data/SCN",i,"A.DNA.trimmed.wTree.manual.annot.fa.BUSTED.json.omega",sep="") ))
+  data<-rbind(data,read.table(paste("/Users/uricchio/projects/poison/sodiumChannelPaper/Figures/FigureS6/plot_data/SCN",i,"A.DNA.trimmed.wTree.annot.fa.BUSTED.json.omega",sep="") ))
 }
 
 plA<-ggplot(data, aes(as.factor(V2), V3,fill=V1)) +
@@ -15,8 +15,8 @@ plA<-ggplot(data, aes(as.factor(V2), V3,fill=V1)) +
   ylab(expression(omega * " (dN/dS)"))
 
 
-# made with for i in {1,3,4,5,8}; do python ../../scripts/getJSON_BUSTED.py plot_data/SCN${i}A.DNA.trimmed.wTree.manual.annot.fa.BUSTED.json $i; done > plot_data/BUSTED.table.txt
-read.table("/Users/uricchio/projects/poison/sodiumChannelPaper/Figures/Figure2/plot_data/BUSTED.table.txt")->data
+# made with for i in {1,3,4,5,8}; do python ../../scripts/getJSON_BUSTED.py plot_data/SCN${i}A.DNA.trimmed.wTree.annot.fa.BUSTED.json $i; done > plot_data/BUSTED.table.txt
+read.table("/Users/uricchio/projects/poison/sodiumChannelPaper/Figures/FigureS6/plot_data/BUSTED.table.txt")->data
 
 get_neg_pos_neut <- function(omega) {
   if (omega < 0.95) {
@@ -41,4 +41,4 @@ pl
 
 plF<-plot_grid(plA,pl,labels=c("A","B"),ncol=1)
 
-ggsave("/Users/uricchio/projects/poison/sodiumChannelPaper/Figures/Figure2/Fig2_selection.pdf",plF,height=6,width=7.5)
+ggsave("/Users/uricchio/projects/poison/sodiumChannelPaper/Figures/FigureS6/FigS6_selection.pdf",plF,height=6,width=7.5)

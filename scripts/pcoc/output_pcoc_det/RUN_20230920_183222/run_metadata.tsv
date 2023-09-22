@@ -1,0 +1,15 @@
+	0
+Alignment	SCN3A.PROT.trimmed.manual.MissingToxPruned.fa
+Convergent_branches	['11,9,10,5,8,6,7', '26,22,25,20,21,23,24,18,19,14,17,15,16', '58,57,56,50,55,53,54,51,52', '66,60,65,63,61,62,64', '107,93,106,91,92,105,94,104,97,95,96,102,103,100,101,98,99']
+NbCat_Est	10
+Position_to_highlight	[]
+Profile categories use during estimation	C10
+Tree	SCN3A.DNA.trimmed.manual.fa.raxml.MissingToxPruned.reRooted.bestTree
+date	20230920_183222
+gamma	False
+inv_gamma	False
+max_gap_allowed	5
+max_gap_allowed_in_conv_leaves	5
+pp_threshold_OC_V1	0.8
+pp_threshold_PCOC_V1	0.8
+pp_threshold_PC_V1	0.8

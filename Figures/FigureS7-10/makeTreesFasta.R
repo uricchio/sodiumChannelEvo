@@ -2,6 +2,9 @@ library(tidyverse)
 library(ggtree)
 library(ggmsa)
 
+
+
+
 #SCN1A
 
 tree<-read.tree("~/projects/poison/sodiumChannelPaper/Figures/Figure2/plot_data/SCN1A.DNA.trimmed.fa.raxml.bestTree")

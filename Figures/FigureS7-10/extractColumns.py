@@ -10,7 +10,6 @@ for i in range(1565,1596):
     cols.append(i)
 alCols = []
 
-
 fh = open(sys.argv[1], 'r')
 
 for line in fh:
